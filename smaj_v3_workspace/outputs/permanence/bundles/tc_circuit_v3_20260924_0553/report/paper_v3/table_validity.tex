@@ -1,0 +1,13 @@
+\begin{table}[t]
+\centering\small
+\caption{Setup and validity battery. Checks: (1) edits change only the intended pixels, (2) determinism and bit-identical batched patching, (3) the occlusion effect exceeds the minimum gap, (4) a single-layer residual swap closes $\geq$80\% of it, (5) transcoders reconstruct $\leq$0.2 FVU. Gap: median action RMSE between base and occluded (primary occluder). FVU on held-out tokens / held-out test frames.}
+\label{tab:validity}
+\begin{tabular}{lccccccc}
+\toprule
+run & tasks & frames (disc.+test) & checks 1--5 & gap & $\geq$ min & best swap (\%) & FVU \\
+\midrule
+$\pi_{0.5}$ / LIBERO-Spatial & 10 & 46+70 & \cmark\cmark\cmark\cmark\xmark & 0.911 & 100\% & 94.4 & 0.204 / 0.294 \\
+$\pi_{0.5}$ / LIBERO-Object & 10 & 60+60 & \cmark\cmark\cmark\cmark\cmark & 0.666 & 100\% & 94.4 & 0.183 / 0.334 \\
+\bottomrule
+\end{tabular}
+\end{table}

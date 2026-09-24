@@ -1,0 +1,171 @@
+{
+  "step": "goal3",
+  "passed": false,
+  "protocol": 3,
+  "time": "2026-09-24 04:11:30",
+  "complete": true,
+  "check6": true,
+  "occluder": "covered",
+  "success": {
+    "clean": 0.9666666666666667,
+    "covered": 0.16666666666666666,
+    "screened": 0.55,
+    "painted": 0.7333333333333333,
+    "restore_mlp": 0.9833333333333333,
+    "restore_attr": 0.13333333333333333,
+    "restore_random": 0.13333333333333333,
+    "inject_attr": 1.0,
+    "restore_sel": 0.18333333333333332
+  },
+  "comparisons": {
+    "clean_minus_covered": {
+      "diff": 0.8,
+      "ci95": [
+        0.6,
+        0.9666666666666667
+      ],
+      "mcnemar_p": 7.105427357601002e-15,
+      "only_first": 48,
+      "only_second": 0,
+      "n": 60
+    },
+    "clean_minus_screened": {
+      "diff": 0.4166666666666667,
+      "ci95": [
+        0.16666666666666666,
+        0.6666666666666666
+      ],
+      "mcnemar_p": 4.172325134277344e-07,
+      "only_first": 26,
+      "only_second": 1,
+      "n": 60
+    },
+    "clean_minus_painted": {
+      "diff": 0.23333333333333334,
+      "ci95": [
+        0.05,
+        0.55
+      ],
+      "mcnemar_p": 0.001312255859375,
+      "only_first": 16,
+      "only_second": 2,
+      "n": 60
+    },
+    "restore_mlp_minus_covered": {
+      "diff": 0.8166666666666667,
+      "ci95": [
+        0.6833333333333333,
+        0.9333333333333333
+      ],
+      "mcnemar_p": 3.552713678800501e-15,
+      "only_first": 49,
+      "only_second": 0,
+      "n": 60
+    },
+    "restore_attr_minus_covered": {
+      "diff": -0.03333333333333333,
+      "ci95": [
+        -0.15,
+        0.05
+      ],
+      "mcnemar_p": 0.79052734375,
+      "only_first": 6,
+      "only_second": 8,
+      "n": 60
+    },
+    "restore_random_minus_covered": {
+      "diff": -0.03333333333333333,
+      "ci95": [
+        -0.11666666666666667,
+        0.03333333333333333
+      ],
+      "mcnemar_p": 0.7265625,
+      "only_first": 3,
+      "only_second": 5,
+      "n": 60
+    },
+    "restore_sel_minus_covered": {
+      "diff": 0.016666666666666666,
+      "ci95": [
+        0.0,
+        0.05
+      ],
+      "mcnemar_p": 1.0,
+      "only_first": 2,
+      "only_second": 1,
+      "n": 60
+    },
+    "restore_attr_minus_restore_random": {
+      "diff": 0.0,
+      "ci95": [
+        -0.11666666666666667,
+        0.13333333333333333
+      ],
+      "mcnemar_p": 1.0,
+      "only_first": 6,
+      "only_second": 6,
+      "n": 60
+    },
+    "restore_attr_minus_restore_sel": {
+      "diff": -0.05,
+      "ci95": [
+        -0.15,
+        0.03333333333333333
+      ],
+      "mcnemar_p": 0.5810546875,
+      "only_first": 5,
+      "only_second": 8,
+      "n": 60
+    },
+    "clean_minus_inject_attr": {
+      "diff": -0.03333333333333333,
+      "ci95": [
+        -0.1,
+        0.0
+      ],
+      "mcnemar_p": 0.5,
+      "only_first": 0,
+      "only_second": 2,
+      "n": 60
+    }
+  },
+  "recovery": {
+    "restore_mlp": {
+      "fraction": 1.0208333333333333,
+      "ci95": [
+        0.9482758620689655,
+        1.162162162162162
+      ]
+    },
+    "restore_attr": {
+      "fraction": -0.04166666666666666,
+      "ci95": [
+        -0.23529411764705876,
+        0.058823529411764726
+      ]
+    },
+    "restore_random": {
+      "fraction": -0.04166666666666666,
+      "ci95": [
+        -0.15217391304347827,
+        0.04255319148936173
+      ]
+    },
+    "restore_sel": {
+      "fraction": 0.02083333333333333,
+      "ci95": [
+        0.0,
+        0.06382978723404258
+      ]
+    }
+  },
+  "tasks": [
+    0,
+    2,
+    6,
+    7,
+    9
+  ],
+  "n_episodes_per_task": 12,
+  "reason": "restoring the attribution-selected features does not recover success beyond the random control"
+}

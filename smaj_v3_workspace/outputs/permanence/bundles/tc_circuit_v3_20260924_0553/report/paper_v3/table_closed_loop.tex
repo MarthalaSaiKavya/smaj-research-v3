@@ -1,0 +1,28 @@
+\begin{table}[t]
+\centering\small
+\caption{Closed loop on 5 tasks $\times$ 12 paired episodes (same initial states and noise seeds in every condition). Success with Wilson 95\% CIs; \emph{distractor}: episodes in which the other object was lifted. Restores replace the features' values in the occluded run with their values from a clean render of the same state, at every inference step.}
+\label{tab:closedloop}
+\begin{tabular}{lcc}
+\toprule
+condition & success (\%) & distractor (\%) \\
+\midrule
+clean & 97 [89, 99] & 0 \\
+box & 17 [9, 28] & 12 \\
+screen & 55 [42, 67] & 0 \\
+paint & 73 [61, 83] & 8 \\
+box + restore all MLP outputs & 98 [91, 100] & 0 \\
+restore attribution set & 13 [7, 24] & 10 \\
+restore random set (matched) & 13 [7, 24] & 12 \\
+clean + inject attribution set & 100 [94, 100] & 0 \\
+restore selective set & 18 [11, 30] & 12 \\
+\midrule
+paired difference (pts) & [95\% CI] & McNemar $p$ \\
+\midrule
+clean $-$ box & +80 [+60, +97] & 0.000 \\
+restore attribution $-$ no restore & $-$3 [$-$15, +5] & 0.791 \\
+restore attribution $-$ restore random & +0 [$-$12, +13] & 1.000 \\
+restore all MLP $-$ no restore & +82 [+68, +93] & 0.000 \\
+clean $-$ inject attribution & $-$3 [$-$10, +0] & 0.500 \\
+\bottomrule
+\end{tabular}
+\end{table}

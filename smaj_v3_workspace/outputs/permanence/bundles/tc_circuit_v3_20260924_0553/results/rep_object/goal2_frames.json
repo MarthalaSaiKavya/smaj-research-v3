@@ -1,0 +1,1084 @@
+{
+  "frames": [
+    {
+      "frame": 6,
+      "task_id": 0,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.39580032229423523,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 6,
+      "task_id": 0,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.3423612713813782,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 7,
+      "task_id": 0,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.8347117900848389,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 7,
+      "task_id": 0,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.2145417481660843,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 8,
+      "task_id": 0,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.6542420983314514,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 8,
+      "task_id": 0,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.1556071639060974,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 9,
+      "task_id": 0,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.40147513151168823,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 9,
+      "task_id": 0,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.06587974727153778,
+      "included": false,
+      "distractor_visible": true
+    },
+    {
+      "frame": 10,
+      "task_id": 0,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.6425518989562988,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 10,
+      "task_id": 0,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.16962841153144836,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 11,
+      "task_id": 0,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.8046173453330994,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 11,
+      "task_id": 0,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.392679899930954,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 18,
+      "task_id": 1,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.5011079907417297,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 18,
+      "task_id": 1,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.1361902952194214,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 19,
+      "task_id": 1,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.6414937376976013,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 19,
+      "task_id": 1,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.2519300878047943,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 20,
+      "task_id": 1,
+      "family": "cover",
+      "split": "test",
+      "gap": 1.0907139778137207,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 20,
+      "task_id": 1,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.2615463137626648,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 21,
+      "task_id": 1,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.2762387990951538,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 21,
+      "task_id": 1,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.04413465037941933,
+      "included": false,
+      "distractor_visible": true
+    },
+    {
+      "frame": 22,
+      "task_id": 1,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.35839882493019104,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 22,
+      "task_id": 1,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.11966290324926376,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 23,
+      "task_id": 1,
+      "family": "cover",
+      "split": "test",
+      "gap": 1.093688726425171,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 23,
+      "task_id": 1,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.1288481205701828,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 30,
+      "task_id": 2,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.34686437249183655,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 30,
+      "task_id": 2,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.07198763638734818,
+      "included": false,
+      "distractor_visible": true
+    },
+    {
+      "frame": 31,
+      "task_id": 2,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.41314566135406494,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 31,
+      "task_id": 2,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.08853860199451447,
+      "included": false,
+      "distractor_visible": true
+    },
+    {
+      "frame": 32,
+      "task_id": 2,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.4169009029865265,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 32,
+      "task_id": 2,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.08418405801057816,
+      "included": false,
+      "distractor_visible": true
+    },
+    {
+      "frame": 33,
+      "task_id": 2,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.46264520287513733,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 33,
+      "task_id": 2,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.06578121334314346,
+      "included": false,
+      "distractor_visible": true
+    },
+    {
+      "frame": 34,
+      "task_id": 2,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.5208708047866821,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 34,
+      "task_id": 2,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.14742626249790192,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 35,
+      "task_id": 2,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.5500513315200806,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 35,
+      "task_id": 2,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.07662855088710785,
+      "included": false,
+      "distractor_visible": true
+    },
+    {
+      "frame": 42,
+      "task_id": 3,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.2690073549747467,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 42,
+      "task_id": 3,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.19646555185317993,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 43,
+      "task_id": 3,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.49323609471321106,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 43,
+      "task_id": 3,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.12349509447813034,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 44,
+      "task_id": 3,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.9823436141014099,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 44,
+      "task_id": 3,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.19562755525112152,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 45,
+      "task_id": 3,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.485381156206131,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 45,
+      "task_id": 3,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.21573740243911743,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 46,
+      "task_id": 3,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.7885586619377136,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 46,
+      "task_id": 3,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.13613079488277435,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 47,
+      "task_id": 3,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.6119406223297119,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 47,
+      "task_id": 3,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.3572523891925812,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 54,
+      "task_id": 4,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.3284807801246643,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 54,
+      "task_id": 4,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.2778509259223938,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 55,
+      "task_id": 4,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.3947921395301819,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 55,
+      "task_id": 4,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.3096027374267578,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 56,
+      "task_id": 4,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.35814952850341797,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 56,
+      "task_id": 4,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.24600981175899506,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 57,
+      "task_id": 4,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.316249281167984,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 57,
+      "task_id": 4,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.2378878891468048,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 58,
+      "task_id": 4,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.2665535807609558,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 58,
+      "task_id": 4,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.2188366800546646,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 59,
+      "task_id": 4,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.24483643472194672,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 59,
+      "task_id": 4,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.20963159203529358,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 66,
+      "task_id": 5,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.8072509765625,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 66,
+      "task_id": 5,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.2944331467151642,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 67,
+      "task_id": 5,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.5595232844352722,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 67,
+      "task_id": 5,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.09707996249198914,
+      "included": false,
+      "distractor_visible": true
+    },
+    {
+      "frame": 68,
+      "task_id": 5,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.9516514539718628,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 68,
+      "task_id": 5,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.2949552536010742,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 69,
+      "task_id": 5,
+      "family": "cover",
+      "split": "test",
+      "gap": 1.0449793338775635,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 69,
+      "task_id": 5,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.34760332107543945,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 70,
+      "task_id": 5,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.265040785074234,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 70,
+      "task_id": 5,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.10926736146211624,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 71,
+      "task_id": 5,
+      "family": "cover",
+      "split": "test",
+      "gap": 1.0175732374191284,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 71,
+      "task_id": 5,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.31636109948158264,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 78,
+      "task_id": 6,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.19548530876636505,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 78,
+      "task_id": 6,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.14668415486812592,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 79,
+      "task_id": 6,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.2524191737174988,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 79,
+      "task_id": 6,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.08210344612598419,
+      "included": false,
+      "distractor_visible": true
+    },
+    {
+      "frame": 80,
+      "task_id": 6,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.8427647948265076,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 80,
+      "task_id": 6,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.23995594680309296,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 81,
+      "task_id": 6,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.358410507440567,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 81,
+      "task_id": 6,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.14053736627101898,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 82,
+      "task_id": 6,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.9119808673858643,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 82,
+      "task_id": 6,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.035915590822696686,
+      "included": false,
+      "distractor_visible": true
+    },
+    {
+      "frame": 83,
+      "task_id": 6,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.9010903239250183,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 83,
+      "task_id": 6,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.10900496691465378,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 90,
+      "task_id": 7,
+      "family": "cover",
+      "split": "test",
+      "gap": 1.2170791625976562,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 90,
+      "task_id": 7,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.10755126923322678,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 91,
+      "task_id": 7,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.831426203250885,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 91,
+      "task_id": 7,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.10235565155744553,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 92,
+      "task_id": 7,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.9635096192359924,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 92,
+      "task_id": 7,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.23323377966880798,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 93,
+      "task_id": 7,
+      "family": "cover",
+      "split": "test",
+      "gap": 1.2181106805801392,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 93,
+      "task_id": 7,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.07978592813014984,
+      "included": false,
+      "distractor_visible": true
+    },
+    {
+      "frame": 94,
+      "task_id": 7,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.6475214958190918,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 94,
+      "task_id": 7,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.19374437630176544,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 95,
+      "task_id": 7,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.7808676958084106,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 95,
+      "task_id": 7,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.2513186037540436,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 102,
+      "task_id": 8,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.09799198061227798,
+      "included": false,
+      "distractor_visible": true
+    },
+    {
+      "frame": 102,
+      "task_id": 8,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.12804706394672394,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 103,
+      "task_id": 8,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.6229021549224854,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 103,
+      "task_id": 8,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.2661314308643341,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 104,
+      "task_id": 8,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.8964940905570984,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 104,
+      "task_id": 8,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.2552284002304077,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 105,
+      "task_id": 8,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.35351839661598206,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 105,
+      "task_id": 8,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.16399092972278595,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 106,
+      "task_id": 8,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.4626724123954773,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 106,
+      "task_id": 8,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.13416078686714172,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 107,
+      "task_id": 8,
+      "family": "cover",
+      "split": "test",
+      "gap": 1.001736044883728,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 107,
+      "task_id": 8,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.4296056926250458,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 114,
+      "task_id": 9,
+      "family": "cover",
+      "split": "test",
+      "gap": 1.0579086542129517,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 114,
+      "task_id": 9,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.09969814866781235,
+      "included": false,
+      "distractor_visible": true
+    },
+    {
+      "frame": 115,
+      "task_id": 9,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.7499030828475952,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 115,
+      "task_id": 9,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.1374412328004837,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 116,
+      "task_id": 9,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.7067393064498901,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 116,
+      "task_id": 9,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.1824057400226593,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 117,
+      "task_id": 9,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.7214221358299255,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 117,
+      "task_id": 9,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.47654300928115845,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 118,
+      "task_id": 9,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.658423125743866,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 118,
+      "task_id": 9,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.1451582908630371,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 119,
+      "task_id": 9,
+      "family": "cover",
+      "split": "test",
+      "gap": 0.7890999913215637,
+      "included": true,
+      "distractor_visible": true
+    },
+    {
+      "frame": 119,
+      "task_id": 9,
+      "family": "paint",
+      "split": "test",
+      "gap": 0.19167949259281158,
+      "included": true,
+      "distractor_visible": true
+    }
+  ]
+}

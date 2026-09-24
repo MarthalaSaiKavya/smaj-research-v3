@@ -1,0 +1,347 @@
+[04:11:39] == frames | out=/content/groot-run/outputs/permanence/tc_circuit_v3_rep_object
+/content/lerobot-venv/lib/python3.12/site-packages/robosuite/__init__.py:7: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  ROBOSUITE_DEFAULT_LOGGER.warn("No private macro file found!")
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /content/lerobot-venv/lib/python3.12/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[04:11:49] task 0: target 'alphabet_soup_1' (via obj_of_interest) | distractor 'butter_1' (via nearest movable non-target object, 2 geoms) | other objects of interest ['basket_1'] | geoms target=22 | free_joints=1
+[04:11:49] task 0: pick up the alphabet soup and place it in the basket
+[04:11:55]   task0:demo:demo_0 (discovery): T=148 lift at t=50 -> probe frames (t, phase) [(18, 0.3), (28, 0.55), (39, 0.8)]
+[04:12:01]   task0:demo:demo_1 (discovery): T=179 lift at t=86 -> probe frames (t, phase) [(28, 0.3), (48, 0.55), (67, 0.8)]
+[04:12:05]   task0:demo:demo_2 (test): T=136 lift at t=56 -> probe frames (t, phase) [(19, 0.3), (31, 0.55), (43, 0.8)]
+[04:12:10]   task0:demo:demo_3 (test): T=146 lift at t=57 -> probe frames (t, phase) [(20, 0.3), (32, 0.55), (44, 0.8)]
+[04:12:11]   task0:demo:demo_4 (extra): T=153 lift at t=56 -> probe frames (t, phase) []
+[04:12:13]   task0:demo:demo_5 (extra): T=150 lift at t=57 -> probe frames (t, phase) []
+[04:12:15]   task0:demo:demo_6 (extra): T=156 lift at t=58 -> probe frames (t, phase) []
+[04:12:16]   task0:demo:demo_7 (extra): T=153 lift at t=59 -> probe frames (t, phase) []
+[04:12:18]   task0:demo:demo_8 (extra): T=194 lift at t=85 -> probe frames (t, phase) []
+[04:12:20]   task0:demo:demo_9 (extra): T=141 lift at t=59 -> probe frames (t, phase) []
+[04:12:22]   task0:demo:demo_10 (extra): T=157 lift at t=64 -> probe frames (t, phase) []
+[04:12:23]   task0:demo:demo_11 (extra): T=152 lift at t=55 -> probe frames (t, phase) []
+[04:12:24] task 0 done (43s so far): 12 probe frames
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[04:12:28] task 1: target 'cream_cheese_1' (via obj_of_interest) | distractor 'tomato_sauce_1' (via nearest movable non-target object, 25 geoms) | other objects of interest ['basket_1'] | geoms target=2 | free_joints=1
+[04:12:28] task 1: pick up the cream cheese and place it in the basket
+[04:12:34]   task1:demo:demo_0 (discovery): T=139 lift at t=65 -> probe frames (t, phase) [(22, 0.3), (36, 0.55), (51, 0.8)]
+[04:12:40]   task1:demo:demo_1 (discovery): T=187 lift at t=62 -> probe frames (t, phase) [(21, 0.3), (35, 0.55), (48, 0.8)]
+[04:12:44]   task1:demo:demo_2 (test): T=125 lift at t=56 -> probe frames (t, phase) [(19, 0.3), (31, 0.55), (43, 0.8)]
+[04:12:48]   task1:demo:demo_3 (test): T=133 lift at t=59 -> probe frames (t, phase) [(20, 0.3), (33, 0.55), (46, 0.8)]
+[04:12:49]   task1:demo:demo_4 (extra): T=127 lift at t=51 -> probe frames (t, phase) []
+[04:12:51]   task1:demo:demo_5 (extra): T=156 lift at t=74 -> probe frames (t, phase) []
+[04:12:53]   task1:demo:demo_6 (extra): T=168 lift at t=94 -> probe frames (t, phase) []
+[04:12:55]   task1:demo:demo_7 (extra): T=141 lift at t=63 -> probe frames (t, phase) []
+[04:12:56]   task1:demo:demo_8 (extra): T=176 lift at t=84 -> probe frames (t, phase) []
+[04:12:58]   task1:demo:demo_9 (extra): T=150 lift at t=66 -> probe frames (t, phase) []
+[04:13:00]   task1:demo:demo_10 (extra): T=132 lift at t=63 -> probe frames (t, phase) []
+[04:13:02]   task1:demo:demo_11 (extra): T=162 lift at t=91 -> probe frames (t, phase) []
+[04:13:02] task 1 done (82s so far): 12 probe frames
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[04:13:07] task 2: target 'salad_dressing_1' (via obj_of_interest) | distractor 'cream_cheese_1' (via nearest movable non-target object, 2 geoms) | other objects of interest ['basket_1'] | geoms target=16 | free_joints=1
+[04:13:07] task 2: pick up the salad dressing and place it in the basket
+[04:13:13]   task2:demo:demo_0 (discovery): T=137 lift at t=0 -> probe frames (t, phase) [(5, 0.3), (6, 0.55), (7, 0.8)]
+[04:13:20]   task2:demo:demo_1 (discovery): T=124 lift at t=0 -> probe frames (t, phase) [(5, 0.3), (6, 0.55), (7, 0.8)]
+[04:13:25]   task2:demo:demo_2 (test): T=129 lift at t=0 -> probe frames (t, phase) [(5, 0.3), (6, 0.55), (7, 0.8)]
+[04:13:30]   task2:demo:demo_3 (test): T=125 lift at t=0 -> probe frames (t, phase) [(5, 0.3), (6, 0.55), (7, 0.8)]
+[04:13:31]   task2:demo:demo_4 (extra): T=216 lift at t=0 -> probe frames (t, phase) []
+[04:13:33]   task2:demo:demo_5 (extra): T=118 lift at t=0 -> probe frames (t, phase) []
+[04:13:35]   task2:demo:demo_6 (extra): T=126 lift at t=0 -> probe frames (t, phase) []
+[04:13:37]   task2:demo:demo_7 (extra): T=124 lift at t=0 -> probe frames (t, phase) []
+[04:13:39]   task2:demo:demo_8 (extra): T=134 lift at t=0 -> probe frames (t, phase) []
+[04:13:40]   task2:demo:demo_9 (extra): T=170 lift at t=0 -> probe frames (t, phase) []
+[04:13:42]   task2:demo:demo_10 (extra): T=163 lift at t=0 -> probe frames (t, phase) []
+[04:13:44]   task2:demo:demo_11 (extra): T=167 lift at t=0 -> probe frames (t, phase) []
+[04:13:45] task 2 done (124s so far): 12 probe frames
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[04:13:49] task 3: target 'bbq_sauce_1' (via obj_of_interest) | distractor 'salad_dressing_1' (via nearest movable non-target object, 16 geoms) | other objects of interest ['basket_1'] | geoms target=4 | free_joints=1
+[04:13:49] task 3: pick up the bbq sauce and place it in the basket
+[04:13:54]   task3:demo:demo_0 (discovery): T=134 lift at t=64 -> probe frames (t, phase) [(22, 0.3), (36, 0.55), (50, 0.8)]
+[04:14:00]   task3:demo:demo_1 (discovery): T=179 lift at t=111 -> probe frames (t, phase) [(36, 0.3), (62, 0.55), (87, 0.8)]
+[04:14:04]   task3:demo:demo_2 (test): T=172 lift at t=100 -> probe frames (t, phase) [(33, 0.3), (56, 0.55), (79, 0.8)]
+[04:14:08]   task3:demo:demo_3 (test): T=136 lift at t=68 -> probe frames (t, phase) [(23, 0.3), (38, 0.55), (53, 0.8)]
+[04:14:09]   task3:demo:demo_4 (extra): T=166 lift at t=99 -> probe frames (t, phase) []
+[04:14:11]   task3:demo:demo_5 (extra): T=132 lift at t=58 -> probe frames (t, phase) []
+[04:14:13]   task3:demo:demo_6 (extra): T=128 lift at t=59 -> probe frames (t, phase) []
+[04:14:14]   task3:demo:demo_7 (extra): T=160 lift at t=70 -> probe frames (t, phase) []
+[04:14:16]   task3:demo:demo_8 (extra): T=162 lift at t=94 -> probe frames (t, phase) []
+[04:14:18]   task3:demo:demo_9 (extra): T=150 lift at t=78 -> probe frames (t, phase) []
+[04:14:19]   task3:demo:demo_10 (extra): T=130 lift at t=59 -> probe frames (t, phase) []
+[04:14:21]   task3:demo:demo_11 (extra): T=149 lift at t=74 -> probe frames (t, phase) []
+[04:14:22] task 3 done (161s so far): 12 probe frames
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[04:14:26] task 4: target 'ketchup_1' (via obj_of_interest) | distractor 'milk_1' (via nearest movable non-target object, 5 geoms) | other objects of interest ['basket_1'] | geoms target=13 | free_joints=1
+[04:14:26] task 4: pick up the ketchup and place it in the basket
+[04:14:32]   task4:demo:demo_0 (discovery): T=248 lift at t=0 -> probe frames (t, phase) [(5, 0.3), (6, 0.55), (7, 0.8)]
+[04:14:38]   task4:demo:demo_1 (discovery): T=155 lift at t=0 -> probe frames (t, phase) [(5, 0.3), (6, 0.55), (7, 0.8)]
+[04:14:42]   task4:demo:demo_2 (test): T=137 lift at t=0 -> probe frames (t, phase) [(5, 0.3), (6, 0.55), (7, 0.8)]
+[04:14:47]   task4:demo:demo_3 (test): T=136 lift at t=0 -> probe frames (t, phase) [(5, 0.3), (6, 0.55), (7, 0.8)]
+[04:14:48]   task4:demo:demo_4 (extra): T=147 lift at t=0 -> probe frames (t, phase) []
+[04:14:50]   task4:demo:demo_5 (extra): T=194 lift at t=0 -> probe frames (t, phase) []
+[04:14:52]   task4:demo:demo_6 (extra): T=150 lift at t=0 -> probe frames (t, phase) []
+[04:14:53]   task4:demo:demo_7 (extra): T=151 lift at t=0 -> probe frames (t, phase) []
+[04:14:55]   task4:demo:demo_8 (extra): T=148 lift at t=0 -> probe frames (t, phase) []
+[04:14:57]   task4:demo:demo_9 (extra): T=149 lift at t=0 -> probe frames (t, phase) []
+[04:14:58]   task4:demo:demo_10 (extra): T=160 lift at t=0 -> probe frames (t, phase) []
+[04:15:00]   task4:demo:demo_11 (extra): T=148 lift at t=0 -> probe frames (t, phase) []
+[04:15:01] task 4 done (200s so far): 12 probe frames
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[04:15:05] task 5: target 'tomato_sauce_1' (via obj_of_interest) | distractor 'orange_juice_1' (via nearest movable non-target object, 5 geoms) | other objects of interest ['basket_1'] | geoms target=25 | free_joints=1
+[04:15:05] task 5: pick up the tomato sauce and place it in the basket
+[04:15:11]   task5:demo:demo_0 (discovery): T=132 lift at t=63 -> probe frames (t, phase) [(22, 0.3), (35, 0.55), (49, 0.8)]
+[04:15:16]   task5:demo:demo_1 (discovery): T=160 lift at t=85 -> probe frames (t, phase) [(28, 0.3), (47, 0.55), (67, 0.8)]
+[04:15:20]   task5:demo:demo_2 (test): T=127 lift at t=61 -> probe frames (t, phase) [(21, 0.3), (34, 0.55), (47, 0.8)]
+[04:15:25]   task5:demo:demo_3 (test): T=177 lift at t=101 -> probe frames (t, phase) [(33, 0.3), (56, 0.55), (79, 0.8)]
+[04:15:26]   task5:demo:demo_4 (extra): T=133 lift at t=59 -> probe frames (t, phase) []
+[04:15:28]   task5:demo:demo_5 (extra): T=175 lift at t=103 -> probe frames (t, phase) []
+[04:15:30]   task5:demo:demo_6 (extra): T=139 lift at t=68 -> probe frames (t, phase) []
+[04:15:32]   task5:demo:demo_7 (extra): T=133 lift at t=56 -> probe frames (t, phase) []
+[04:15:34]   task5:demo:demo_8 (extra): T=142 lift at t=68 -> probe frames (t, phase) []
+[04:15:36]   task5:demo:demo_9 (extra): T=136 lift at t=65 -> probe frames (t, phase) []
+[04:15:37]   task5:demo:demo_10 (extra): T=177 lift at t=105 -> probe frames (t, phase) []
+[04:15:39]   task5:demo:demo_11 (extra): T=133 lift at t=65 -> probe frames (t, phase) []
+[04:15:40] task 5 done (239s so far): 12 probe frames
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[04:15:44] task 6: target 'butter_1' (via obj_of_interest) | distractor 'ketchup_1' (via nearest movable non-target object, 13 geoms) | other objects of interest ['basket_1'] | geoms target=2 | free_joints=1
+[04:15:44] task 6: pick up the butter and place it in the basket
+[04:15:50]   task6:demo:demo_0 (discovery): T=169 lift at t=72 -> probe frames (t, phase) [(24, 0.3), (40, 0.55), (56, 0.8)]
+[04:15:55]   task6:demo:demo_1 (discovery): T=149 lift at t=59 -> probe frames (t, phase) [(20, 0.3), (33, 0.55), (46, 0.8)]
+[04:15:59]   task6:demo:demo_2 (test): T=159 lift at t=67 -> probe frames (t, phase) [(23, 0.3), (37, 0.55), (52, 0.8)]
+[04:16:04]   task6:demo:demo_3 (test): T=154 lift at t=57 -> probe frames (t, phase) [(20, 0.3), (32, 0.55), (44, 0.8)]
+[04:16:05]   task6:demo:demo_4 (extra): T=178 lift at t=74 -> probe frames (t, phase) []
+[04:16:07]   task6:demo:demo_5 (extra): T=146 lift at t=56 -> probe frames (t, phase) []
+[04:16:09]   task6:demo:demo_6 (extra): T=148 lift at t=56 -> probe frames (t, phase) []
+[04:16:10]   task6:demo:demo_7 (extra): T=154 lift at t=61 -> probe frames (t, phase) []
+[04:16:12]   task6:demo:demo_8 (extra): T=150 lift at t=60 -> probe frames (t, phase) []
+[04:16:14]   task6:demo:demo_9 (extra): T=155 lift at t=60 -> probe frames (t, phase) []
+[04:16:16]   task6:demo:demo_10 (extra): T=152 lift at t=61 -> probe frames (t, phase) []
+[04:16:17]   task6:demo:demo_11 (extra): T=171 lift at t=71 -> probe frames (t, phase) []
+[04:16:18] task 6 done (277s so far): 12 probe frames
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[04:16:22] task 7: target 'milk_1' (via obj_of_interest) | distractor 'chocolate_pudding_1' (via nearest movable non-target object, 2 geoms) | other objects of interest ['basket_1'] | geoms target=5 | free_joints=1
+[04:16:22] task 7: pick up the milk and place it in the basket
+[04:16:28]   task7:demo:demo_0 (discovery): T=150 lift at t=57 -> probe frames (t, phase) [(20, 0.3), (32, 0.55), (44, 0.8)]
+[04:16:35]   task7:demo:demo_1 (discovery): T=131 lift at t=51 -> probe frames (t, phase) [(18, 0.3), (29, 0.55), (39, 0.8)]
+[04:16:40]   task7:demo:demo_2 (test): T=143 lift at t=52 -> probe frames (t, phase) [(18, 0.3), (29, 0.55), (40, 0.8)]
+[04:16:44]   task7:demo:demo_3 (test): T=137 lift at t=60 -> probe frames (t, phase) [(21, 0.3), (34, 0.55), (47, 0.8)]
+[04:16:46]   task7:demo:demo_4 (extra): T=161 lift at t=65 -> probe frames (t, phase) []
+[04:16:48]   task7:demo:demo_5 (extra): T=175 lift at t=92 -> probe frames (t, phase) []
+[04:16:50]   task7:demo:demo_6 (extra): T=144 lift at t=57 -> probe frames (t, phase) []
+[04:16:51]   task7:demo:demo_7 (extra): T=150 lift at t=68 -> probe frames (t, phase) []
+[04:16:53]   task7:demo:demo_8 (extra): T=150 lift at t=52 -> probe frames (t, phase) []
+[04:16:55]   task7:demo:demo_9 (extra): T=139 lift at t=60 -> probe frames (t, phase) []
+[04:16:57]   task7:demo:demo_10 (extra): T=143 lift at t=57 -> probe frames (t, phase) []
+[04:16:58]   task7:demo:demo_11 (extra): T=143 lift at t=54 -> probe frames (t, phase) []
+[04:16:59] task 7 done (318s so far): 12 probe frames
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[04:17:03] task 8: target 'chocolate_pudding_1' (via obj_of_interest) | distractor 'alphabet_soup_1' (via nearest movable non-target object, 22 geoms) | other objects of interest ['basket_1'] | geoms target=2 | free_joints=1
+[04:17:03] task 8: pick up the chocolate pudding and place it in the basket
+[04:17:09]   task8:demo:demo_0 (discovery): T=168 lift at t=64 -> probe frames (t, phase) [(22, 0.3), (36, 0.55), (50, 0.8)]
+[04:17:15]   task8:demo:demo_1 (discovery): T=150 lift at t=55 -> probe frames (t, phase) [(19, 0.3), (31, 0.55), (43, 0.8)]
+[04:17:20]   task8:demo:demo_2 (test): T=151 lift at t=62 -> probe frames (t, phase) [(21, 0.3), (35, 0.55), (48, 0.8)]
+[04:17:24]   task8:demo:demo_3 (test): T=158 lift at t=62 -> probe frames (t, phase) [(21, 0.3), (35, 0.55), (48, 0.8)]
+[04:17:26]   task8:demo:demo_4 (extra): T=149 lift at t=54 -> probe frames (t, phase) []
+[04:17:28]   task8:demo:demo_5 (extra): T=154 lift at t=61 -> probe frames (t, phase) []
+[04:17:29]   task8:demo:demo_6 (extra): T=162 lift at t=62 -> probe frames (t, phase) []
+[04:17:31]   task8:demo:demo_7 (extra): T=168 lift at t=68 -> probe frames (t, phase) []
+[04:17:33]   task8:demo:demo_8 (extra): T=155 lift at t=63 -> probe frames (t, phase) []
+[04:17:34]   task8:demo:demo_9 (extra): T=145 lift at t=55 -> probe frames (t, phase) []
+[04:17:36]   task8:demo:demo_10 (extra): T=152 lift at t=59 -> probe frames (t, phase) []
+[04:17:38]   task8:demo:demo_11 (extra): T=163 lift at t=67 -> probe frames (t, phase) []
+[04:17:38] task 8 done (358s so far): 12 probe frames
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[04:17:43] task 9: target 'orange_juice_1' (via obj_of_interest) | distractor 'bbq_sauce_1' (via nearest movable non-target object, 4 geoms) | other objects of interest ['basket_1'] | geoms target=5 | free_joints=1
+[04:17:43] task 9: pick up the orange juice and place it in the basket
+[04:17:49]   task9:demo:demo_0 (discovery): T=126 lift at t=54 -> probe frames (t, phase) [(19, 0.3), (30, 0.55), (42, 0.8)]
+[04:17:58]   task9:demo:demo_1 (discovery): T=135 lift at t=57 -> probe frames (t, phase) [(20, 0.3), (32, 0.55), (43, 0.8)]
+[04:18:02]   task9:demo:demo_2 (test): T=132 lift at t=59 -> probe frames (t, phase) [(20, 0.3), (33, 0.55), (46, 0.8)]
+[04:18:06]   task9:demo:demo_3 (test): T=145 lift at t=63 -> probe frames (t, phase) [(22, 0.3), (35, 0.55), (49, 0.8)]
+[04:18:08]   task9:demo:demo_4 (extra): T=138 lift at t=63 -> probe frames (t, phase) []
+[04:18:10]   task9:demo:demo_5 (extra): T=133 lift at t=58 -> probe frames (t, phase) []
+[04:18:11]   task9:demo:demo_6 (extra): T=133 lift at t=51 -> probe frames (t, phase) []
+[04:18:13]   task9:demo:demo_7 (extra): T=129 lift at t=57 -> probe frames (t, phase) []
+[04:18:15]   task9:demo:demo_8 (extra): T=123 lift at t=54 -> probe frames (t, phase) []
+[04:18:17]   task9:demo:demo_9 (extra): T=125 lift at t=56 -> probe frames (t, phase) []
+[04:18:18]   task9:demo:demo_10 (extra): T=134 lift at t=64 -> probe frames (t, phase) []
+[04:18:20]   task9:demo:demo_11 (extra): T=167 lift at t=63 -> probe frames (t, phase) []
+[04:18:21] task 9 done (400s so far): 12 probe frames
+[04:18:28] saved 120 probe frames (60 discovery, 60 test) from 10 tasks, 120 with the distractor visible, 299 extra transcoder-training frames (408s)
+[04:18:28] == frames finished in 410s
+[04:18:29] == validate | out=/content/groot-run/outputs/permanence/tc_circuit_v3_rep_object
+[04:18:30] checkpoint config has compile_model=True -> disabling torch.compile (hooks need eager mode)
+WARNING:root:Vision embedding key might need handling: model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.embeddings.patch_embedding.bias
+WARNING:root:Vision embedding key might need handling: model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.embeddings.patch_embedding.weight
+The PI05 model is a direct port of the OpenPI implementation. 
+This implementation follows the original OpenPI structure for compatibility. 
+Original implementation: https://github.com/Physical-Intelligence/openpi
+Loading model from: lerobot/pi05_libero_finetuned
+✓ Loaded state dict from model.safetensors
+All keys loaded successfully!
+/content/lerobot-venv/lib/python3.12/site-packages/torch/jit/_script.py:365: DeprecationWarning: `torch.jit.script_method` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[04:21:17] policy PI05Policy loaded from lerobot/pi05_libero_finetuned in 167s | dtype=bfloat16 chunk=50 n_action_steps=50 image_features=['observation.images.image', 'observation.images.image2', 'observation.images.empty_camera_0'] | state input to sample_actions: False
+[04:21:17] hooked 18 LLM decoder layers (MLP + residual output)
+[04:21:26] validated 1/120 frames (8s)
+[04:21:59] validated 11/120 frames (42s)
+[04:22:37] validated 21/120 frames (80s)
+[04:23:15] validated 31/120 frames (118s)
+[04:23:48] validated 41/120 frames (151s)
+[04:24:15] validated 51/120 frames (178s)
+[04:24:42] validated 61/120 frames (205s)
+[04:25:04] validated 71/120 frames (227s)
+[04:25:40] validated 81/120 frames (263s)
+[04:26:18] validated 91/120 frames (301s)
+[04:26:52] validated 101/120 frames (335s)
+[04:27:23] validated 111/120 frames (365s)
+[04:27:43] validated 120/120 frames (386s)
+[04:27:43] check 1 (edits clean): PASS | max outside=0.008056640625 (rendered 0.0081) | state identical=True | prompt identical=True | absent leftover px=0 | warnings=0
+[04:27:43] check 2 (determinism, 8 frames): PASS | repeat max diff = 0.000e+00 | batch invariance (B=8): max diff 0.000e+00 -> OK, batched patching enabled
+[04:27:43] check 3 [cover]: PASS | 100% of 120 frames have gap >= 0.02 | median gap 0.6657563149929047 | miss control median 0.132 | target vs distractor occluder 0.6475214958190918 vs 0.06854113191366196
+[04:27:43] check 3 [paint]: PASS | 100% of 120 frames have gap >= 0.02 | median gap 0.18866925686597824 | miss control median 0.081 | target vs distractor occluder 0.18866925686597824 vs 0.05281952582299709
+[04:27:43]    median action RMSE vs base: recolor 0.086 | absent 0.560 | occluded 0.189 | slab_miss 0.081 | occluded_distractor 0.053 | covered 0.666 | cover_miss 0.132 | covered_distractor 0.069
+[04:29:12] check 4 (ceiling, 8 discovery frames): PASS | best full-layer swap = 94.4% at layer 1 (need >= 80.0%) | RANK LAYERS [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+[04:29:12]    layer : cover resid/mlp % | paint resid/mlp %
+[04:29:12]        0 :   94.4 /   1.7 |   98.3 /   2.1
+[04:29:12]        1 :   94.4 /   4.0 |   98.3 /  12.6
+[04:29:12]        2 :   89.8 /   1.7 |   97.1 /   6.2
+[04:29:12]        3 :   86.0 /   3.9 |   96.0 /  10.6
+[04:29:12]        4 :   85.8 /   3.3 |   91.2 /   4.7
+[04:29:12]        5 :   85.6 /   3.4 |   94.6 /  10.0
+[04:29:12]        6 :   88.2 /   1.0 |   90.8 /  10.5
+[04:29:12]        7 :   85.4 /   2.9 |   90.5 /   9.0
+[04:29:12]        8 :   70.8 /   2.5 |   77.0 /   6.8
+[04:29:12]        9 :   46.6 /   5.9 |   71.4 /   6.5
+[04:29:12]       10 :   40.7 /   5.2 |   67.1 /  10.1
+[04:29:12]       11 :   37.8 /   5.9 |   65.7 /  14.6
+[04:29:12]       12 :   17.7 /   7.0 |   54.0 /  24.4
+[04:29:12]       13 :   20.6 /   6.5 |   51.1 /  20.7
+[04:29:12]       14 :    2.6 /   0.8 |    4.4 /   2.0
+[04:29:12]       15 :    2.5 /   1.8 |    3.4 /   2.1
+[04:29:12]       16 :    0.5 /   0.3 |    0.6 /   0.3
+[04:29:12]       17 :    0.0 /   0.0 |    0.0 /   0.0
+[04:29:12] == validate finished in 644s
+[04:29:13] == capture | out=/content/groot-run/outputs/permanence/tc_circuit_v3_rep_object
+[04:29:14] capture: 1413 samples (516 discovery-probe, 897 extra), 560 valid tokens each -> ~108.7 GB at full density (available RAM 153.3 GB, free disk 140 GB) -> token keep fraction 0.51 (~55.9 GB)
+[04:29:14] captured 8/1413 samples (1s)
+[04:29:39] captured 117/1413 samples (26s)
+[04:30:08] captured 282/1413 samples (56s)
+[04:30:35] captured 405/1413 samples (82s)
+[04:31:01] captured 531/1413 samples (108s)
+[04:31:22] captured 606/1413 samples (129s)
+[04:31:43] captured 681/1413 samples (150s)
+[04:32:04] captured 756/1413 samples (171s)
+[04:32:25] captured 831/1413 samples (193s)
+[04:32:47] captured 906/1413 samples (214s)
+[04:33:08] captured 981/1413 samples (235s)
+[04:33:29] captured 1056/1413 samples (256s)
+[04:33:50] captured 1131/1413 samples (277s)
+[04:34:11] captured 1206/1413 samples (299s)
+[04:34:32] captured 1281/1413 samples (320s)
+[04:34:54] captured 1356/1413 samples (341s)
+[04:35:10] captured 1413/1413 samples (357s)
+[04:37:47] saved activations for 18 layers, 1413 samples from 10 tasks, 407220 tokens -> /content/groot-run/outputs/permanence/tc_circuit_v3_rep_object/acts
+[04:37:47] == capture finished in 514s
+[04:37:47] == train | out=/content/groot-run/outputs/permanence/tc_circuit_v3_rep_object
+[04:39:04] layer  0: held-out FVU=0.0141 alive=3987/4096 tokens=386859 steps=8000 (76s)
+[04:40:01] layer  1: held-out FVU=0.1502 alive=4096/4096 tokens=386859 steps=8000 (56s)
+[04:41:03] layer  2: held-out FVU=0.1459 alive=4096/4096 tokens=386859 steps=8000 (61s)
+[04:42:00] layer  3: held-out FVU=0.1736 alive=4096/4096 tokens=386859 steps=8000 (57s)
+[04:43:01] layer  4: held-out FVU=0.1737 alive=4096/4096 tokens=386859 steps=8000 (61s)
+[04:44:00] layer  5: held-out FVU=0.1578 alive=4096/4096 tokens=386859 steps=8000 (58s)
+[04:46:19] layer  6: FVU 0.2138 > 0.2 -> retrained with 12000 steps: FVU 0.2134
+[04:46:19] layer  6: held-out FVU=0.2134 alive=4096/4096 tokens=386859 steps=12000 (139s)
+[04:47:16] layer  7: held-out FVU=0.1729 alive=4096/4096 tokens=386859 steps=8000 (57s)
+[04:49:34] layer  8: FVU 0.2316 > 0.2 -> retrained with 12000 steps: FVU 0.2317
+[04:49:34] layer  8: held-out FVU=0.2316 alive=4096/4096 tokens=386859 steps=8000 (137s)
+[04:51:52] layer  9: FVU 0.2475 > 0.2 -> retrained with 12000 steps: FVU 0.2478
+[04:51:52] layer  9: held-out FVU=0.2475 alive=4096/4096 tokens=386859 steps=8000 (138s)
+[04:54:09] layer 10: FVU 0.2985 > 0.2 -> retrained with 12000 steps: FVU 0.2990
+[04:54:09] layer 10: held-out FVU=0.2985 alive=4096/4096 tokens=386859 steps=8000 (137s)
+[04:56:27] layer 11: FVU 0.2488 > 0.2 -> retrained with 12000 steps: FVU 0.2491
+[04:56:27] layer 11: held-out FVU=0.2488 alive=4096/4096 tokens=386859 steps=8000 (137s)
+[04:58:44] layer 12: FVU 0.2660 > 0.2 -> retrained with 12000 steps: FVU 0.2664
+[04:58:44] layer 12: held-out FVU=0.2660 alive=4096/4096 tokens=386859 steps=8000 (137s)
+[05:01:02] layer 13: FVU 0.2041 > 0.2 -> retrained with 12000 steps: FVU 0.2044
+[05:01:02] layer 13: held-out FVU=0.2041 alive=4096/4096 tokens=386859 steps=8000 (137s)
+[05:01:59] layer 14: held-out FVU=0.1948 alive=4096/4096 tokens=386859 steps=8000 (56s)
+[05:02:58] layer 15: held-out FVU=0.1925 alive=4096/4096 tokens=386859 steps=8000 (58s)
+[05:04:14] layer 16: held-out FVU=0.0186 alive=2112/4096 tokens=386859 steps=8000 (76s)
+[05:05:40] layer 17: held-out FVU=0.0216 alive=2409/4096 tokens=386859 steps=8000 (86s)
+[05:06:27] check 5 (transcoder faithful): PASS | median held-out FVU=0.1831 (need <= 0.2) | median FVU on 10 held-out TEST frames=0.3344
+[05:06:27]    layer | FVU(held-out) | FVU(test frames) | splice RMSE / occlusion gap (test frames)
+[05:06:27]        0 |       0.0141 |          0.0264 |    0.098
+[05:06:27]        1 |       0.1502 |          0.3350 |    0.233
+[05:06:27]        2 |       0.1459 |          0.2799 |    0.156
+[05:06:27]        3 |       0.1736 |          0.3338 |    0.290
+[05:06:27]        4 |       0.1737 |          0.3128 |    0.307
+[05:06:27]        5 |       0.1578 |          0.2702 |    0.333
+[05:06:27]        6 |       0.2134 |          0.4198 |    0.386
+[05:06:27]        7 |       0.1729 |          0.3241 |    0.379
+[05:06:27]        8 |       0.2316 |          0.4275 |    0.453
+[05:06:27]        9 |       0.2475 |          0.4715 |    0.366
+[05:06:27]       10 |       0.2985 |          0.5486 |    0.395
+[05:06:27]       11 |       0.2488 |          0.4435 |    0.417
+[05:06:27]       12 |       0.2660 |          0.5537 |    0.523
+[05:06:27]       13 |       0.2041 |          0.3657 |    0.406
+[05:06:27]       14 |       0.1948 |          0.3324 |    0.095
+[05:06:27]       15 |       0.1925 |          0.3389 |    0.105
+[05:06:27]       16 |       0.0186 |          0.0299 |    0.035
+[05:06:27]       17 |       0.0216 |          0.0300 |    0.000
+[05:06:34] deleted the activation cache (acts/, 56.0 GB): only training needs it, and capture re-creates it if train is re-run
+[05:06:34] == train finished in 1727s
+[05:06:35] == goal1 | out=/content/groot-run/outputs/permanence/tc_circuit_v3_rep_object
+[05:06:36] goal1: encoded 1/60 discovery frames x 9 conditions (1s)
+[05:06:51] goal1: encoded 11/60 discovery frames x 9 conditions (16s)
+[05:07:05] goal1: encoded 21/60 discovery frames x 8 conditions (30s)
+[05:07:18] goal1: encoded 31/60 discovery frames x 8 conditions (43s)
+[05:07:32] goal1: encoded 41/60 discovery frames x 9 conditions (57s)
+[05:07:46] goal1: encoded 51/60 discovery frames x 9 conditions (71s)
+[05:07:58] goal1: encoded 60/60 discovery frames x 8 conditions (83s)
+[05:07:59] goal1 [cover]: 457 passing features (439 also target-specific) of 73728 | top layers [0, 1, 3] | capped set 129 | fold sets [126, 132]
+[05:07:59] goal1 [paint]: 12 passing features (9 also target-specific) of 73728 | top layers [1, 3, 5] | capped set 12 | fold sets [3, 44]
+[05:08:02] == goal1 finished in 88s
+[05:08:03] == attrib | out=/content/groot-run/outputs/permanence/tc_circuit_v3_rep_object
+[05:08:07] attrib: 1/120 frames (5s) | forward consistency max diff 0.00e+00
+[05:08:52] attrib: 11/120 frames (49s) | forward consistency max diff 0.00e+00
+[05:09:37] attrib: 21/120 frames (94s) | forward consistency max diff 0.00e+00
+[05:10:22] attrib: 31/120 frames (139s) | forward consistency max diff 0.00e+00
+[05:11:06] attrib: 41/120 frames (183s) | forward consistency max diff 0.00e+00
+[05:11:51] attrib: 51/120 frames (228s) | forward consistency max diff 0.00e+00
+[05:12:35] attrib: 61/120 frames (273s) | forward consistency max diff 0.00e+00
+[05:13:20] attrib: 71/120 frames (317s) | forward consistency max diff 0.00e+00
+[05:14:04] attrib: 81/120 frames (362s) | forward consistency max diff 0.00e+00
+[05:14:49] attrib: 91/120 frames (406s) | forward consistency max diff 0.00e+00
+[05:15:33] attrib: 101/120 frames (451s) | forward consistency max diff 0.00e+00
+[05:16:18] attrib: 111/120 frames (495s) | forward consistency max diff 0.00e+00
+[05:16:58] attrib: 120/120 frames (535s) | forward consistency max diff 0.00e+00
+[05:17:02] attrib [cover]: predicted closure of the top-K discovery features: K=10: 11.1%, K=30: 20.1%, K=100: 39.3%, K=300: 70.5%, K=1000: 122.6%, K=3000: 185.8% | all features 16.2% | 50% of positive mass in 1558 features
+[05:17:07] attrib [paint]: predicted closure of the top-K discovery features: K=10: 4.9%, K=30: 10.7%, K=100: 21.9%, K=300: 39.1%, K=1000: 70.3%, K=3000: 113.2% | all features 56.1% | 50% of positive mass in 2575 features
+[05:17:07] == attrib finished in 544s
+[05:17:07] == goal2 | out=/content/groot-run/outputs/permanence/tc_circuit_v3_rep_object
+[05:17:08] Goal 2 feature sets (fixed on discovery data): cover: selective 129 (uncapped 457), attribution 100 | paint: selective 12 (uncapped 12), attribution 100 | rank layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13] | K_A=100
+[05:17:27] goal2 1/60 (test frame 6, task 0) 18s | cover: attr/sel/ceiling -1.8/2.8/94.3 | paint: attr/sel/ceiling 0.1/11.5/94.4
+[05:18:52] goal2 6/60 (test frame 11, task 0) 104s | cover: attr/sel/ceiling 0.6/1.4/83.3 | paint: attr/sel/ceiling 0.2/2.4/92.2
+[05:20:18] goal2 11/60 (test frame 22, task 1) 190s | cover: attr/sel/ceiling 0.3/1.6/56.6 | paint: attr/sel/ceiling 0.2/0.1/-0.5
+[05:21:29] goal2 16/60 (test frame 33, task 2) 260s | cover: attr/sel/ceiling -0.1/0.3/77.7
+[05:22:51] goal2 21/60 (test frame 44, task 3) 343s | cover: attr/sel/ceiling -0.0/0.0/76.5 | paint: attr/sel/ceiling 0.0/1.1/41.6
+[05:24:16] goal2 26/60 (test frame 55, task 4) 428s | cover: attr/sel/ceiling -0.1/-0.5/88.8 | paint: attr/sel/ceiling 0.2/2.1/90.9
+[05:25:41] goal2 31/60 (test frame 66, task 5) 512s | cover: attr/sel/ceiling -0.0/0.4/73.2 | paint: attr/sel/ceiling 0.9/16.9/58.4
+[05:27:01] goal2 36/60 (test frame 71, task 5) 593s | cover: attr/sel/ceiling -0.0/-0.2/86.7 | paint: attr/sel/ceiling -11.3/-0.5/61.7
+[05:28:21] goal2 41/60 (test frame 82, task 6) 672s | cover: attr/sel/ceiling 0.0/0.7/55.5
+[05:29:47] goal2 46/60 (test frame 93, task 7) 758s | cover: attr/sel/ceiling 0.0/0.1/57.0
+[05:31:07] goal2 51/60 (test frame 104, task 8) 839s | cover: attr/sel/ceiling 0.1/0.0/92.9 | paint: attr/sel/ceiling 0.2/0.8/90.5
+[05:32:30] goal2 56/60 (test frame 115, task 9) 922s | cover: attr/sel/ceiling 0.2/0.3/62.7 | paint: attr/sel/ceiling 0.2/1.1/87.9
+[05:33:38] goal2 60/60 (test frame 119, task 9) 990s | cover: attr/sel/ceiling -0.2/0.0/74.1 | paint: attr/sel/ceiling 0.6/1.4/84.6
+[05:33:41] [cover] attribution set (100) 0.90% vs random same-norm 0.03% -> H2-A fail | selective (129) 0.20% vs random 0.07% -> H2-S fail | all TC 47.7% | MLP ceiling 74.1% | error term 6.5%
+[05:33:41]    k-curve [attr]: K=10: 0.0% | K=30: 0.1% | K=100: 0.9% | K=300: 1.6% | K=1000: 3.7% | K=3000: 10.6%
+[05:33:41]    k-curve [oracle]: K=10: 6.2% | K=30: 10.1% | K=100: 17.7% | K=300: 26.0% | K=1000: 33.0% | K=3000: 34.6%
+[05:33:41]    k-curve [magnitude]: K=10: 0.7% | K=30: 1.0% | K=100: 1.3% | K=300: 1.9% | K=1000: 3.9% | K=3000: 6.6%
+[05:33:41]    k-curve [random]: K=10: -0.0% | K=30: 0.0% | K=100: 0.1% | K=300: 0.1% | K=1000: 0.7% | K=3000: 0.9%
+[05:33:41]    attribution linearity: r=0.79 (n=2419), slope 0.5737240064850679
+[05:33:41]    dissociation: |A ∩ S| = 0 | 0% of A selective | rho(selectivity, attribution) = -0.02
+[05:33:42] [paint] attribution set (100) 2.40% vs random same-norm 0.15% -> H2-A fail | selective (12) -0.45% vs random 0.03% -> H2-S fail | all TC 45.6% | MLP ceiling 74.9% | error term nan%
+[05:33:42]    k-curve [attr]: K=10: 0.1% | K=30: -0.0% | K=100: 2.4% | K=300: 5.3% | K=1000: 10.7% | K=3000: 20.2%
+[05:33:42]    k-curve [random]: K=10: 0.1% | K=30: 0.1% | K=100: 0.1% | K=300: -0.0% | K=1000: 0.5% | K=3000: 1.0%
+[05:33:42]    attribution linearity: r=0.66 (n=816), slope 0.731331336245471
+[05:33:42]    dissociation: |A ∩ S| = 0 | 0% of A selective | rho(selectivity, attribution) = -0.01
+[05:33:43] == goal2 finished in 996s
+[05:33:44] == chain frames,validate,capture,train,goal1,attrib,goal2 finished in 82.1 min

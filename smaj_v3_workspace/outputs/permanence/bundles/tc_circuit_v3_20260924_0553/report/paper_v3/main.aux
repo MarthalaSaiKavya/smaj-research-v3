@@ -1,0 +1,127 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{brohan2023rt2,kim2024openvla,black2024pi0,pi2025pi05}
+\citation{haon2025mechanistic,buurmeijer2026observing,swann2026sparse,grant2026features,jin2026event,shi2026vlatrace}
+\citation{marks2025sparse,ameisen2025circuit}
+\citation{kriegeskorte2009circular}
+\citation{bolukbasi2021illusion,makelov2024subspace}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\newlabel{sec:intro}{{1}{1}{Introduction}{section.1}{}}
+\citation{haon2025mechanistic,buurmeijer2026observing,swann2026sparse,jin2026event}
+\citation{grant2026features}
+\citation{shi2026vlatrace,zhang2026embodied}
+\citation{dunefsky2024transcoders,ameisen2025circuit,lindsey2025biology}
+\citation{damianos2026transcoders}
+\citation{gao2025scaling}
+\citation{nanda2023attribution,syed2024attribution,kramar2024atp}
+\citation{zhang2024towards,heimersheim2024patching}
+\citation{pi2025pi05}
+\citation{cadene2024lerobot}
+\citation{lipman2023flow}
+\citation{gemma2024,beyer2024paligemma}
+\citation{liu2023libero}
+\citation{todorov2012mujoco,zhu2020robosuite}
+\citation{dunefsky2024transcoders,gao2025scaling}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related work}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Method}{2}{section.3}\protected@file@percent }
+\newlabel{sec:method}{{3}{2}{Method}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Occluders and controls}{2}{subsection.3.1}\protected@file@percent }
+\newlabel{sec:occluders}{{3.1}{2}{Occluders and controls}{subsection.3.1}{}}
+\citation{nanda2023attribution,syed2024attribution}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces The conditions on one frame per task (third-person camera, as the policy sees it): base, recolour, absent, the three occluders (\textsc  {paint}, \textsc  {box}, \textsc  {screen}), their miss controls and the distractor controls.\relax }}{3}{figure.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:conditions}{{1}{3}{The conditions on one frame per task (third-person camera, as the policy sees it): base, recolour, absent, the three occluders (\textsc {paint}, \textsc {box}, \textsc {screen}), their miss controls and the distractor controls.\relax }{figure.caption.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Transcoders, selective features and attribution}{3}{subsection.3.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Setup and validity battery. Checks: (1) edits change only the intended pixels, (2) determinism and bit-identical batched patching, (3) the occlusion effect exceeds the minimum gap, (4) a single-layer residual swap closes $\geq $80\% of it, (5) transcoders reconstruct $\leq $0.2 FVU. Gap: median action RMSE between base and occluded (primary occluder). FVU on held-out tokens / held-out test frames.\relax }}{4}{table.caption.2}\protected@file@percent }
+\newlabel{tab:validity}{{1}{4}{Setup and validity battery. Checks: (1) edits change only the intended pixels, (2) determinism and bit-identical batched patching, (3) the occlusion effect exceeds the minimum gap, (4) a single-layer residual swap closes $\geq $80\% of it, (5) transcoders reconstruct $\leq $0.2 FVU. Gap: median action RMSE between base and occluded (primary occluder). FVU on held-out tokens / held-out test frames.\relax }{table.caption.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Left: single-layer swaps of the full residual stream (solid) or the MLP output (dashed) from the occluded into the base run, discovery frames. Right: where the positive attribution mass sits.\relax }}{4}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:layers}{{2}{4}{Left: single-layer swaps of the full residual stream (solid) or the MLP output (dashed) from the occluded into the base run, discovery frames. Right: where the positive attribution mass sits.\relax }{figure.caption.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Results}{4}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}The instrument works}{4}{subsection.4.1}\protected@file@percent }
+\newlabel{sec:validity}{{4.1}{4}{The instrument works}{subsection.4.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Q1: selective features exist and replicate}{4}{subsection.4.2}\protected@file@percent }
+\newlabel{sec:q1}{{4.2}{4}{Q1: selective features exist and replicate}{subsection.4.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Q2: which features carry the effect into the action?}{4}{subsection.4.3}\protected@file@percent }
+\newlabel{sec:q2}{{4.3}{4}{Q2: which features carry the effect into the action?}{subsection.4.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Held-out causal tests on $\pi _{0.5}$ / LIBERO-Spatial. Mean \% of the base$\rightarrow $occluded action gap closed by setting a feature set to its occluded values in the base run (inject), with 95\% task-clustered bootstrap CIs. Random sets match the per-layer counts and per-token norm of the set they control for. Feature sets are fixed on discovery demonstrations.\relax }}{5}{table.caption.4}\protected@file@percent }
+\newlabel{tab:main}{{2}{5}{Held-out causal tests on $\pi _{0.5}$ / LIBERO-Spatial. Mean \% of the base$\rightarrow $occluded action gap closed by setting a feature set to its occluded values in the base run (inject), with 95\% task-clustered bootstrap CIs. Random sets match the per-layer counts and per-token norm of the set they control for. Feature sets are fixed on discovery demonstrations.\relax }{table.caption.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Gap closed on held-out frames by the top-$K$ features of each ranking (shaded: 95\% CI). Star: the selective set. Lines: all transcoder features and all MLP outputs.\relax }}{5}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:kcurves}{{3}{5}{Gap closed on held-out frames by the top-$K$ features of each ranking (shaded: 95\% CI). Star: the selective set. Lines: all transcoder features and all MLP outputs.\relax }{figure.caption.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Q3: does it matter in closed loop?}{5}{subsection.4.4}\protected@file@percent }
+\newlabel{sec:q3}{{4.4}{5}{Q3: does it matter in closed loop?}{subsection.4.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Left: selectivity vs attribution for every feature in the rank layers; orange: selective, blue: attribution set. Right: attribution prediction vs measured effect of every patched set.\relax }}{6}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:dissociation}{{4}{6}{Left: selectivity vs attribution for every feature in the rank layers; orange: selective, blue: attribution set. Right: attribution prediction vs measured effect of every patched set.\relax }{figure.caption.6}{}}
+\newlabel{fig:linearity}{{4}{6}{Left: selectivity vs attribution for every feature in the rank layers; orange: selective, blue: attribution set. Right: attribution prediction vs measured effect of every patched set.\relax }{figure.caption.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Closed loop on 5 tasks $\times $ 12 paired episodes (same initial states and noise seeds in every condition). Success with Wilson 95\% CIs; \emph  {distractor}: episodes in which the other object was lifted. Restores replace the features' values in the occluded run with their values from a clean render of the same state, at every inference step.\relax }}{6}{table.caption.7}\protected@file@percent }
+\newlabel{tab:closedloop}{{3}{6}{Closed loop on 5 tasks $\times $ 12 paired episodes (same initial states and noise seeds in every condition). Success with Wilson 95\% CIs; \emph {distractor}: episodes in which the other object was lifted. Restores replace the features' values in the occluded run with their values from a clean render of the same state, at every inference step.\relax }{table.caption.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Generalization and the cost of in-sample selection}{6}{subsection.4.5}\protected@file@percent }
+\newlabel{sec:generalization}{{4.5}{6}{Generalization and the cost of in-sample selection}{subsection.4.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion and limitations}{6}{section.5}\protected@file@percent }
+\bibdata{references}
+\bibcite{ameisen2025circuit}{{1}{2025}{{Ameisen et~al.}}{{Ameisen, Lindsey, Pearce, et~al.}}}
+\bibcite{beyer2024paligemma}{{2}{2024}{{Beyer et~al.}}{{Beyer, Steiner, Pinto, et~al.}}}
+\bibcite{black2024pi0}{{3}{2024}{{Black et~al.}}{{Black, Brown, Driess, Esmail, Equi, Finn, et~al.}}}
+\bibcite{bolukbasi2021illusion}{{4}{2021}{{Bolukbasi et~al.}}{{Bolukbasi, Pearce, Yuan, Coenen, Reif, Vi{\'e}gas, and Wattenberg}}}
+\bibcite{brohan2023rt2}{{5}{2023}{{Brohan et~al.}}{{Brohan, Brown, Carbajal, et~al.}}}
+\bibcite{buurmeijer2026observing}{{6}{2026}{{Buurmeijer et~al.}}{{Buurmeijer, Amo~Alonso, Swann, and Pavone}}}
+\bibcite{cadene2024lerobot}{{7}{2024}{{Cadene et~al.}}{{Cadene, Alibert, Soare, Gallouedec, Zouitine, and Wolf}}}
+\bibcite{damianos2026transcoders}{{8}{2026}{{Damianos et~al.}}{{Damianos, Voukoutis, Skyrianos, Katsouros, and Paraskevopoulos}}}
+\bibcite{dunefsky2024transcoders}{{9}{2024}{{Dunefsky et~al.}}{{Dunefsky, Chlenski, and Nanda}}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Replication across policies and suites (box occluder, held-out frames, \% gap closed [95\% CI]). Last column: H2-A, H2-S.\relax }}{7}{table.caption.8}\protected@file@percent }
+\newlabel{tab:replication}{{4}{7}{Replication across policies and suites (box occluder, held-out frames, \% gap closed [95\% CI]). Last column: H2-A, H2-S.\relax }{table.caption.8}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces The same question under three protocols. v1: in-sample pilot; v2: held-out selectivity study; v3: this paper.\relax }}{7}{table.caption.9}\protected@file@percent }
+\newlabel{tab:versions}{{5}{7}{The same question under three protocols. v1: in-sample pilot; v2: held-out selectivity study; v3: this paper.\relax }{table.caption.9}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{7}{section.6}\protected@file@percent }
+\bibcite{gao2025scaling}{{10}{2025}{{Gao et~al.}}{{Gao, Dupr{\'e}~la Tour, Tillman, Goh, Troll, Radford, Sutskever, Leike, and Wu}}}
+\bibcite{gemma2024}{{11}{2024}{{Gemma Team}}{{}}}
+\bibcite{grant2026features}{{12}{2026}{{Grant et~al.}}{{Grant, Zhao, and Wang}}}
+\bibcite{haon2025mechanistic}{{13}{2025}{{H{\"a}on et~al.}}{{H{\"a}on, Stocking, Chuang, and Tomlin}}}
+\bibcite{heimersheim2024patching}{{14}{2024}{{Heimersheim \& Nanda}}{{Heimersheim and Nanda}}}
+\bibcite{jin2026event}{{15}{2026}{{Jin et~al.}}{{Jin, Chatterjee, Kumar, and Paleja}}}
+\bibcite{kim2024openvla}{{16}{2024}{{Kim et~al.}}{{Kim, Pertsch, Karamcheti, et~al.}}}
+\bibcite{kramar2024atp}{{17}{2024}{{Kram{\'a}r et~al.}}{{Kram{\'a}r, Lieberum, Shah, and Nanda}}}
+\bibcite{kriegeskorte2009circular}{{18}{2009}{{Kriegeskorte et~al.}}{{Kriegeskorte, Simmons, Bellgowan, and Baker}}}
+\bibcite{lindsey2025biology}{{19}{2025}{{Lindsey et~al.}}{{Lindsey, Gurnee, Ameisen, et~al.}}}
+\bibcite{lipman2023flow}{{20}{2023}{{Lipman et~al.}}{{Lipman, Chen, Ben-Hamu, Nickel, and Le}}}
+\bibcite{liu2023libero}{{21}{2023}{{Liu et~al.}}{{Liu, Zhu, Gao, Feng, Liu, Zhu, and Stone}}}
+\bibcite{makelov2024subspace}{{22}{2024}{{Makelov et~al.}}{{Makelov, Lange, and Nanda}}}
+\bibcite{marks2025sparse}{{23}{2025}{{Marks et~al.}}{{Marks, Rager, Michaud, Belinkov, Bau, and Mueller}}}
+\bibcite{nanda2023attribution}{{24}{2023}{{Nanda}}{{}}}
+\bibcite{pi2025pi05}{{25}{2025}{{{Physical Intelligence} et~al.}}{{{Physical Intelligence}, Black, Brown, Darpinian, Dhabalia, Driess, Esmail, Equi, et~al.}}}
+\bibcite{shi2026vlatrace}{{26}{2026}{{Shi et~al.}}{{Shi, Ren, Zhang, Zhang, Hu, Shan, Dong, Lu, Chen, Zhang, Dai, and Ju}}}
+\bibcite{swann2026sparse}{{27}{2026}{{Swann et~al.}}{{Swann, McGranahan, Buurmeijer, Kennedy~III, and Schwager}}}
+\bibcite{syed2024attribution}{{28}{2024}{{Syed et~al.}}{{Syed, Rager, and Conmy}}}
+\bibcite{todorov2012mujoco}{{29}{2012}{{Todorov et~al.}}{{Todorov, Erez, and Tassa}}}
+\bibcite{zhang2024towards}{{30}{2024}{{Zhang \& Nanda}}{{Zhang and Nanda}}}
+\bibcite{zhang2026embodied}{{31}{2026}{{Zhang et~al.}}{{Zhang, Xu, Dhafer, Yue, Dong, and Hao}}}
+\bibcite{zhu2020robosuite}{{32}{2020}{{Zhu et~al.}}{{Zhu, Wong, Mandlekar, Mart{\'i}n-Mart{\'i}n, Joshi, Nasiriany, and Zhu}}}
+\bibstyle{iclr2027_conference}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Held-out gap closed per occluder family and feature set (95\% CIs).\relax }}{9}{figure.caption.12}\protected@file@percent }
+\newlabel{fig:families}{{5}{9}{Held-out gap closed per occluder family and feature set (95\% CIs).\relax }{figure.caption.12}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Additional results}{9}{appendix.A}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Gap closed (\%) by the top-$K$ features of each ranking, held-out frames, primary occluder.\relax }}{9}{table.caption.11}\protected@file@percent }
+\newlabel{tab:kcurve}{{6}{9}{Gap closed (\%) by the top-$K$ features of each ranking, held-out frames, primary occluder.\relax }{table.caption.11}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {B}Configuration}{9}{appendix.B}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces The same feature sets evaluated on the discovery frames they were chosen on and on held-out frames.\relax }}{10}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:insample}{{6}{10}{The same feature sets evaluated on the discovery frames they were chosen on and on held-out frames.\relax }{figure.caption.13}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Replication across policies and suites.\relax }}{10}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:replication}{{7}{10}{Replication across policies and suites.\relax }{figure.caption.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Closed-loop success with Wilson 95\% CIs.\relax }}{11}{figure.caption.15}\protected@file@percent }
+\newlabel{fig:closedloop}{{8}{11}{Closed-loop success with Wilson 95\% CIs.\relax }{figure.caption.15}{}}
+\gdef \@abspage@last{11}

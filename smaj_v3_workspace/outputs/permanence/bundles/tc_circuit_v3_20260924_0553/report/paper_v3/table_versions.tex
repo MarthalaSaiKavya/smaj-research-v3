@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering\small
+\caption{The same question under three protocols. v1: in-sample pilot; v2: held-out selectivity study; v3: this paper.}
+\label{tab:versions}
+\resizebox{\linewidth}{!}{\begin{tabular}{llll}
+\toprule
+ & v1 & v2 & v3 \\
+\midrule
+tasks / probe frames & 1 / 4 (max effect) & 10 / 60 (fixed phases) & 10 / 116 (fixed phases) + 2 replications \\
+selection vs.\ test & same frames & disjoint demos & disjoint demos + cross-task \\
+occluder & paint & paint & rendered box, screen + paint \\
+transcoder & 512, $k$=16 & 2{,}048, $k$=32 & 4096, $k$=64 \\
+FVU held-out / test frames & 0.174 / -- & 0.185 / 0.400 & 0.204 / 0.294 \\
+features chosen by & selectivity & selectivity & selectivity and attribution \\
+selective set, paint (\%) & 3.92 & 0.27 [$-$0.32, 0.92] & $-$0.01 [$-$0.21, 0.15] \\
+random matched, paint (\%) & 0.56 & 0.05 & 0.05 [$-$0.00, 0.10] \\
+attribution set, box (\%) & -- & -- & 1.5 [0.6, 2.5] \\
+all TC / MLP ceiling (\%) & 40.1 / 65.5 & 42.8 / 76.6 & 56.8 / 73.3 \\
+\bottomrule
+\end{tabular}}
+\end{table}

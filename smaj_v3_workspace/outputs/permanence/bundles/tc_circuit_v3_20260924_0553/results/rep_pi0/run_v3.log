@@ -1,0 +1,275 @@
+[05:33:51] == frames | out=/content/groot-run/outputs/permanence/tc_circuit_v3_rep_pi0
+/content/lerobot-venv/lib/python3.12/site-packages/robosuite/__init__.py:7: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  ROBOSUITE_DEFAULT_LOGGER.warn("No private macro file found!")
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /content/lerobot-venv/lib/python3.12/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[05:34:01] task 0: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[05:34:01] task 0: pick up the black bowl between the plate and the ramekin and place it on the plate
+[05:34:14]   task0:demo:demo_0 (discovery): T=98 lift at t=51 -> probe frames (t, phase) [(18, 0.3), (29, 0.55), (38, 0.8)]
+[05:34:30]   task0:demo:demo_1 (discovery): T=84 lift at t=47 -> probe frames (t, phase) [(17, 0.3), (26, 0.55), (34, 0.8)]
+[05:34:59]   task0:demo:demo_2 (test): T=90 lift at t=54 -> probe frames (t, phase) [(19, 0.3), (30, 0.55), (36, 0.8)]
+[05:35:05]   task0:demo:demo_3 (test): T=97 lift at t=53 -> probe frames (t, phase) [(18, 0.3), (30, 0.55), (41, 0.8)]
+[05:35:07]   task0:demo:demo_4 (extra): T=105 lift at t=65 -> probe frames (t, phase) []
+[05:35:10]   task0:demo:demo_5 (extra): T=134 lift at t=51 -> probe frames (t, phase) []
+[05:35:13]   task0:demo:demo_6 (extra): T=92 lift at t=46 -> probe frames (t, phase) []
+[05:35:15]   task0:demo:demo_7 (extra): T=92 lift at t=47 -> probe frames (t, phase) []
+[05:35:18]   task0:demo:demo_8 (extra): T=79 lift at t=45 -> probe frames (t, phase) []
+[05:35:21]   task0:demo:demo_9 (extra): T=89 lift at t=51 -> probe frames (t, phase) []
+[05:35:23]   task0:demo:demo_10 (extra): T=93 lift at t=57 -> probe frames (t, phase) []
+[05:35:26]   task0:demo:demo_11 (extra): T=128 lift at t=84 -> probe frames (t, phase) []
+[05:35:27] task 0 done (94s so far): 12 probe frames
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[05:35:32] task 1: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[05:35:32] task 1: pick up the black bowl next to the ramekin and place it on the plate
+[05:35:41]   task1:demo:demo_0 (discovery): T=152 lift at t=69 -> probe frames (t, phase) [(23, 0.3), (39, 0.55), (54, 0.8)]
+[05:35:59]   task1:demo:demo_1 (discovery): T=123 lift at t=68 -> probe frames (t, phase) [(23, 0.3), (38, 0.55), (51, 0.8)]
+[05:36:06]   task1:demo:demo_2 (test): T=140 lift at t=63 -> probe frames (t, phase) [(22, 0.3), (35, 0.55), (49, 0.8)]
+[05:36:12]   task1:demo:demo_3 (test): T=175 lift at t=57 -> probe frames (t, phase) [(20, 0.3), (32, 0.55), (44, 0.8)]
+[05:36:15]   task1:demo:demo_4 (extra): T=142 lift at t=66 -> probe frames (t, phase) []
+[05:36:18]   task1:demo:demo_5 (extra): T=155 lift at t=101 -> probe frames (t, phase) []
+[05:36:20]   task1:demo:demo_6 (extra): T=145 lift at t=62 -> probe frames (t, phase) []
+[05:36:23]   task1:demo:demo_7 (extra): T=131 lift at t=70 -> probe frames (t, phase) []
+[05:36:26]   task1:demo:demo_8 (extra): T=152 lift at t=68 -> probe frames (t, phase) []
+[05:36:28]   task1:demo:demo_9 (extra): T=127 lift at t=65 -> probe frames (t, phase) []
+[05:36:31]   task1:demo:demo_10 (extra): T=111 lift at t=65 -> probe frames (t, phase) []
+[05:36:34]   task1:demo:demo_11 (extra): T=117 lift at t=51 -> probe frames (t, phase) []
+[05:36:34] task 1 done (162s so far): 12 probe frames
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[05:36:39] task 2: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[05:36:39] task 2: pick up the black bowl from table center and place it on the plate
+[05:36:52]   task2:demo:demo_0 (discovery): T=103 lift at t=49 -> probe frames (t, phase) [(17, 0.3), (28, 0.55), (37, 0.8)]
+[05:37:01]   task2:demo:demo_1 (discovery): T=123 lift at t=69 -> probe frames (t, phase) [(23, 0.3), (39, 0.55), (54, 0.8)]
+[05:37:28]   task2:demo:demo_2 (test): T=122 lift at t=54 -> probe frames (t, phase) [(19, 0.3), (30, 0.55), (37, 0.8)]
+[05:37:34]   task2:demo:demo_3 (test): T=102 lift at t=45 -> probe frames (t, phase) [(16, 0.3), (25, 0.55), (35, 0.8)]
+[05:37:37]   task2:demo:demo_4 (extra): T=111 lift at t=54 -> probe frames (t, phase) []
+[05:37:40]   task2:demo:demo_5 (extra): T=111 lift at t=59 -> probe frames (t, phase) []
+[05:37:43]   task2:demo:demo_6 (extra): T=109 lift at t=51 -> probe frames (t, phase) []
+[05:37:45]   task2:demo:demo_7 (extra): T=123 lift at t=55 -> probe frames (t, phase) []
+[05:37:48]   task2:demo:demo_8 (extra): T=111 lift at t=55 -> probe frames (t, phase) []
+[05:37:51]   task2:demo:demo_9 (extra): T=110 lift at t=56 -> probe frames (t, phase) []
+[05:37:54]   task2:demo:demo_10 (extra): T=109 lift at t=54 -> probe frames (t, phase) []
+[05:37:57]   task2:demo:demo_11 (extra): T=101 lift at t=45 -> probe frames (t, phase) []
+[05:37:57] task 2 done (244s so far): 12 probe frames
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[05:38:02] task 3: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[05:38:02] task 3: pick up the black bowl on the cookie box and place it on the plate
+[05:38:10]   task3:demo:demo_0 (discovery): T=99 lift at t=59 -> probe frames (t, phase) [(20, 0.3), (33, 0.55), (46, 0.8)]
+[05:38:18]   task3:demo:demo_1 (discovery): T=101 lift at t=51 -> probe frames (t, phase) [(18, 0.3), (29, 0.55), (39, 0.8)]
+[05:38:24]   task3:demo:demo_2 (test): T=95 lift at t=53 -> probe frames (t, phase) [(18, 0.3), (30, 0.55), (41, 0.8)]
+[05:38:33]   task3:demo:demo_3 (test): T=115 lift at t=59 -> probe frames (t, phase) [(20, 0.3), (33, 0.55), (45, 0.8)]
+[05:38:36]   task3:demo:demo_4 (extra): T=103 lift at t=57 -> probe frames (t, phase) []
+[05:38:39]   task3:demo:demo_5 (extra): T=99 lift at t=53 -> probe frames (t, phase) []
+[05:38:41]   task3:demo:demo_6 (extra): T=111 lift at t=61 -> probe frames (t, phase) []
+[05:38:44]   task3:demo:demo_7 (extra): T=95 lift at t=52 -> probe frames (t, phase) []
+[05:38:47]   task3:demo:demo_8 (extra): T=111 lift at t=51 -> probe frames (t, phase) []
+[05:38:50]   task3:demo:demo_9 (extra): T=129 lift at t=91 -> probe frames (t, phase) []
+[05:38:52]   task3:demo:demo_10 (extra): T=89 lift at t=51 -> probe frames (t, phase) []
+[05:38:55]   task3:demo:demo_11 (extra): T=97 lift at t=58 -> probe frames (t, phase) []
+[05:38:55] task 3 done (303s so far): 12 probe frames
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[05:39:00] task 4: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[05:39:00] task 4: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+[05:39:20]   task4:demo:demo_0 (discovery): T=153 lift at t=61 -> probe frames (t, phase) [(21, 0.3), (34, 0.55), (45, 0.8)]
+[05:39:54]   task4:demo:demo_1 (discovery): T=142 lift at t=54 -> probe frames (t, phase) [(19, 0.3), (30, 0.55), (37, 0.8)]
+[05:40:10]   task4:demo:demo_2 (test): T=158 lift at t=77 -> probe frames (t, phase) [(26, 0.3), (43, 0.55), (58, 0.8)]
+[05:40:17]   task4:demo:demo_3 (test): T=129 lift at t=53 -> probe frames (t, phase) [(18, 0.3), (30, 0.55), (41, 0.8)]
+[05:40:20]   task4:demo:demo_4 (extra): T=143 lift at t=63 -> probe frames (t, phase) []
+[05:40:23]   task4:demo:demo_5 (extra): T=158 lift at t=68 -> probe frames (t, phase) []
+[05:40:26]   task4:demo:demo_6 (extra): T=167 lift at t=60 -> probe frames (t, phase) []
+[05:40:28]   task4:demo:demo_7 (extra): T=156 lift at t=69 -> probe frames (t, phase) []
+[05:40:31]   task4:demo:demo_8 (extra): T=159 lift at t=53 -> probe frames (t, phase) []
+[05:40:34]   task4:demo:demo_9 (extra): T=132 lift at t=68 -> probe frames (t, phase) []
+[05:40:37]   task4:demo:demo_10 (extra): T=139 lift at t=62 -> probe frames (t, phase) []
+[05:40:40]   task4:demo:demo_11 (extra): T=182 lift at t=75 -> probe frames (t, phase) []
+[05:40:40] task 4 done (407s so far): 12 probe frames
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[05:40:45] task 5: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[05:40:45] task 5: pick up the black bowl on the ramekin and place it on the plate
+[05:40:54]   task5:demo:demo_0 (discovery): T=137 lift at t=0 -> probe frames (t, phase) [(5, 0.3), (6, 0.55), (7, 0.8)]
+[05:41:03]   task5:demo:demo_1 (discovery): T=131 lift at t=0 -> probe frames (t, phase) [(5, 0.3), (6, 0.55), (7, 0.8)]
+[05:41:10]   task5:demo:demo_2 (test): T=121 lift at t=0 -> probe frames (t, phase) [(5, 0.3), (6, 0.55), (7, 0.8)]
+[05:41:16]   task5:demo:demo_3 (test): T=121 lift at t=0 -> probe frames (t, phase) [(5, 0.3), (6, 0.55), (7, 0.8)]
+[05:41:19]   task5:demo:demo_4 (extra): T=119 lift at t=0 -> probe frames (t, phase) []
+[05:41:22]   task5:demo:demo_5 (extra): T=100 lift at t=0 -> probe frames (t, phase) []
+[05:41:25]   task5:demo:demo_6 (extra): T=101 lift at t=0 -> probe frames (t, phase) []
+[05:41:28]   task5:demo:demo_7 (extra): T=129 lift at t=0 -> probe frames (t, phase) []
+[05:41:31]   task5:demo:demo_8 (extra): T=123 lift at t=0 -> probe frames (t, phase) []
+[05:41:34]   task5:demo:demo_9 (extra): T=118 lift at t=0 -> probe frames (t, phase) []
+[05:41:37]   task5:demo:demo_10 (extra): T=137 lift at t=0 -> probe frames (t, phase) []
+[05:41:40]   task5:demo:demo_11 (extra): T=100 lift at t=0 -> probe frames (t, phase) []
+[05:41:40] task 5 done (467s so far): 12 probe frames
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[05:41:45] task 6: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[05:41:45] task 6: pick up the black bowl next to the cookie box and place it on the plate
+[05:42:02]   task6:demo:demo_0 (discovery): T=123 lift at t=63 -> probe frames (t, phase) [(22, 0.3), (35, 0.55), (47, 0.8)]
+[05:42:16]   task6:demo:demo_1 (discovery): T=137 lift at t=66 -> probe frames (t, phase) [(22, 0.3), (37, 0.55), (50, 0.8)]
+[05:42:22]   task6:demo:demo_2 (test): T=125 lift at t=58 -> probe frames (t, phase) [(20, 0.3), (32, 0.55), (45, 0.8)]
+[05:42:44]   task6:demo:demo_3 (test): T=108 lift at t=59 -> probe frames (t, phase) [(20, 0.3), (33, 0.55), (42, 0.8)]
+[05:42:47]   task6:demo:demo_4 (extra): T=123 lift at t=74 -> probe frames (t, phase) []
+[05:42:50]   task6:demo:demo_5 (extra): T=130 lift at t=61 -> probe frames (t, phase) []
+[05:42:52]   task6:demo:demo_6 (extra): T=124 lift at t=59 -> probe frames (t, phase) []
+[05:42:55]   task6:demo:demo_7 (extra): T=123 lift at t=64 -> probe frames (t, phase) []
+[05:42:58]   task6:demo:demo_8 (extra): T=133 lift at t=61 -> probe frames (t, phase) []
+[05:43:00]   task6:demo:demo_9 (extra): T=113 lift at t=61 -> probe frames (t, phase) []
+[05:43:03]   task6:demo:demo_10 (extra): T=127 lift at t=69 -> probe frames (t, phase) []
+[05:43:06]   task6:demo:demo_11 (extra): T=111 lift at t=64 -> probe frames (t, phase) []
+[05:43:06] task 6 done (553s so far): 12 probe frames
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[05:43:11] task 7: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[05:43:11] task 7: pick up the black bowl on the stove and place it on the plate
+[05:43:59] WARNING task7:demo:demo_0: no usable frame near phase 0.8 (t=48±6)
+[05:44:02]   task7:demo:demo_0 (discovery): T=155 lift at t=62 -> probe frames (t, phase) [(21, 0.3), (32, 0.55)]
+[05:44:35] WARNING task7:demo:demo_1: no usable frame near phase 0.8 (t=37±6)
+[05:44:38]   task7:demo:demo_1 (discovery): T=125 lift at t=48 -> probe frames (t, phase) [(17, 0.3), (27, 0.55)]
+[05:45:11] WARNING task7:demo:demo_2: no usable frame near phase 0.8 (t=38±6)
+[05:45:11]   task7:demo:demo_2 (test): T=124 lift at t=49 -> probe frames (t, phase) [(17, 0.3), (28, 0.55)]
+[05:45:59]   task7:demo:demo_3 (test): T=191 lift at t=111 -> probe frames (t, phase) [(32, 0.3), (62, 0.55), (82, 0.8)]
+[05:46:01]   task7:demo:demo_4 (extra): T=136 lift at t=53 -> probe frames (t, phase) []
+[05:46:04]   task7:demo:demo_5 (extra): T=138 lift at t=51 -> probe frames (t, phase) []
+[05:46:07]   task7:demo:demo_6 (extra): T=133 lift at t=64 -> probe frames (t, phase) []
+[05:46:10]   task7:demo:demo_7 (extra): T=130 lift at t=54 -> probe frames (t, phase) []
+[05:46:12]   task7:demo:demo_8 (extra): T=139 lift at t=53 -> probe frames (t, phase) []
+[05:46:15]   task7:demo:demo_9 (extra): T=145 lift at t=50 -> probe frames (t, phase) []
+[05:46:18]   task7:demo:demo_10 (extra): T=140 lift at t=48 -> probe frames (t, phase) []
+[05:46:20]   task7:demo:demo_11 (extra): T=164 lift at t=65 -> probe frames (t, phase) []
+[05:46:21] task 7 done (748s so far): 9 probe frames
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[05:46:26] task 8: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[05:46:26] task 8: pick up the black bowl next to the plate and place it on the plate
+[05:46:41]   task8:demo:demo_0 (discovery): T=115 lift at t=68 -> probe frames (t, phase) [(23, 0.3), (38, 0.55), (51, 0.8)]
+[05:46:50]   task8:demo:demo_1 (discovery): T=107 lift at t=61 -> probe frames (t, phase) [(21, 0.3), (34, 0.55), (47, 0.8)]
+[05:46:57]   task8:demo:demo_2 (test): T=138 lift at t=66 -> probe frames (t, phase) [(22, 0.3), (37, 0.55), (51, 0.8)]
+[05:47:13]   task8:demo:demo_3 (test): T=157 lift at t=62 -> probe frames (t, phase) [(21, 0.3), (35, 0.55), (46, 0.8)]
+[05:47:15]   task8:demo:demo_4 (extra): T=138 lift at t=65 -> probe frames (t, phase) []
+[05:47:18]   task8:demo:demo_5 (extra): T=113 lift at t=66 -> probe frames (t, phase) []
+[05:47:21]   task8:demo:demo_6 (extra): T=110 lift at t=65 -> probe frames (t, phase) []
+[05:47:23]   task8:demo:demo_7 (extra): T=107 lift at t=70 -> probe frames (t, phase) []
+[05:47:26]   task8:demo:demo_8 (extra): T=104 lift at t=62 -> probe frames (t, phase) []
+[05:47:28]   task8:demo:demo_9 (extra): T=126 lift at t=64 -> probe frames (t, phase) []
+[05:47:31]   task8:demo:demo_10 (extra): T=116 lift at t=58 -> probe frames (t, phase) []
+[05:47:34]   task8:demo:demo_11 (extra): T=125 lift at t=61 -> probe frames (t, phase) []
+[05:47:34] task 8 done (822s so far): 12 probe frames
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[05:47:39] task 9: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[05:47:39] task 9: pick up the black bowl on the wooden cabinet and place it on the plate
+[05:48:03]   task9:demo:demo_0 (discovery): T=136 lift at t=64 -> probe frames (t, phase) [(22, 0.3), (36, 0.55), (47, 0.8)]
+[05:48:18]   task9:demo:demo_1 (discovery): T=138 lift at t=60 -> probe frames (t, phase) [(21, 0.3), (34, 0.55), (46, 0.8)]
+[05:48:35]   task9:demo:demo_2 (test): T=130 lift at t=47 -> probe frames (t, phase) [(17, 0.3), (26, 0.55), (34, 0.8)]
+[05:48:47]   task9:demo:demo_3 (test): T=136 lift at t=52 -> probe frames (t, phase) [(18, 0.3), (29, 0.55), (39, 0.8)]
+[05:48:50]   task9:demo:demo_4 (extra): T=145 lift at t=67 -> probe frames (t, phase) []
+[05:48:53]   task9:demo:demo_5 (extra): T=139 lift at t=37 -> probe frames (t, phase) []
+[05:48:56]   task9:demo:demo_6 (extra): T=164 lift at t=71 -> probe frames (t, phase) []
+[05:48:58]   task9:demo:demo_7 (extra): T=119 lift at t=56 -> probe frames (t, phase) []
+[05:49:01]   task9:demo:demo_8 (extra): T=135 lift at t=63 -> probe frames (t, phase) []
+[05:49:04]   task9:demo:demo_9 (extra): T=173 lift at t=93 -> probe frames (t, phase) []
+[05:49:07]   task9:demo:demo_10 (extra): T=142 lift at t=59 -> probe frames (t, phase) []
+[05:49:09]   task9:demo:demo_11 (extra): T=131 lift at t=51 -> probe frames (t, phase) []
+[05:49:10] task 9 done (917s so far): 12 probe frames
+[05:49:17] saved 117 probe frames (58 discovery, 59 test) from 10 tasks, 115 with the distractor visible, 299 extra transcoder-training frames (924s)
+[05:49:17] == frames finished in 926s
+[05:49:18] == validate | out=/content/groot-run/outputs/permanence/tc_circuit_v3_rep_pi0
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[05:49:19] checkpoint config has compile_model=True -> disabling torch.compile (hooks need eager mode)
+WARNING:root:Vision embedding key might need handling: model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.embeddings.patch_embedding.bias
+WARNING:root:Vision embedding key might need handling: model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.embeddings.patch_embedding.weight
+The PI0 model is a direct port of the OpenPI implementation. 
+This implementation follows the original OpenPI structure for compatibility. 
+Original implementation: https://github.com/Physical-Intelligence/openpi
+Loading model from: lerobot/pi0_libero_finetuned_v044
+✓ Loaded state dict from model.safetensors
+All keys loaded successfully!
+/content/lerobot-venv/lib/python3.12/site-packages/torch/jit/_script.py:365: DeprecationWarning: `torch.jit.script_method` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://huggingface.co/google/paligemma-3b-pt-224/resolve/main/chat_template.jinja'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/content/lerobot-venv/lib/python3.12/site-packages/transformers/utils/hub.py", line 422, in cached_files
+    hf_hub_download(
+  File "/content/lerobot-venv/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 91, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/content/lerobot-venv/lib/python3.12/site-packages/huggingface_hub/utils/_http.py", line 266, in _inner
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/content/lerobot-venv/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 1043, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/lerobot-venv/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 1190, in _hf_hub_download_to_cache_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "/content/lerobot-venv/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 1949, in _raise_on_head_call_error
+    raise head_call_error
+huggingface_hub.errors.GatedRepoError: 401 Client Error. (Request ID: Root=1-6ab4ba73-4981412e564a07e912c4ae27;1d76a9f7-f0c9-4c30-86d3-89228448d260)
+
+Cannot access gated repo for url https://huggingface.co/google/paligemma-3b-pt-224/resolve/main/chat_template.jinja.
+Access to model google/paligemma-3b-pt-224 is restricted. You must have access to it and be authenticated to access it. Please log in.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/content/lerobot-venv/lib/python3.12/site-packages/lerobot/processor/pipeline.py", line 1146, in _instantiate_step
+    return step_class(**merged_cfg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 10, in __init__
+  File "/content/lerobot-venv/lib/python3.12/site-packages/lerobot/processor/tokenizer_processor.py", line 111, in __post_init__
+    self.input_tokenizer = AutoTokenizer.from_pretrained(self.tokenizer_name)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/lerobot-venv/lib/python3.12/site-packages/transformers/models/auto/tokenization_auto.py", line 792, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/lerobot-venv/lib/python3.12/site-packages/transformers/tokenization_utils_base.py", line 1698, in from_pretrained
+    resolved_vocab_files[file_id] = cached_file(
+                                    ^^^^^^^^^^^^
+  File "/content/lerobot-venv/lib/python3.12/site-packages/transformers/utils/hub.py", line 278, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/lerobot-venv/lib/python3.12/site-packages/transformers/utils/hub.py", line 488, in cached_files
+    raise OSError(
+OSError: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/google/paligemma-3b-pt-224.
+401 Client Error. (Request ID: Root=1-6ab4ba73-4981412e564a07e912c4ae27;1d76a9f7-f0c9-4c30-86d3-89228448d260)
+
+Cannot access gated repo for url https://huggingface.co/google/paligemma-3b-pt-224/resolve/main/chat_template.jinja.
+Access to model google/paligemma-3b-pt-224 is restricted. You must have access to it and be authenticated to access it. Please log in.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/content/groot-run/scripts/tc_occlusion_v3.py", line 3910, in <module>
+    main()
+  File "/content/groot-run/scripts/tc_occlusion_v3.py", line 3891, in main
+    COMMANDS[c]()
+  File "/content/groot-run/scripts/tc_occlusion_v3.py", line 2074, in cmd_validate
+    stack = get_stack()
+            ^^^^^^^^^^^
+  File "/content/groot-run/scripts/tc_occlusion_v3.py", line 1492, in get_stack
+    _CACHE["stack"] = Stack()
+                      ^^^^^^^
+  File "/content/groot-run/scripts/tc_occlusion_v3.py", line 1206, in __init__
+    self.pre, self.post = make_pre_post_processors(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/lerobot-venv/lib/python3.12/site-packages/lerobot/policies/factory.py", line 200, in make_pre_post_processors
+    preprocessor = PolicyProcessorPipeline.from_pretrained(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/lerobot-venv/lib/python3.12/site-packages/lerobot/processor/pipeline.py", line 742, in from_pretrained
+    steps, validated_overrides = cls._build_steps_with_overrides(
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/lerobot-venv/lib/python3.12/site-packages/lerobot/processor/pipeline.py", line 993, in _build_steps_with_overrides
+    steps, remaining_override_keys = cls._build_steps_from_config(loaded_config, overrides)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/lerobot-venv/lib/python3.12/site-packages/lerobot/processor/pipeline.py", line 1022, in _build_steps_from_config
+    processor_step = cls._instantiate_step(step_entry, step_class, step_key, overrides)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/lerobot-venv/lib/python3.12/site-packages/lerobot/processor/pipeline.py", line 1149, in _instantiate_step
+    raise ValueError(
+ValueError: Failed to instantiate processor step 'tokenizer_processor' with config: {'max_length': 48, 'task_key': 'task', 'padding_side': 'right', 'padding': 'max_length', 'truncation': True, 'tokenizer_name': 'google/paligemma-3b-pt-224'}. Error: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/google/paligemma-3b-pt-224.
+401 Client Error. (Request ID: Root=1-6ab4ba73-4981412e564a07e912c4ae27;1d76a9f7-f0c9-4c30-86d3-89228448d260)
+
+Cannot access gated repo for url https://huggingface.co/google/paligemma-3b-pt-224/resolve/main/chat_template.jinja.
+Access to model google/paligemma-3b-pt-224 is restricted. You must have access to it and be authenticated to access it. Please log in.

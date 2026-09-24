@@ -1,0 +1,535 @@
+[23:01:24] == frames | out=/content/groot-run/outputs/permanence/tc_circuit_v3_main
+/content/lerobot-venv/lib/python3.12/site-packages/robosuite/__init__.py:7: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  ROBOSUITE_DEFAULT_LOGGER.warn("No private macro file found!")
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /content/lerobot-venv/lib/python3.12/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[23:01:44] task 0: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[23:01:44] task 0: pick up the black bowl between the plate and the ramekin and place it on the plate
+[23:02:01]   task0:demo:demo_0 (discovery): T=98 lift at t=51 -> probe frames (t, phase) [(18, 0.3), (29, 0.55), (38, 0.8)]
+[23:02:23]   task0:demo:demo_1 (discovery): T=84 lift at t=47 -> probe frames (t, phase) [(17, 0.3), (26, 0.55), (34, 0.8)]
+[23:03:04]   task0:demo:demo_2 (test): T=90 lift at t=54 -> probe frames (t, phase) [(19, 0.3), (30, 0.55), (36, 0.8)]
+[23:03:12]   task0:demo:demo_3 (test): T=97 lift at t=53 -> probe frames (t, phase) [(18, 0.3), (30, 0.55), (41, 0.8)]
+[23:03:47]   task0:demo:demo_4 (test): T=105 lift at t=65 -> probe frames (t, phase) [(22, 0.3), (36, 0.55), (46, 0.8)]
+[23:03:50]   task0:demo:demo_5 (extra): T=134 lift at t=51 -> probe frames (t, phase) []
+[23:03:54]   task0:demo:demo_6 (extra): T=92 lift at t=46 -> probe frames (t, phase) []
+[23:03:57]   task0:demo:demo_7 (extra): T=92 lift at t=47 -> probe frames (t, phase) []
+[23:04:01]   task0:demo:demo_8 (extra): T=79 lift at t=45 -> probe frames (t, phase) []
+[23:04:04]   task0:demo:demo_9 (extra): T=89 lift at t=51 -> probe frames (t, phase) []
+[23:04:08]   task0:demo:demo_10 (extra): T=93 lift at t=57 -> probe frames (t, phase) []
+[23:04:12]   task0:demo:demo_11 (extra): T=128 lift at t=84 -> probe frames (t, phase) []
+[23:04:15]   task0:demo:demo_12 (extra): T=86 lift at t=51 -> probe frames (t, phase) []
+[23:04:19]   task0:demo:demo_13 (extra): T=88 lift at t=52 -> probe frames (t, phase) []
+[23:04:23]   task0:demo:demo_14 (extra): T=112 lift at t=81 -> probe frames (t, phase) []
+[23:04:26]   task0:demo:demo_15 (extra): T=84 lift at t=50 -> probe frames (t, phase) []
+[23:04:30]   task0:demo:demo_16 (extra): T=89 lift at t=53 -> probe frames (t, phase) []
+[23:04:30] task 0 done (184s so far): 15 probe frames
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[23:04:35] task 1: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[23:04:35] task 1: pick up the black bowl next to the ramekin and place it on the plate
+[23:04:48]   task1:demo:demo_0 (discovery): T=152 lift at t=69 -> probe frames (t, phase) [(23, 0.3), (39, 0.55), (54, 0.8)]
+[23:05:13]   task1:demo:demo_1 (discovery): T=123 lift at t=68 -> probe frames (t, phase) [(23, 0.3), (38, 0.55), (51, 0.8)]
+[23:05:22]   task1:demo:demo_2 (test): T=140 lift at t=63 -> probe frames (t, phase) [(22, 0.3), (35, 0.55), (49, 0.8)]
+[23:05:32]   task1:demo:demo_3 (test): T=175 lift at t=57 -> probe frames (t, phase) [(20, 0.3), (32, 0.55), (44, 0.8)]
+[23:05:47]   task1:demo:demo_4 (test): T=142 lift at t=66 -> probe frames (t, phase) [(22, 0.3), (37, 0.55), (50, 0.8)]
+[23:05:51]   task1:demo:demo_5 (extra): T=155 lift at t=101 -> probe frames (t, phase) []
+[23:05:54]   task1:demo:demo_6 (extra): T=145 lift at t=62 -> probe frames (t, phase) []
+[23:05:58]   task1:demo:demo_7 (extra): T=131 lift at t=70 -> probe frames (t, phase) []
+[23:06:01]   task1:demo:demo_8 (extra): T=152 lift at t=68 -> probe frames (t, phase) []
+[23:06:05]   task1:demo:demo_9 (extra): T=127 lift at t=65 -> probe frames (t, phase) []
+[23:06:09]   task1:demo:demo_10 (extra): T=111 lift at t=65 -> probe frames (t, phase) []
+[23:06:12]   task1:demo:demo_11 (extra): T=117 lift at t=51 -> probe frames (t, phase) []
+[23:06:16]   task1:demo:demo_12 (extra): T=114 lift at t=66 -> probe frames (t, phase) []
+[23:06:19]   task1:demo:demo_13 (extra): T=125 lift at t=63 -> probe frames (t, phase) []
+[23:06:23]   task1:demo:demo_14 (extra): T=150 lift at t=72 -> probe frames (t, phase) []
+[23:06:27]   task1:demo:demo_15 (extra): T=128 lift at t=75 -> probe frames (t, phase) []
+[23:06:30]   task1:demo:demo_16 (extra): T=135 lift at t=62 -> probe frames (t, phase) []
+[23:06:31] task 1 done (305s so far): 15 probe frames
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[23:06:36] task 2: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[23:06:36] task 2: pick up the black bowl from table center and place it on the plate
+[23:06:58]   task2:demo:demo_0 (discovery): T=103 lift at t=49 -> probe frames (t, phase) [(17, 0.3), (28, 0.55), (37, 0.8)]
+[23:07:18]   task2:demo:demo_1 (discovery): T=123 lift at t=69 -> probe frames (t, phase) [(23, 0.3), (40, 0.55), (54, 0.8)]
+[23:08:07]   task2:demo:demo_2 (test): T=122 lift at t=54 -> probe frames (t, phase) [(19, 0.3), (30, 0.55), (37, 0.8)]
+[23:08:18]   task2:demo:demo_3 (test): T=102 lift at t=45 -> probe frames (t, phase) [(16, 0.3), (25, 0.55), (35, 0.8)]
+[23:08:44]   task2:demo:demo_4 (test): T=111 lift at t=54 -> probe frames (t, phase) [(19, 0.3), (30, 0.55), (40, 0.8)]
+[23:08:48]   task2:demo:demo_5 (extra): T=111 lift at t=59 -> probe frames (t, phase) []
+[23:08:51]   task2:demo:demo_6 (extra): T=109 lift at t=51 -> probe frames (t, phase) []
+[23:08:55]   task2:demo:demo_7 (extra): T=123 lift at t=55 -> probe frames (t, phase) []
+[23:08:59]   task2:demo:demo_8 (extra): T=111 lift at t=55 -> probe frames (t, phase) []
+[23:09:02]   task2:demo:demo_9 (extra): T=110 lift at t=56 -> probe frames (t, phase) []
+[23:09:06]   task2:demo:demo_10 (extra): T=109 lift at t=54 -> probe frames (t, phase) []
+[23:09:10]   task2:demo:demo_11 (extra): T=101 lift at t=45 -> probe frames (t, phase) []
+[23:09:14]   task2:demo:demo_12 (extra): T=124 lift at t=55 -> probe frames (t, phase) []
+[23:09:17]   task2:demo:demo_13 (extra): T=122 lift at t=49 -> probe frames (t, phase) []
+[23:09:21]   task2:demo:demo_14 (extra): T=114 lift at t=52 -> probe frames (t, phase) []
+[23:09:25]   task2:demo:demo_15 (extra): T=136 lift at t=88 -> probe frames (t, phase) []
+[23:09:28]   task2:demo:demo_16 (extra): T=105 lift at t=54 -> probe frames (t, phase) []
+[23:09:29] task 2 done (483s so far): 15 probe frames
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[23:09:34] task 3: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[23:09:34] task 3: pick up the black bowl on the cookie box and place it on the plate
+[23:09:48]   task3:demo:demo_0 (discovery): T=99 lift at t=59 -> probe frames (t, phase) [(20, 0.3), (33, 0.55), (46, 0.8)]
+[23:10:01]   task3:demo:demo_1 (discovery): T=101 lift at t=51 -> probe frames (t, phase) [(18, 0.3), (29, 0.55), (39, 0.8)]
+[23:10:12]   task3:demo:demo_2 (test): T=95 lift at t=53 -> probe frames (t, phase) [(18, 0.3), (30, 0.55), (41, 0.8)]
+[23:10:31]   task3:demo:demo_3 (test): T=115 lift at t=59 -> probe frames (t, phase) [(20, 0.3), (33, 0.55), (45, 0.8)]
+[23:10:41]   task3:demo:demo_4 (test): T=103 lift at t=57 -> probe frames (t, phase) [(20, 0.3), (32, 0.55), (44, 0.8)]
+[23:10:45]   task3:demo:demo_5 (extra): T=99 lift at t=53 -> probe frames (t, phase) []
+[23:10:49]   task3:demo:demo_6 (extra): T=111 lift at t=61 -> probe frames (t, phase) []
+[23:10:52]   task3:demo:demo_7 (extra): T=95 lift at t=52 -> probe frames (t, phase) []
+[23:10:56]   task3:demo:demo_8 (extra): T=111 lift at t=51 -> probe frames (t, phase) []
+[23:11:00]   task3:demo:demo_9 (extra): T=129 lift at t=91 -> probe frames (t, phase) []
+[23:11:03]   task3:demo:demo_10 (extra): T=89 lift at t=51 -> probe frames (t, phase) []
+[23:11:07]   task3:demo:demo_11 (extra): T=97 lift at t=58 -> probe frames (t, phase) []
+[23:11:11]   task3:demo:demo_12 (extra): T=93 lift at t=56 -> probe frames (t, phase) []
+[23:11:14]   task3:demo:demo_13 (extra): T=99 lift at t=55 -> probe frames (t, phase) []
+[23:11:18]   task3:demo:demo_14 (extra): T=100 lift at t=57 -> probe frames (t, phase) []
+[23:11:21]   task3:demo:demo_15 (extra): T=119 lift at t=60 -> probe frames (t, phase) []
+[23:11:25]   task3:demo:demo_16 (extra): T=101 lift at t=53 -> probe frames (t, phase) []
+[23:11:25] task 3 done (599s so far): 15 probe frames
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[23:11:30] task 4: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[23:11:30] task 4: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate
+[23:12:29] WARNING task4:demo:demo_0: no usable frame near phase 0.3 (t=21±6)
+[23:13:27] WARNING task4:demo:demo_0: no usable frame near phase 0.55 (t=34±6)
+[23:14:26] WARNING task4:demo:demo_0: no usable frame near phase 0.8 (t=47±6)
+[23:14:29]   task4:demo:demo_0 (discovery): T=153 lift at t=61 -> probe frames (t, phase) []
+[23:15:28] WARNING task4:demo:demo_1: no usable frame near phase 0.3 (t=19±6)
+[23:16:28] WARNING task4:demo:demo_1: no usable frame near phase 0.55 (t=30±6)
+[23:17:26] WARNING task4:demo:demo_1: no usable frame near phase 0.8 (t=42±6)
+[23:17:30]   task4:demo:demo_1 (discovery): T=142 lift at t=54 -> probe frames (t, phase) []
+[23:18:29] WARNING task4:demo:demo_2: no usable frame near phase 0.3 (t=26±6)
+[23:19:28] WARNING task4:demo:demo_2: no usable frame near phase 0.55 (t=43±6)
+[23:20:27] WARNING task4:demo:demo_2: no usable frame near phase 0.8 (t=60±6)
+[23:20:27]   task4:demo:demo_2 (test): T=158 lift at t=77 -> probe frames (t, phase) []
+[23:21:26] WARNING task4:demo:demo_3: no usable frame near phase 0.3 (t=18±6)
+[23:22:25] WARNING task4:demo:demo_3: no usable frame near phase 0.55 (t=30±6)
+[23:23:23] WARNING task4:demo:demo_3: no usable frame near phase 0.8 (t=41±6)
+[23:23:23]   task4:demo:demo_3 (test): T=129 lift at t=53 -> probe frames (t, phase) []
+[23:24:23] WARNING task4:demo:demo_4: no usable frame near phase 0.3 (t=22±6)
+[23:25:22] WARNING task4:demo:demo_4: no usable frame near phase 0.55 (t=35±6)
+[23:26:23] WARNING task4:demo:demo_4: no usable frame near phase 0.8 (t=49±6)
+[23:26:23]   task4:demo:demo_4 (test): T=143 lift at t=63 -> probe frames (t, phase) []
+[23:26:27]   task4:demo:demo_5 (extra): T=158 lift at t=68 -> probe frames (t, phase) []
+[23:26:31]   task4:demo:demo_6 (extra): T=167 lift at t=60 -> probe frames (t, phase) []
+[23:26:34]   task4:demo:demo_7 (extra): T=156 lift at t=69 -> probe frames (t, phase) []
+[23:26:38]   task4:demo:demo_8 (extra): T=159 lift at t=53 -> probe frames (t, phase) []
+[23:26:42]   task4:demo:demo_9 (extra): T=132 lift at t=68 -> probe frames (t, phase) []
+[23:26:45]   task4:demo:demo_10 (extra): T=139 lift at t=62 -> probe frames (t, phase) []
+[23:26:49]   task4:demo:demo_11 (extra): T=182 lift at t=75 -> probe frames (t, phase) []
+[23:26:53]   task4:demo:demo_12 (extra): T=145 lift at t=67 -> probe frames (t, phase) []
+[23:26:57]   task4:demo:demo_13 (extra): T=141 lift at t=63 -> probe frames (t, phase) []
+[23:27:00]   task4:demo:demo_14 (extra): T=138 lift at t=59 -> probe frames (t, phase) []
+[23:27:04]   task4:demo:demo_15 (extra): T=150 lift at t=63 -> probe frames (t, phase) []
+[23:27:08]   task4:demo:demo_16 (extra): T=131 lift at t=61 -> probe frames (t, phase) []
+[23:27:08] task 4 done (1542s so far): 0 probe frames
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[23:27:13] task 5: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[23:27:13] task 5: pick up the black bowl on the ramekin and place it on the plate
+[23:27:29]   task5:demo:demo_0 (discovery): T=137 lift at t=0 -> probe frames (t, phase) [(5, 0.3), (6, 0.55), (7, 0.8)]
+[23:27:44]   task5:demo:demo_1 (discovery): T=131 lift at t=0 -> probe frames (t, phase) [(5, 0.3), (6, 0.55), (7, 0.8)]
+[23:27:56]   task5:demo:demo_2 (test): T=121 lift at t=0 -> probe frames (t, phase) [(5, 0.3), (6, 0.55), (7, 0.8)]
+[23:28:08]   task5:demo:demo_3 (test): T=121 lift at t=0 -> probe frames (t, phase) [(5, 0.3), (6, 0.55), (7, 0.8)]
+[23:28:19]   task5:demo:demo_4 (test): T=119 lift at t=0 -> probe frames (t, phase) [(5, 0.3), (6, 0.55), (7, 0.8)]
+[23:28:23]   task5:demo:demo_5 (extra): T=100 lift at t=0 -> probe frames (t, phase) []
+[23:28:27]   task5:demo:demo_6 (extra): T=101 lift at t=0 -> probe frames (t, phase) []
+[23:28:31]   task5:demo:demo_7 (extra): T=129 lift at t=0 -> probe frames (t, phase) []
+[23:28:35]   task5:demo:demo_8 (extra): T=123 lift at t=0 -> probe frames (t, phase) []
+[23:28:39]   task5:demo:demo_9 (extra): T=118 lift at t=0 -> probe frames (t, phase) []
+[23:28:43]   task5:demo:demo_10 (extra): T=137 lift at t=0 -> probe frames (t, phase) []
+[23:28:47]   task5:demo:demo_11 (extra): T=100 lift at t=0 -> probe frames (t, phase) []
+[23:28:51]   task5:demo:demo_12 (extra): T=96 lift at t=0 -> probe frames (t, phase) []
+[23:28:54]   task5:demo:demo_13 (extra): T=128 lift at t=0 -> probe frames (t, phase) []
+[23:28:58]   task5:demo:demo_14 (extra): T=154 lift at t=0 -> probe frames (t, phase) []
+[23:29:02]   task5:demo:demo_15 (extra): T=102 lift at t=0 -> probe frames (t, phase) []
+[23:29:06]   task5:demo:demo_16 (extra): T=116 lift at t=0 -> probe frames (t, phase) []
+[23:29:07] task 5 done (1661s so far): 15 probe frames
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[23:29:12] task 6: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[23:29:12] task 6: pick up the black bowl next to the cookie box and place it on the plate
+[23:30:05] WARNING task6:demo:demo_0: no usable frame near phase 0.3 (t=22±6)
+[23:30:58] WARNING task6:demo:demo_0: no usable frame near phase 0.55 (t=35±6)
+[23:31:52] WARNING task6:demo:demo_0: no usable frame near phase 0.8 (t=49±6)
+[23:31:56]   task6:demo:demo_0 (discovery): T=123 lift at t=63 -> probe frames (t, phase) []
+[23:32:49] WARNING task6:demo:demo_1: no usable frame near phase 0.3 (t=22±6)
+[23:33:42] WARNING task6:demo:demo_1: no usable frame near phase 0.55 (t=37±6)
+[23:34:35] WARNING task6:demo:demo_1: no usable frame near phase 0.8 (t=51±6)
+[23:34:39]   task6:demo:demo_1 (discovery): T=137 lift at t=66 -> probe frames (t, phase) []
+[23:35:32] WARNING task6:demo:demo_2: no usable frame near phase 0.3 (t=20±6)
+[23:36:26] WARNING task6:demo:demo_2: no usable frame near phase 0.55 (t=32±6)
+[23:37:19] WARNING task6:demo:demo_2: no usable frame near phase 0.8 (t=45±6)
+[23:37:19]   task6:demo:demo_2 (test): T=125 lift at t=58 -> probe frames (t, phase) []
+[23:38:13] WARNING task6:demo:demo_3: no usable frame near phase 0.3 (t=20±6)
+[23:39:05] WARNING task6:demo:demo_3: no usable frame near phase 0.55 (t=33±6)
+[23:39:59] WARNING task6:demo:demo_3: no usable frame near phase 0.8 (t=46±6)
+[23:39:59]   task6:demo:demo_3 (test): T=108 lift at t=59 -> probe frames (t, phase) []
+[23:40:53] WARNING task6:demo:demo_4: no usable frame near phase 0.3 (t=25±6)
+[23:41:46] WARNING task6:demo:demo_4: no usable frame near phase 0.55 (t=41±6)
+[23:42:39] WARNING task6:demo:demo_4: no usable frame near phase 0.8 (t=58±6)
+[23:42:39]   task6:demo:demo_4 (test): T=123 lift at t=74 -> probe frames (t, phase) []
+[23:42:43]   task6:demo:demo_5 (extra): T=130 lift at t=61 -> probe frames (t, phase) []
+[23:42:47]   task6:demo:demo_6 (extra): T=124 lift at t=59 -> probe frames (t, phase) []
+[23:42:50]   task6:demo:demo_7 (extra): T=123 lift at t=64 -> probe frames (t, phase) []
+[23:42:54]   task6:demo:demo_8 (extra): T=133 lift at t=61 -> probe frames (t, phase) []
+[23:42:57]   task6:demo:demo_9 (extra): T=113 lift at t=61 -> probe frames (t, phase) []
+[23:43:01]   task6:demo:demo_10 (extra): T=127 lift at t=69 -> probe frames (t, phase) []
+[23:43:05]   task6:demo:demo_11 (extra): T=111 lift at t=64 -> probe frames (t, phase) []
+[23:43:08]   task6:demo:demo_12 (extra): T=124 lift at t=70 -> probe frames (t, phase) []
+[23:43:12]   task6:demo:demo_13 (extra): T=124 lift at t=68 -> probe frames (t, phase) []
+[23:43:16]   task6:demo:demo_14 (extra): T=141 lift at t=59 -> probe frames (t, phase) []
+[23:43:19]   task6:demo:demo_15 (extra): T=106 lift at t=56 -> probe frames (t, phase) []
+[23:43:23]   task6:demo:demo_16 (extra): T=118 lift at t=64 -> probe frames (t, phase) []
+[23:43:24] task 6 done (2517s so far): 0 probe frames
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[23:43:28] task 7: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[23:43:28] task 7: pick up the black bowl on the stove and place it on the plate
+[23:44:32] WARNING task7:demo:demo_0: no usable frame near phase 0.8 (t=48±6)
+[23:44:36]   task7:demo:demo_0 (discovery): T=155 lift at t=62 -> probe frames (t, phase) [(21, 0.3), (32, 0.55)]
+[23:45:20] WARNING task7:demo:demo_1: no usable frame near phase 0.8 (t=37±6)
+[23:45:24]   task7:demo:demo_1 (discovery): T=125 lift at t=48 -> probe frames (t, phase) [(17, 0.3), (27, 0.55)]
+[23:46:09] WARNING task7:demo:demo_2: no usable frame near phase 0.8 (t=38±6)
+[23:46:09]   task7:demo:demo_2 (test): T=124 lift at t=49 -> probe frames (t, phase) [(17, 0.3), (28, 0.55)]
+[23:47:11]   task7:demo:demo_3 (test): T=191 lift at t=111 -> probe frames (t, phase) [(32, 0.3), (62, 0.55), (82, 0.8)]
+[23:47:56] WARNING task7:demo:demo_4: no usable frame near phase 0.8 (t=41±6)
+[23:47:56]   task7:demo:demo_4 (test): T=136 lift at t=53 -> probe frames (t, phase) [(18, 0.3), (30, 0.55)]
+[23:47:59]   task7:demo:demo_5 (extra): T=138 lift at t=51 -> probe frames (t, phase) []
+[23:48:03]   task7:demo:demo_6 (extra): T=133 lift at t=64 -> probe frames (t, phase) []
+[23:48:07]   task7:demo:demo_7 (extra): T=130 lift at t=54 -> probe frames (t, phase) []
+[23:48:10]   task7:demo:demo_8 (extra): T=139 lift at t=53 -> probe frames (t, phase) []
+[23:48:14]   task7:demo:demo_9 (extra): T=145 lift at t=50 -> probe frames (t, phase) []
+[23:48:18]   task7:demo:demo_10 (extra): T=140 lift at t=48 -> probe frames (t, phase) []
+[23:48:22]   task7:demo:demo_11 (extra): T=164 lift at t=65 -> probe frames (t, phase) []
+[23:48:25]   task7:demo:demo_12 (extra): T=124 lift at t=51 -> probe frames (t, phase) []
+[23:48:29]   task7:demo:demo_13 (extra): T=138 lift at t=48 -> probe frames (t, phase) []
+[23:48:33]   task7:demo:demo_14 (extra): T=120 lift at t=48 -> probe frames (t, phase) []
+[23:48:36]   task7:demo:demo_15 (extra): T=137 lift at t=57 -> probe frames (t, phase) []
+[23:48:40]   task7:demo:demo_16 (extra): T=141 lift at t=54 -> probe frames (t, phase) []
+[23:48:41] task 7 done (2835s so far): 11 probe frames
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[23:48:46] task 8: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[23:48:46] task 8: pick up the black bowl next to the plate and place it on the plate
+[23:49:10]   task8:demo:demo_0 (discovery): T=115 lift at t=68 -> probe frames (t, phase) [(23, 0.3), (38, 0.55), (51, 0.8)]
+[23:49:24]   task8:demo:demo_1 (discovery): T=107 lift at t=61 -> probe frames (t, phase) [(21, 0.3), (34, 0.55), (47, 0.8)]
+[23:49:35]   task8:demo:demo_2 (test): T=138 lift at t=66 -> probe frames (t, phase) [(22, 0.3), (37, 0.55), (51, 0.8)]
+[23:49:58]   task8:demo:demo_3 (test): T=157 lift at t=62 -> probe frames (t, phase) [(21, 0.3), (35, 0.55), (46, 0.8)]
+[23:50:14]   task8:demo:demo_4 (test): T=138 lift at t=65 -> probe frames (t, phase) [(22, 0.3), (36, 0.55), (50, 0.8)]
+[23:50:18]   task8:demo:demo_5 (extra): T=113 lift at t=66 -> probe frames (t, phase) []
+[23:50:21]   task8:demo:demo_6 (extra): T=110 lift at t=65 -> probe frames (t, phase) []
+[23:50:25]   task8:demo:demo_7 (extra): T=107 lift at t=70 -> probe frames (t, phase) []
+[23:50:29]   task8:demo:demo_8 (extra): T=104 lift at t=62 -> probe frames (t, phase) []
+[23:50:32]   task8:demo:demo_9 (extra): T=126 lift at t=64 -> probe frames (t, phase) []
+[23:50:36]   task8:demo:demo_10 (extra): T=116 lift at t=58 -> probe frames (t, phase) []
+[23:50:40]   task8:demo:demo_11 (extra): T=125 lift at t=61 -> probe frames (t, phase) []
+[23:50:43]   task8:demo:demo_12 (extra): T=106 lift at t=65 -> probe frames (t, phase) []
+[23:50:47]   task8:demo:demo_13 (extra): T=137 lift at t=62 -> probe frames (t, phase) []
+[23:50:50]   task8:demo:demo_14 (extra): T=97 lift at t=59 -> probe frames (t, phase) []
+[23:50:54]   task8:demo:demo_15 (extra): T=152 lift at t=105 -> probe frames (t, phase) []
+[23:50:57]   task8:demo:demo_16 (extra): T=114 lift at t=74 -> probe frames (t, phase) []
+[23:50:58] task 8 done (2972s so far): 15 probe frames
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[23:51:03] task 9: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[23:51:03] task 9: pick up the black bowl on the wooden cabinet and place it on the plate
+[23:51:40]   task9:demo:demo_0 (discovery): T=136 lift at t=64 -> probe frames (t, phase) [(22, 0.3), (36, 0.55), (47, 0.8)]
+[23:52:02]   task9:demo:demo_1 (discovery): T=138 lift at t=60 -> probe frames (t, phase) [(21, 0.3), (34, 0.55), (46, 0.8)]
+[23:52:27]   task9:demo:demo_2 (test): T=130 lift at t=47 -> probe frames (t, phase) [(17, 0.3), (26, 0.55), (34, 0.8)]
+[23:52:46]   task9:demo:demo_3 (test): T=136 lift at t=52 -> probe frames (t, phase) [(18, 0.3), (29, 0.55), (39, 0.8)]
+[23:52:56]   task9:demo:demo_4 (test): T=145 lift at t=67 -> probe frames (t, phase) [(23, 0.3), (37, 0.55), (52, 0.8)]
+[23:53:00]   task9:demo:demo_5 (extra): T=139 lift at t=37 -> probe frames (t, phase) []
+[23:53:04]   task9:demo:demo_6 (extra): T=164 lift at t=71 -> probe frames (t, phase) []
+[23:53:07]   task9:demo:demo_7 (extra): T=119 lift at t=56 -> probe frames (t, phase) []
+[23:53:11]   task9:demo:demo_8 (extra): T=135 lift at t=63 -> probe frames (t, phase) []
+[23:53:15]   task9:demo:demo_9 (extra): T=173 lift at t=93 -> probe frames (t, phase) []
+[23:53:19]   task9:demo:demo_10 (extra): T=142 lift at t=59 -> probe frames (t, phase) []
+[23:53:23]   task9:demo:demo_11 (extra): T=131 lift at t=51 -> probe frames (t, phase) []
+[23:53:26]   task9:demo:demo_12 (extra): T=126 lift at t=54 -> probe frames (t, phase) []
+[23:53:30]   task9:demo:demo_13 (extra): T=134 lift at t=50 -> probe frames (t, phase) []
+[23:53:34]   task9:demo:demo_14 (extra): T=136 lift at t=62 -> probe frames (t, phase) []
+[23:53:37]   task9:demo:demo_15 (extra): T=193 lift at t=37 -> probe frames (t, phase) []
+[23:53:41]   task9:demo:demo_16 (extra): T=142 lift at t=50 -> probe frames (t, phase) []
+[23:53:42] task 9 done (3135s so far): 15 probe frames
+[23:53:50] saved 116 probe frames (46 discovery, 70 test) from 10 tasks, 114 with the distractor visible, 419 extra transcoder-training frames (3144s)
+[23:53:50] == frames finished in 3145s
+[23:53:50] == validate | out=/content/groot-run/outputs/permanence/tc_circuit_v3_main
+[23:53:55] checkpoint config has compile_model=True -> disabling torch.compile (hooks need eager mode)
+WARNING:root:Vision embedding key might need handling: model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.embeddings.patch_embedding.bias
+WARNING:root:Vision embedding key might need handling: model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.embeddings.patch_embedding.weight
+The PI05 model is a direct port of the OpenPI implementation. 
+This implementation follows the original OpenPI structure for compatibility. 
+Original implementation: https://github.com/Physical-Intelligence/openpi
+Loading model from: lerobot/pi05_libero_finetuned
+✓ Loaded state dict from model.safetensors
+All keys loaded successfully!
+/content/lerobot-venv/lib/python3.12/site-packages/torch/jit/_script.py:365: DeprecationWarning: `torch.jit.script_method` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[23:56:26] policy PI05Policy loaded from lerobot/pi05_libero_finetuned in 151s | dtype=bfloat16 chunk=50 n_action_steps=50 image_features=['observation.images.image', 'observation.images.image2', 'observation.images.empty_camera_0'] | state input to sample_actions: False
+[23:56:26] hooked 18 LLM decoder layers (MLP + residual output)
+[23:56:34] validated 1/116 frames (8s)
+[23:57:08] validated 11/116 frames (42s)
+[23:57:46] validated 21/116 frames (81s)
+[23:58:25] validated 31/116 frames (119s)
+[23:58:59] validated 41/116 frames (153s)
+[23:59:37] validated 51/116 frames (191s)
+[00:00:16] validated 61/116 frames (230s)
+[00:00:50] validated 71/116 frames (264s)
+[00:01:28] validated 81/116 frames (302s)
+[00:02:06] validated 91/116 frames (341s)
+[00:02:40] validated 101/116 frames (375s)
+[00:03:19] validated 111/116 frames (413s)
+[00:03:36] validated 116/116 frames (430s)
+[00:03:36] check 1 (edits clean): PASS | max outside=0.0227508544921875 (rendered 0.0228) | state identical=True | prompt identical=True | absent leftover px=0 | warnings=0
+[00:03:36] check 2 (determinism, 8 frames): PASS | repeat max diff = 0.000e+00 | batch invariance (B=8): max diff 0.000e+00 -> OK, batched patching enabled
+[00:03:36] check 3 [cover]: PASS | 100% of 116 frames have gap >= 0.02 | median gap 0.910960853099823 | miss control median 0.136 | target vs distractor occluder 0.9564488530158997 vs 0.1614989936351776
+[00:03:36] check 3 [screen]: PASS | 100% of 116 frames have gap >= 0.02 | median gap 0.3661870211362839 | miss control median 0.136 | target vs distractor occluder None vs None
+[00:03:36] check 3 [paint]: PASS | 100% of 116 frames have gap >= 0.02 | median gap 0.2288317233324051 | miss control median 0.162 | target vs distractor occluder 0.2288317233324051 vs 0.06260330602526665
+[00:03:36]    median action RMSE vs base: recolor 0.157 | absent 0.749 | occluded 0.229 | slab_miss 0.162 | occluded_distractor 0.063 | covered 0.911 | cover_miss 0.136 | covered_distractor 0.161 | screened 0.366 | screen_miss 0.136
+[00:05:49] check 4 (ceiling, 8 discovery frames): PASS | best full-layer swap = 94.4% at layer 1 (need >= 80.0%) | RANK LAYERS [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+[00:05:49]    layer : cover resid/mlp % | screen resid/mlp % | paint resid/mlp %
+[00:05:49]        0 :   94.4 /  -0.0 |   99.1 /   4.4 |   98.1 /   1.8
+[00:05:49]        1 :   94.4 /   2.7 |   99.2 /   3.4 |   98.0 /   2.6
+[00:05:49]        2 :   92.5 /   1.6 |   94.5 /   4.0 |   97.2 /   4.3
+[00:05:49]        3 :   92.3 /   3.0 |   91.4 /   7.9 |   96.9 /   7.2
+[00:05:49]        4 :   92.0 /   1.7 |   90.2 /   2.4 |   96.9 /   5.3
+[00:05:49]        5 :   88.2 /   1.7 |   89.8 /   8.9 |   96.0 /   6.3
+[00:05:49]        6 :   89.6 /   1.4 |   88.3 /   7.8 |   95.6 /   4.3
+[00:05:49]        7 :   89.5 /   3.3 |   82.5 /   7.5 |   95.0 /   9.5
+[00:05:49]        8 :   62.1 /   3.2 |   78.3 /   8.7 |   79.4 /  13.4
+[00:05:49]        9 :   49.3 /   3.2 |   65.2 /   8.2 |   62.4 /  10.3
+[00:05:49]       10 :   43.6 /   3.6 |   64.1 /   8.9 |   47.2 /  10.0
+[00:05:49]       11 :   43.0 /   5.6 |   63.5 /  15.1 |   46.7 /   9.6
+[00:05:49]       12 :   25.6 /   8.0 |   43.3 /  19.0 |   25.3 /  14.5
+[00:05:49]       13 :   22.4 /   9.4 |   39.6 /  17.1 |   24.0 /  14.7
+[00:05:49]       14 :    1.6 /   0.4 |    4.4 /   2.0 |    2.4 /   1.1
+[00:05:49]       15 :    1.3 /   0.7 |    3.3 /   2.5 |    1.9 /   1.6
+[00:05:49]       16 :    0.1 /  -0.0 |   -0.0 /  -0.0 |   -0.0 /  -0.0
+[00:05:49]       17 :    0.0 /   0.0 |    0.0 /   0.0 |    0.0 /   0.0
+[00:05:49] == validate finished in 719s
+[00:05:50] == capture | out=/content/groot-run/outputs/permanence/tc_circuit_v3_main
+[00:05:51] capture: 2177 samples (501 discovery-probe, 1676 extra), 571 valid tokens each -> ~170.7 GB at full density (available RAM 154.5 GB, free disk 144 GB) -> token keep fraction 0.34 (~57.6 GB)
+[00:05:51] captured 8/2177 samples (1s)
+[00:06:16] captured 138/2177 samples (27s)
+[00:06:43] captured 278/2177 samples (53s)
+[00:07:09] captured 413/2177 samples (79s)
+[00:07:34] captured 537/2177 samples (104s)
+[00:07:57] captured 637/2177 samples (127s)
+[00:08:20] captured 737/2177 samples (150s)
+[00:08:43] captured 837/2177 samples (173s)
+[00:09:06] captured 937/2177 samples (196s)
+[00:09:28] captured 1037/2177 samples (219s)
+[00:09:51] captured 1137/2177 samples (241s)
+[00:10:14] captured 1237/2177 samples (264s)
+[00:10:37] captured 1337/2177 samples (287s)
+[00:11:00] captured 1437/2177 samples (310s)
+[00:11:23] captured 1537/2177 samples (333s)
+[00:11:46] captured 1637/2177 samples (356s)
+[00:12:09] captured 1737/2177 samples (379s)
+[00:12:32] captured 1837/2177 samples (402s)
+[00:12:55] captured 1937/2177 samples (425s)
+[00:13:18] captured 2037/2177 samples (448s)
+[00:13:41] captured 2137/2177 samples (471s)
+[00:13:50] captured 2177/2177 samples (480s)
+[00:16:31] saved activations for 18 layers, 2177 samples from 10 tasks, 417422 tokens -> /content/groot-run/outputs/permanence/tc_circuit_v3_main/acts
+[00:16:31] == capture finished in 641s
+[00:16:32] == train | out=/content/groot-run/outputs/permanence/tc_circuit_v3_main
+[00:17:46] layer  0: held-out FVU=0.0184 alive=4077/4096 tokens=396551 steps=8000 (74s)
+[00:18:43] layer  1: held-out FVU=0.1979 alive=4096/4096 tokens=396551 steps=8000 (56s)
+[00:19:40] layer  2: held-out FVU=0.1872 alive=4096/4096 tokens=396551 steps=8000 (56s)
+[00:21:57] layer  3: FVU 0.2071 > 0.2 -> retrained with 12000 steps: FVU 0.2068
+[00:21:58] layer  3: held-out FVU=0.2068 alive=4096/4096 tokens=396551 steps=12000 (137s)
+[00:24:15] layer  4: FVU 0.2121 > 0.2 -> retrained with 12000 steps: FVU 0.2119
+[00:24:15] layer  4: held-out FVU=0.2119 alive=4096/4096 tokens=396551 steps=12000 (137s)
+[00:25:12] layer  5: held-out FVU=0.1955 alive=4096/4096 tokens=396551 steps=8000 (56s)
+[00:27:29] layer  6: FVU 0.2582 > 0.2 -> retrained with 12000 steps: FVU 0.2579
+[00:27:29] layer  6: held-out FVU=0.2579 alive=4096/4096 tokens=396551 steps=12000 (136s)
+[00:29:46] layer  7: FVU 0.2010 > 0.2 -> retrained with 12000 steps: FVU 0.2009
+[00:29:46] layer  7: held-out FVU=0.2009 alive=4096/4096 tokens=396551 steps=12000 (136s)
+[00:32:02] layer  8: FVU 0.2525 > 0.2 -> retrained with 12000 steps: FVU 0.2529
+[00:32:02] layer  8: held-out FVU=0.2525 alive=4096/4096 tokens=396551 steps=8000 (136s)
+[00:34:19] layer  9: FVU 0.2560 > 0.2 -> retrained with 12000 steps: FVU 0.2563
+[00:34:19] layer  9: held-out FVU=0.2560 alive=4096/4096 tokens=396551 steps=8000 (136s)
+[00:36:36] layer 10: FVU 0.3220 > 0.2 -> retrained with 12000 steps: FVU 0.3226
+[00:36:36] layer 10: held-out FVU=0.3220 alive=4096/4096 tokens=396551 steps=8000 (136s)
+[00:38:53] layer 11: FVU 0.2511 > 0.2 -> retrained with 12000 steps: FVU 0.2516
+[00:38:53] layer 11: held-out FVU=0.2511 alive=4096/4096 tokens=396551 steps=8000 (136s)
+[00:41:10] layer 12: FVU 0.2808 > 0.2 -> retrained with 12000 steps: FVU 0.2819
+[00:41:10] layer 12: held-out FVU=0.2808 alive=4096/4096 tokens=396551 steps=8000 (137s)
+[00:43:26] layer 13: FVU 0.2117 > 0.2 -> retrained with 12000 steps: FVU 0.2124
+[00:43:26] layer 13: held-out FVU=0.2117 alive=4096/4096 tokens=396551 steps=8000 (136s)
+[00:44:23] layer 14: held-out FVU=0.1857 alive=4096/4096 tokens=396551 steps=8000 (56s)
+[00:45:19] layer 15: held-out FVU=0.1980 alive=4096/4096 tokens=396551 steps=8000 (56s)
+[00:46:36] layer 16: held-out FVU=0.0204 alive=3624/4096 tokens=396551 steps=8000 (76s)
+[00:48:02] layer 17: held-out FVU=0.0239 alive=2725/4096 tokens=396551 steps=8000 (86s)
+[00:48:49] check 5 (transcoder faithful): FAIL | median held-out FVU=0.2039 (need <= 0.2) | median FVU on 10 held-out TEST frames=0.2938
+[00:48:49]    layer | FVU(held-out) | FVU(test frames) | splice RMSE / occlusion gap (test frames)
+[00:48:49]        0 |       0.0184 |          0.0359 |    0.051
+[00:48:49]        1 |       0.1979 |          0.3283 |    0.196
+[00:48:49]        2 |       0.1872 |          0.2848 |    0.110
+[00:48:49]        3 |       0.2068 |          0.3027 |    0.143
+[00:48:49]        4 |       0.2119 |          0.3031 |    0.125
+[00:48:49]        5 |       0.1955 |          0.2633 |    0.144
+[00:48:49]        6 |       0.2579 |          0.3709 |    0.126
+[00:48:49]        7 |       0.2009 |          0.2727 |    0.157
+[00:48:49]        8 |       0.2525 |          0.3434 |    0.147
+[00:48:49]        9 |       0.2560 |          0.3406 |    0.150
+[00:48:49]       10 |       0.3220 |          0.4258 |    0.190
+[00:48:49]       11 |       0.2511 |          0.3405 |    0.211
+[00:48:49]       12 |       0.2808 |          0.4043 |    0.256
+[00:48:49]       13 |       0.2117 |          0.2792 |    0.204
+[00:48:49]       14 |       0.1857 |          0.2412 |    0.045
+[00:48:49]       15 |       0.1980 |          0.2772 |    0.039
+[00:48:49]       16 |       0.0204 |          0.0276 |    0.009
+[00:48:49]       17 |       0.0239 |          0.0403 |    0.000
+[00:48:57] deleted the activation cache (acts/, 57.4 GB): only training needs it, and capture re-creates it if train is re-run
+[00:48:57] == train finished in 1945s
+[00:48:57] == goal1 | out=/content/groot-run/outputs/permanence/tc_circuit_v3_main
+[00:48:59] goal1: encoded 1/46 discovery frames x 10 conditions (2s)
+[00:49:15] goal1: encoded 11/46 discovery frames x 11 conditions (18s)
+[00:49:31] goal1: encoded 21/46 discovery frames x 11 conditions (34s)
+[00:49:47] goal1: encoded 31/46 discovery frames x 11 conditions (50s)
+[00:50:03] goal1: encoded 41/46 discovery frames x 11 conditions (66s)
+[00:50:11] goal1: encoded 46/46 discovery frames x 11 conditions (74s)
+[00:50:12] goal1 [cover]: 452 passing features (417 also target-specific) of 73728 | top layers [6, 5, 8] | capped set 129 | fold sets [131, 126]
+[00:50:12] goal1 [screen]: 731 passing features (0 also target-specific) of 73728 | top layers [1, 2, 5] | capped set 128 | fold sets [131, 127]
+[00:50:12] goal1 [paint]: 24 passing features (24 also target-specific) of 73728 | top layers [2, 4, 6] | capped set 24 | fold sets [50, 29]
+[00:50:16] == goal1 finished in 79s
+[00:50:17] == attrib | out=/content/groot-run/outputs/permanence/tc_circuit_v3_main
+[00:50:21] attrib: 1/116 frames (5s) | forward consistency max diff 2.18e-02
+[00:51:08] attrib: 11/116 frames (51s) | forward consistency max diff 5.15e-02
+[00:51:55] attrib: 21/116 frames (98s) | forward consistency max diff 5.15e-02
+[00:52:41] attrib: 31/116 frames (145s) | forward consistency max diff 5.15e-02
+[00:53:28] attrib: 41/116 frames (191s) | forward consistency max diff 5.15e-02
+[00:54:14] attrib: 51/116 frames (238s) | forward consistency max diff 5.15e-02
+[00:55:01] attrib: 61/116 frames (285s) | forward consistency max diff 5.15e-02
+[00:55:48] attrib: 71/116 frames (331s) | forward consistency max diff 5.15e-02
+[00:56:34] attrib: 81/116 frames (378s) | forward consistency max diff 5.15e-02
+[00:57:21] attrib: 91/116 frames (424s) | forward consistency max diff 5.15e-02
+[00:58:08] attrib: 101/116 frames (471s) | forward consistency max diff 5.15e-02
+[00:58:54] attrib: 111/116 frames (518s) | forward consistency max diff 5.15e-02
+[00:59:18] attrib: 116/116 frames (541s) | forward consistency max diff 5.15e-02
+[00:59:22] attrib [cover]: predicted closure of the top-K discovery features: K=10: 2.8%, K=30: 5.8%, K=100: 12.1%, K=300: 23.4%, K=1000: 44.6%, K=3000: 73.6% | all features 22.9% | 50% of positive mass in 2317 features
+[00:59:26] attrib [screen]: predicted closure of the top-K discovery features: K=10: 2.5%, K=30: 5.5%, K=100: 12.8%, K=300: 26.3%, K=1000: 53.3%, K=3000: 92.3% | all features 70.0% | 50% of positive mass in 3086 features
+[00:59:31] attrib [paint]: predicted closure of the top-K discovery features: K=10: 5.6%, K=30: 11.3%, K=100: 24.2%, K=300: 43.5%, K=1000: 76.5%, K=3000: 121.6% | all features 78.1% | 50% of positive mass in 2449 features
+[00:59:31] == attrib finished in 554s
+[00:59:31] == goal2 | out=/content/groot-run/outputs/permanence/tc_circuit_v3_main
+[00:59:33] Goal 2 feature sets (fixed on discovery data): cover: selective 129 (uncapped 452), attribution 100 | screen: selective 128 (uncapped 731), attribution 100 | paint: selective 24 (uncapped 24), attribution 100 | rank layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13] | K_A=100
+[00:59:56] goal2 1/116 (test frame 6, task 0) 24s | cover: attr/sel/ceiling 0.0/3.2/81.1 | screen: attr/sel/ceiling -0.7/-0.7/73.9 | paint: attr/sel/ceiling 0.0/8.7/77.8
+[01:01:53] goal2 6/116 (test frame 11, task 0) 141s | cover: attr/sel/ceiling 0.2/1.2/47.5 | screen: attr/sel/ceiling 1.1/2.1/93.1 | paint: attr/sel/ceiling -0.6/4.7/79.8
+[01:03:50] goal2 11/116 (test frame 22, task 1) 258s | cover: attr/sel/ceiling -0.1/0.6/46.9 | screen: attr/sel/ceiling 0.2/2.2/52.3 | paint: attr/sel/ceiling 0.9/17.6/84.3
+[01:05:48] goal2 16/116 (test frame 27, task 1) 375s | cover: attr/sel/ceiling 0.5/0.3/85.3 | screen: attr/sel/ceiling -0.2/7.0/90.1 | paint: attr/sel/ceiling -0.3/7.7/76.7
+[01:07:41] goal2 21/116 (test frame 38, task 2) 488s | cover: attr/sel/ceiling -0.3/0.9/77.6 | screen: attr/sel/ceiling -0.6/3.4/88.4
+[01:09:34] goal2 26/116 (test frame 43, task 2) 601s | cover: attr/sel/ceiling 0.4/1.2/40.8 | screen: attr/sel/ceiling 0.1/0.3/91.9 | paint: attr/sel/ceiling 0.4/0.8/57.2
+[01:11:27] goal2 31/116 (test frame 54, task 3) 714s | cover: attr/sel/ceiling -0.9/0.8/73.1 | screen: attr/sel/ceiling 0.8/2.1/94.5 | paint: attr/sel/ceiling -2.7/10.7/81.4
+[01:13:24] goal2 36/116 (test frame 59, task 3) 832s | cover: attr/sel/ceiling -0.2/0.4/83.6 | screen: attr/sel/ceiling 1.1/0.1/71.2 | paint: attr/sel/ceiling 0.1/-0.4/88.9
+[01:15:21] goal2 41/116 (test frame 70, task 5) 949s | cover: attr/sel/ceiling -0.2/5.4/89.9 | screen: attr/sel/ceiling 2.2/4.2/32.6 | paint: attr/sel/ceiling -0.5/5.5/72.8
+[01:17:15] goal2 46/116 (test frame 79, task 7) 1062s | cover: attr/sel/ceiling 2.7/-0.2/1.0 | screen: attr/sel/ceiling 1.0/2.9/90.0
+[01:19:04] goal2 51/116 (test frame 84, task 7) 1171s | cover: attr/sel/ceiling 0.3/-0.6/55.6 | paint: attr/sel/ceiling 0.1/0.9/13.9
+[01:20:57] goal2 56/116 (test frame 95, task 8) 1285s | cover: attr/sel/ceiling 2.1/1.7/89.7 | screen: attr/sel/ceiling 0.4/-1.9/91.6 | paint: attr/sel/ceiling -0.6/11.4/55.6
+[01:22:55] goal2 61/116 (test frame 100, task 8) 1402s | cover: attr/sel/ceiling 0.1/0.5/69.2 | screen: attr/sel/ceiling -0.3/4.0/86.9 | paint: attr/sel/ceiling 0.6/3.4/83.4
+[01:24:52] goal2 66/116 (test frame 111, task 9) 1519s | cover: attr/sel/ceiling 0.1/0.1/56.3 | screen: attr/sel/ceiling 0.8/-32.1/85.2 | paint: attr/sel/ceiling 1.8/6.1/80.9
+[01:26:27] goal2 71/116 (discovery frame 0, task 0) 1614s | cover: attr/sel/ceiling -0.3/1.3/79.1 | paint: attr/sel/ceiling -0.2/5.9/84.4
+[01:26:53] goal2 76/116 (discovery frame 5, task 0) 1641s | cover: attr/sel/ceiling -0.1/0.5/77.1 | paint: attr/sel/ceiling -0.6/1.0/85.2
+[01:27:19] goal2 81/116 (discovery frame 19, task 1) 1666s | cover: attr/sel/ceiling 4.1/-0.3/71.7 | paint: attr/sel/ceiling 0.7/17.5/66.0
+[01:27:45] goal2 86/116 (discovery frame 33, task 2) 1692s | cover: attr/sel/ceiling -0.0/0.6/95.0 | paint: attr/sel/ceiling 0.1/1.1/63.5
+[01:28:09] goal2 91/116 (discovery frame 47, task 3) 1716s | cover: attr/sel/ceiling -0.5/0.4/82.1 | paint: attr/sel/ceiling 0.4/0.1/30.4
+[01:28:35] goal2 96/116 (discovery frame 61, task 5) 1743s | cover: attr/sel/ceiling 0.1/1.6/95.7 | paint: attr/sel/ceiling -0.5/1.5/56.2
+[01:29:00] goal2 101/116 (discovery frame 75, task 7) 1768s | cover: attr/sel/ceiling 2.1/0.6/39.2
+[01:29:26] goal2 106/116 (discovery frame 87, task 8) 1793s | cover: attr/sel/ceiling 6.4/6.1/72.0 | paint: attr/sel/ceiling -0.3/2.2/90.4
+[01:29:52] goal2 111/116 (discovery frame 101, task 9) 1819s | cover: attr/sel/ceiling -0.0/3.1/87.9 | paint: attr/sel/ceiling 0.2/0.2/87.9
+[01:30:19] goal2 116/116 (discovery frame 106, task 9) 1846s | cover: attr/sel/ceiling -0.4/1.4/80.2 | paint: attr/sel/ceiling -0.4/0.3/92.1
+[01:30:22] [cover] attribution set (100) 1.49% vs random same-norm 0.04% -> H2-A fail | selective (129) 0.16% vs random 0.04% -> H2-S fail | all TC 56.8% | MLP ceiling 73.3% | error term 6.9%
+[01:30:22]    k-curve [attr]: K=10: 0.2% | K=30: 0.4% | K=100: 1.5% | K=300: 4.6% | K=1000: 13.6% | K=3000: 23.7%
+[01:30:22]    k-curve [oracle]: K=10: 4.6% | K=30: 9.6% | K=100: 16.7% | K=300: 23.4% | K=1000: 28.5% | K=3000: 29.2%
+[01:30:22]    k-curve [magnitude]: K=10: -0.1% | K=30: 0.0% | K=100: 0.5% | K=300: 1.1% | K=1000: 2.6% | K=3000: 4.6%
+[01:30:22]    k-curve [random]: K=10: 0.0% | K=30: 0.0% | K=100: 0.0% | K=300: 0.0% | K=1000: 0.6% | K=3000: 1.2%
+[01:30:22]    attribution linearity: r=0.28 (n=2870), slope 0.06185899204639189
+[01:30:22]    dissociation: |A ∩ S| = 8 | 8% of A selective | rho(selectivity, attribution) = -0.02
+[01:30:23] [screen] attribution set (100) 2.81% vs random same-norm 0.29% -> H2-A fail | selective (128) 0.45% vs random -0.00% -> H2-S fail | all TC 55.1% | MLP ceiling 78.5% | error term nan%
+[01:30:23]    k-curve [attr]: K=10: 0.4% | K=30: 0.6% | K=100: 2.8% | K=300: 5.5% | K=1000: 12.1% | K=3000: 24.0%
+[01:30:23]    k-curve [random]: K=10: 0.3% | K=30: 0.0% | K=100: 0.1% | K=300: 0.3% | K=1000: 0.9% | K=3000: 3.5%
+[01:30:23]    attribution linearity: r=0.74 (n=1173), slope 0.9651599871688984
+[01:30:23]    dissociation: |A ∩ S| = 0 | 0% of A selective | rho(selectivity, attribution) = -0.03
+[01:30:25] [paint] attribution set (100) 5.25% vs random same-norm 0.12% -> H2-A fail | selective (24) -0.01% vs random 0.05% -> H2-S fail | all TC 59.0% | MLP ceiling 75.8% | error term nan%
+[01:30:25]    k-curve [attr]: K=10: 1.2% | K=30: 2.1% | K=100: 5.2% | K=300: 11.5% | K=1000: 23.3% | K=3000: 36.4%
+[01:30:25]    k-curve [random]: K=10: -0.0% | K=30: 0.0% | K=100: 0.1% | K=300: 0.3% | K=1000: 2.1% | K=3000: 4.3%
+[01:30:25]    attribution linearity: r=0.77 (n=1071), slope 0.7915784432561693
+[01:30:25]    dissociation: |A ∩ S| = 2 | 2% of A selective | rho(selectivity, attribution) = -0.01
+[01:30:26] == goal2 finished in 1855s
+[01:30:26] == goal3 | out=/content/groot-run/outputs/permanence/tc_circuit_v3_main
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[01:30:31] task 0: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[01:32:52] goal3 stage A | task 0 | clean          : success 12/12 | mean steps 77 | distractor lifted 0 (146s)
+[01:37:25] goal3 stage A | task 0 | covered        : success 2/12 | mean steps 255 | distractor lifted 0 (419s)
+[01:41:36] goal3 stage A | task 0 | screened       : success 3/12 | mean steps 251 | distractor lifted 0 (670s)
+[01:44:16] goal3 stage A | task 0 | painted        : success 10/12 | mean steps 113 | distractor lifted 0 (830s)
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[01:44:21] task 2: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[01:46:39] goal3 stage A | task 2 | clean          : success 12/12 | mean steps 98 | distractor lifted 0 (972s)
+[01:50:49] goal3 stage A | task 2 | covered        : success 0/12 | mean steps 280 | distractor lifted 7 (1223s)
+[01:53:20] goal3 stage A | task 2 | screened       : success 11/12 | mean steps 115 | distractor lifted 0 (1374s)
+[01:57:19] goal3 stage A | task 2 | painted        : success 2/12 | mean steps 252 | distractor lifted 5 (1612s)
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[01:57:24] task 6: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[01:59:54] goal3 stage A | task 6 | clean          : success 12/12 | mean steps 107 | distractor lifted 0 (1767s)
+[02:04:02] goal3 stage A | task 6 | covered        : success 0/12 | mean steps 280 | distractor lifted 0 (2016s)
+[02:07:57] goal3 stage A | task 6 | screened       : success 3/12 | mean steps 243 | distractor lifted 0 (2250s)
+[02:10:43] goal3 stage A | task 6 | painted        : success 11/12 | mean steps 132 | distractor lifted 0 (2417s)
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[02:10:48] task 7: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[02:13:30] goal3 stage A | task 7 | clean          : success 12/12 | mean steps 120 | distractor lifted 0 (2583s)
+[02:17:27] goal3 stage A | task 7 | covered        : success 3/12 | mean steps 246 | distractor lifted 0 (2820s)
+[02:20:32] goal3 stage A | task 7 | screened       : success 10/12 | mean steps 156 | distractor lifted 0 (3006s)
+[02:23:28] goal3 stage A | task 7 | painted        : success 11/12 | mean steps 142 | distractor lifted 0 (3181s)
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[02:23:33] task 9: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[02:26:25] goal3 stage A | task 9 | clean          : success 10/12 | mean steps 145 | distractor lifted 0 (3359s)
+[02:30:00] goal3 stage A | task 9 | covered        : success 5/12 | mean steps 213 | distractor lifted 0 (3574s)
+[02:33:26] goal3 stage A | task 9 | screened       : success 6/12 | mean steps 199 | distractor lifted 0 (3780s)
+[02:36:22] goal3 stage A | task 9 | painted        : success 10/12 | mean steps 146 | distractor lifted 0 (3955s)
+[02:36:23] goal3: stage A success clean 0.97, covered 0.17, screened 0.55, painted 0.73 -> stage B under 'covered' (rendered occluder with the larger success drop in stage A (pre-specified rule))
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[02:36:27] task 0: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[02:38:49] goal3 stage B | task 0 | restore_mlp    : success 12/12 | mean steps 77 | distractor lifted 0 (4102s)
+[02:43:47] goal3 stage B | task 0 | restore_attr   : success 2/12 | mean steps 259 | distractor lifted 0 (4400s)
+[02:48:35] goal3 stage B | task 0 | restore_random : success 3/12 | mean steps 245 | distractor lifted 0 (4689s)
+[02:50:59] goal3 stage B | task 0 | inject_attr    : success 12/12 | mean steps 78 | distractor lifted 0 (4832s)
+[02:55:54] goal3 stage B | task 0 | restore_sel    : success 3/12 | mean steps 254 | distractor lifted 0 (5127s)
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[02:55:59] task 2: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[02:58:32] goal3 stage B | task 2 | restore_mlp    : success 11/12 | mean steps 112 | distractor lifted 0 (5286s)
+[03:03:05] goal3 stage B | task 2 | restore_attr   : success 0/12 | mean steps 280 | distractor lifted 6 (5558s)
+[03:07:38] goal3 stage B | task 2 | restore_random : success 0/12 | mean steps 280 | distractor lifted 7 (5832s)
+[03:10:07] goal3 stage B | task 2 | inject_attr    : success 12/12 | mean steps 98 | distractor lifted 0 (5980s)
+[03:14:41] goal3 stage B | task 2 | restore_sel    : success 0/12 | mean steps 280 | distractor lifted 7 (6255s)
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[03:14:47] task 6: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[03:17:26] goal3 stage B | task 6 | restore_mlp    : success 12/12 | mean steps 107 | distractor lifted 0 (6419s)
+[03:21:58] goal3 stage B | task 6 | restore_attr   : success 0/12 | mean steps 280 | distractor lifted 0 (6691s)
+[03:26:31] goal3 stage B | task 6 | restore_random : success 0/12 | mean steps 280 | distractor lifted 0 (6964s)
+[03:29:13] goal3 stage B | task 6 | inject_attr    : success 12/12 | mean steps 107 | distractor lifted 0 (7127s)
+[03:33:47] goal3 stage B | task 6 | restore_sel    : success 0/12 | mean steps 280 | distractor lifted 0 (7400s)
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[03:33:52] task 7: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[03:36:46] goal3 stage B | task 7 | restore_mlp    : success 12/12 | mean steps 121 | distractor lifted 0 (7580s)
+[03:41:06] goal3 stage B | task 7 | restore_attr   : success 4/12 | mean steps 239 | distractor lifted 0 (7840s)
+[03:45:42] goal3 stage B | task 7 | restore_random : success 1/12 | mean steps 267 | distractor lifted 0 (8116s)
+[03:48:40] goal3 stage B | task 7 | inject_attr    : success 12/12 | mean steps 121 | distractor lifted 0 (8293s)
+[03:53:02] goal3 stage B | task 7 | restore_sel    : success 3/12 | mean steps 243 | distractor lifted 0 (8556s)
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[03:53:08] task 9: target 'akita_black_bowl_1' (via obj_of_interest) | distractor 'akita_black_bowl_2' (via same object type, 41 geoms) | other objects of interest ['plate_1'] | geoms target=41 | free_joints=1
+[03:55:59] goal3 stage B | task 9 | restore_mlp    : success 12/12 | mean steps 120 | distractor lifted 0 (8732s)
+[04:00:27] goal3 stage B | task 9 | restore_attr   : success 2/12 | mean steps 254 | distractor lifted 0 (9000s)
+[04:04:35] goal3 stage B | task 9 | restore_random : success 4/12 | mean steps 227 | distractor lifted 0 (9249s)
+[04:07:27] goal3 stage B | task 9 | inject_attr    : success 12/12 | mean steps 120 | distractor lifted 0 (9421s)
+[04:11:28] goal3 stage B | task 9 | restore_sel    : success 5/12 | mean steps 215 | distractor lifted 0 (9661s)
+[04:11:30] goal3 clean_minus_covered: +0.800 [0.6, 0.9666666666666667] McNemar p=7.11e-15 (n=60)
+[04:11:30] goal3 clean_minus_screened: +0.417 [0.16666666666666666, 0.6666666666666666] McNemar p=4.17e-07 (n=60)
+[04:11:30] goal3 clean_minus_painted: +0.233 [0.05, 0.55] McNemar p=0.00131 (n=60)
+[04:11:30] goal3 restore_mlp_minus_covered: +0.817 [0.6833333333333333, 0.9333333333333333] McNemar p=3.55e-15 (n=60)
+[04:11:30] goal3 restore_attr_minus_covered: -0.033 [-0.15, 0.05] McNemar p=0.791 (n=60)
+[04:11:30] goal3 restore_random_minus_covered: -0.033 [-0.11666666666666667, 0.03333333333333333] McNemar p=0.727 (n=60)
+[04:11:30] goal3 restore_sel_minus_covered: +0.017 [0.0, 0.05] McNemar p=1 (n=60)
+[04:11:30] goal3 restore_attr_minus_restore_random: +0.000 [-0.11666666666666667, 0.13333333333333333] McNemar p=1 (n=60)
+[04:11:30] goal3 restore_attr_minus_restore_sel: -0.050 [-0.15, 0.03333333333333333] McNemar p=0.581 (n=60)
+[04:11:30] goal3 clean_minus_inject_attr: -0.033 [-0.1, 0.0] McNemar p=0.5 (n=60)
+[04:11:30] == goal3 finished in 9663s
+[04:11:30] == chain frames,validate,capture,train,goal1,attrib,goal2,goal3 finished in 310.1 min

@@ -1,0 +1,48 @@
+{
+  "step": "capture",
+  "passed": true,
+  "protocol": 3,
+  "time": "2026-09-24 04:37:47",
+  "complete": true,
+  "n_layers": 18,
+  "n_samples": 1413,
+  "n_tokens": 407220,
+  "layout": {
+    "n_img": 3,
+    "lang_len": 200,
+    "T": 968,
+    "per_img": 256,
+    "grid": 16,
+    "img_keys": [
+      "observation.images.image",
+      "observation.images.image2",
+      "observation.images.empty_camera_0"
+    ],
+    "img_suffix": [
+      "image",
+      "image2",
+      "empty_camera_0"
+    ]
+  },
+  "n_tasks": 10,
+  "token_keep_frac": 0.5141454633280536,
+  "conds_by_kind": {
+    "probe": [
+      "absent",
+      "base",
+      "cover_miss",
+      "covered",
+      "covered_distractor",
+      "occluded",
+      "occluded_distractor",
+      "recolor",
+      "slab_miss"
+    ],
+    "extra": [
+      "base",
+      "covered",
+      "occluded"
+    ]
+  },
+  "note": "discovery + extra (non-test) demonstrations only; test frames never touch training"
+}

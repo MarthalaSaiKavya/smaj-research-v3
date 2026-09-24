@@ -1,0 +1,16 @@
+Filesystem      Size  Used Avail Use% Mounted on
+overlay         242G  107G  136G  45% /
+tmpfs            64M     0   64M   0% /dev
+shm              83G     0   83G   0% /dev/shm
+/dev/root       2.0G  1.3G  696M  65% /usr/sbin/tini
+tmpfs            84G  1.4M   84G   1% /var/colab
+/dev/sda1       242G  107G  136G  45% /kaggle/input
+/dev/nvme0n1    369G   28K  350G   1% /mnt/local-scratch
+tmpfs            84G     0   84G   0% /proc/acpi
+tmpfs            84G     0   84G   0% /sys/firmware
+tmpfs            84G     0   84G   0% /proc/scsi
+drive           242G  114G  129G  47% /content/drive
+
+               total        used        free      shared  buff/cache   available
+Mem:             167           3         121           0          42         162
+Swap:              0           0           0
