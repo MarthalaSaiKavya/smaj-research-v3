@@ -1,0 +1,1621 @@
+{
+  "source_commit": "26005f6b0145886436e43689c1dfbe233691f682",
+  "files": [
+    {
+      "path": ".DS_Store",
+      "bytes": 6148,
+      "sha256": "36e0b6e757ee9125975f7b397b0d3cae98a461156bde92f6dda881fb2ed72997",
+      "inspection": "Binary metadata inventoried; no scientific observations"
+    },
+    {
+      "path": "3final_smaj_v3_(6) (1).ipynb",
+      "bytes": 12611441,
+      "sha256": "3159908fac08229f07eb6eadfe6d78263d2988c97d380b57d1698a228b722308",
+      "inspection": "Notebook: 22 cells; all source and saved outputs audited."
+    },
+    {
+      "path": "README_SUBMISSION.md",
+      "bytes": 10895,
+      "sha256": "fa3ea4d167ffe0e9215098dd695205b13f83243e55ee376a826b8fa557149143",
+      "inspection": "Source prose reviewed; superseded by evidence-grounded documents."
+    },
+    {
+      "path": "RESEARCH_PAPER.md",
+      "bytes": 29122,
+      "sha256": "155b138c0fd1d8b004b39e48388c57081fdb3e09fdb5b24bf30695fefd1141a8",
+      "inspection": "Source prose reviewed; superseded by evidence-grounded documents."
+    },
+    {
+      "path": "SUPPLEMENTARY_MATERIALS.md",
+      "bytes": 19572,
+      "sha256": "019f008445c33067603f1a8457f7fae321eaaebffcd3192d89cf5bd9cff09802",
+      "inspection": "Source prose reviewed; superseded by evidence-grounded documents."
+    },
+    {
+      "path": "smaj_v3_workspace/.DS_Store",
+      "bytes": 6148,
+      "sha256": "8bed0796b4d5a1ec46ede32a4651e19457b61e1d8d5793a4747f0fb4ee3f3c65",
+      "inspection": "Binary metadata inventoried; no scientific observations"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/.DS_Store",
+      "bytes": 6148,
+      "sha256": "86870fbe8816a5733c0bdce72086639f74c44c3e6878447f435409b3cf8e732a",
+      "inspection": "Binary metadata inventoried; no scientific observations"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/.DS_Store",
+      "bytes": 8196,
+      "sha256": "4c8650598ff099c474dcd0ff9f17794bc10afe76eb1c815ab4322c61d0b91431",
+      "inspection": "Binary metadata inventoried; no scientific observations"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/.DS_Store",
+      "bytes": 8196,
+      "sha256": "277c40f93fcde359c343d75c91d6dcce639770c69185305d6840253598d97d41",
+      "inspection": "Binary metadata inventoried; no scientific observations"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/.DS_Store",
+      "bytes": 8196,
+      "sha256": "de5c269530f5682e2f0c0876f0580c24e76bb86e311c5fcc489961e8378d8709",
+      "inspection": "Binary metadata inventoried; no scientific observations"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/MANIFEST.tsv",
+      "bytes": 48852,
+      "sha256": "6dc7779e7bd9fce5264c64b39ddac3bd0cc4ee881ee829ba330a706ab7e3acb6",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/README.txt",
+      "bytes": 822,
+      "sha256": "f67b2f7af6eea1fbf052a2215704e0a7b8e41678358bd3343dbc0d27240a10d6",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/RESULTS_v3.md",
+      "bytes": 14977,
+      "sha256": "04870291f3303dcd78a8f1c16cc9f1c1dd08d154dad53a37be02ad4528e94fb4",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/code/run_configs.json",
+      "bytes": 10167,
+      "sha256": "89184cbdc85cb0dff73b02e5a5d582150199f82d08ccbb933ac9c6483a568f55",
+      "inspection": "Parsed entire JSON; 3 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/code/tc_occlusion_v3.py",
+      "bytes": 197143,
+      "sha256": "fb2a413819723369c5e42031f326173439d6c90950b9a8f151908896d93bdcac",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/code/tc_v3_report.py",
+      "bytes": 132400,
+      "sha256": "a54c79eb2017cc71724c438dabacf5819155cabef88a09010660ad9b7d70ccd3",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/env/disk_and_memory.txt",
+      "bytes": 801,
+      "sha256": "d7408ccb3c16ece56e80c70f82d2e06707739f2f1b64595870b2adcfc748c9e3",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/env/gpu.txt",
+      "bytes": 1689,
+      "sha256": "82b96518757739cc62e24a6776c3490ef0d78f4ceae53b318928df8bccbf3ab9",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/env/packages.txt",
+      "bytes": 3117,
+      "sha256": "d9b6567cc5ab6698c3d0481c7ba4e1aae54f9524a6716ff5621a1d372d5a5e1f",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/env/versions.txt",
+      "bytes": 148,
+      "sha256": "a26d6c0ff2d9ca8c40894a6bb57f8b9410e0c513b42cbde02de0228df4c108dd",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/main.pdf",
+      "bytes": 2281861,
+      "sha256": "791ffddbc1a1951593f38bee999ca330acf57650ebb5a807d2e20f590bad4a22",
+      "inspection": "PDF parsed (33917 text characters); figure/manuscript reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/.DS_Store",
+      "bytes": 6148,
+      "sha256": "ac51c737c440fed54582df3fa3c29902ac6616d2c035d95cd3e13882bc5a9c94",
+      "inspection": "Binary metadata inventoried; no scientific observations"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/RESULTS_v3.md",
+      "bytes": 14977,
+      "sha256": "04870291f3303dcd78a8f1c16cc9f1c1dd08d154dad53a37be02ad4528e94fb4",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/figures/fig_closed_loop.pdf",
+      "bytes": 13407,
+      "sha256": "812ed3a653eafb21333aa9986d90e2066b5b6f1e428b3386bc6988493e9fadac",
+      "inspection": "PDF parsed (215 text characters); figure/manuscript reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/figures/fig_closed_loop.png",
+      "bytes": 36566,
+      "sha256": "220e2030008e8abdb67477438bf25a7d2f35f55a84cd3eab734cd31e680be94d",
+      "dimensions": [
+        978,
+        359
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/figures/fig_dissociation.pdf",
+      "bytes": 43436,
+      "sha256": "f248df21e0e624fa21a6ccd697653e96a7794cd1b5968db04c3d0c51812c1066",
+      "inspection": "PDF parsed (274 text characters); figure/manuscript reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/figures/fig_dissociation.png",
+      "bytes": 88321,
+      "sha256": "84b62f80b3f97aadc90212b91dadf8cc7a9fe416e4d8e82872acc1364b5e01f7",
+      "dimensions": [
+        566,
+        410
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/figures/fig_families.pdf",
+      "bytes": 14738,
+      "sha256": "d399fe5135c6668e9c7991b8448078ad9b1253755ab032d9bb005f505da97425",
+      "inspection": "PDF parsed (307 text characters); figure/manuscript reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/figures/fig_families.png",
+      "bytes": 43886,
+      "sha256": "66b17562cc8d59fb7c2b596f9a35b5fd3d117685f3b129d51d101f3f86f48068",
+      "dimensions": [
+        1120,
+        370
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/figures/fig_insample.pdf",
+      "bytes": 12031,
+      "sha256": "e21fb104f9fdafd47e8c20f837bd6a4d95392b740dba7e29d7ddbfc137958d25",
+      "inspection": "PDF parsed (208 text characters); figure/manuscript reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/figures/fig_insample.png",
+      "bytes": 26917,
+      "sha256": "db0ed6ecd54da7e68484af87b6e17e92d726a277469c711416234424f94a2f56",
+      "dimensions": [
+        509,
+        343
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/figures/fig_kcurves.pdf",
+      "bytes": 21234,
+      "sha256": "cbb4492257c8f49c78644a8e331587885c35032f80756373cfe9f01905b8657b",
+      "inspection": "PDF parsed (352 text characters); figure/manuscript reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/figures/fig_kcurves.png",
+      "bytes": 81809,
+      "sha256": "f2619b252ac37256120e11be7cad964d9f3bd2f3a3fec3d3fda53bcfd68c2147",
+      "dimensions": [
+        922,
+        375
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/figures/fig_layers.pdf",
+      "bytes": 20130,
+      "sha256": "841f417b5a66fcf07315cd1b44f5a58d122d00717e90df805b3bac229cd75508",
+      "inspection": "PDF parsed (474 text characters); figure/manuscript reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/figures/fig_layers.png",
+      "bytes": 98687,
+      "sha256": "5196957fa5e2ad701e476342ac2aaf5585e0bfcd7b76bc553acd2d6c1097e5ce",
+      "dimensions": [
+        996,
+        328
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/figures/fig_linearity.pdf",
+      "bytes": 18330,
+      "sha256": "5e9941e4dd6dedde81e8122bf3183a247841a1b3b4bf947da5c44921a2f6c549",
+      "inspection": "PDF parsed (270 text characters); figure/manuscript reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/figures/fig_linearity.png",
+      "bytes": 40659,
+      "sha256": "0020ab3991a3421ccd1b10b9a081285f606dd8d4be19105f462cbb1278d6bd25",
+      "dimensions": [
+        458,
+        408
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/figures/fig_probe_conditions_agentview.png",
+      "bytes": 2211417,
+      "sha256": "f84a759c99d3b1648cf690665a63ab8c0d3ecd69ca75f65f55cfc255b8193059",
+      "dimensions": [
+        1881,
+        1440
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/figures/fig_probe_conditions_wrist.png",
+      "bytes": 1877573,
+      "sha256": "f61f65bc88536b02dfab80ee091940e36ac9d61eab12a2faa9bfb3eb6615c2d6",
+      "dimensions": [
+        1881,
+        1440
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/figures/fig_replication.pdf",
+      "bytes": 14408,
+      "sha256": "a4656f1527289e899910ee40979691e70c868706c22021bfddbe69030776fd15",
+      "inspection": "PDF parsed (227 text characters); figure/manuscript reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/figures/fig_replication.png",
+      "bytes": 31298,
+      "sha256": "b5b6b4c7ab1ec68918d8b0f0ea2d9c3b2ca5cad2ceb0600a8642dd6d31aa2197",
+      "dimensions": [
+        760,
+        360
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/fancyhdr.sty",
+      "bytes": 20521,
+      "sha256": "b56ec4434b9f4607529a4b23dc68ad8d4b94f1f631c8cddaf7da78140d53a5ea",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/figures/fig_closed_loop.pdf",
+      "bytes": 13407,
+      "sha256": "812ed3a653eafb21333aa9986d90e2066b5b6f1e428b3386bc6988493e9fadac",
+      "inspection": "PDF parsed (215 text characters); figure/manuscript reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/figures/fig_closed_loop.png",
+      "bytes": 36566,
+      "sha256": "220e2030008e8abdb67477438bf25a7d2f35f55a84cd3eab734cd31e680be94d",
+      "dimensions": [
+        978,
+        359
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/figures/fig_dissociation.pdf",
+      "bytes": 43436,
+      "sha256": "f248df21e0e624fa21a6ccd697653e96a7794cd1b5968db04c3d0c51812c1066",
+      "inspection": "PDF parsed (274 text characters); figure/manuscript reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/figures/fig_dissociation.png",
+      "bytes": 88321,
+      "sha256": "84b62f80b3f97aadc90212b91dadf8cc7a9fe416e4d8e82872acc1364b5e01f7",
+      "dimensions": [
+        566,
+        410
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/figures/fig_families.pdf",
+      "bytes": 14738,
+      "sha256": "d399fe5135c6668e9c7991b8448078ad9b1253755ab032d9bb005f505da97425",
+      "inspection": "PDF parsed (307 text characters); figure/manuscript reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/figures/fig_families.png",
+      "bytes": 43886,
+      "sha256": "66b17562cc8d59fb7c2b596f9a35b5fd3d117685f3b129d51d101f3f86f48068",
+      "dimensions": [
+        1120,
+        370
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/figures/fig_insample.pdf",
+      "bytes": 12031,
+      "sha256": "e21fb104f9fdafd47e8c20f837bd6a4d95392b740dba7e29d7ddbfc137958d25",
+      "inspection": "PDF parsed (208 text characters); figure/manuscript reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/figures/fig_insample.png",
+      "bytes": 26917,
+      "sha256": "db0ed6ecd54da7e68484af87b6e17e92d726a277469c711416234424f94a2f56",
+      "dimensions": [
+        509,
+        343
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/figures/fig_kcurves.pdf",
+      "bytes": 21234,
+      "sha256": "cbb4492257c8f49c78644a8e331587885c35032f80756373cfe9f01905b8657b",
+      "inspection": "PDF parsed (352 text characters); figure/manuscript reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/figures/fig_kcurves.png",
+      "bytes": 81809,
+      "sha256": "f2619b252ac37256120e11be7cad964d9f3bd2f3a3fec3d3fda53bcfd68c2147",
+      "dimensions": [
+        922,
+        375
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/figures/fig_layers.pdf",
+      "bytes": 20130,
+      "sha256": "841f417b5a66fcf07315cd1b44f5a58d122d00717e90df805b3bac229cd75508",
+      "inspection": "PDF parsed (474 text characters); figure/manuscript reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/figures/fig_layers.png",
+      "bytes": 98687,
+      "sha256": "5196957fa5e2ad701e476342ac2aaf5585e0bfcd7b76bc553acd2d6c1097e5ce",
+      "dimensions": [
+        996,
+        328
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/figures/fig_linearity.pdf",
+      "bytes": 18330,
+      "sha256": "5e9941e4dd6dedde81e8122bf3183a247841a1b3b4bf947da5c44921a2f6c549",
+      "inspection": "PDF parsed (270 text characters); figure/manuscript reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/figures/fig_linearity.png",
+      "bytes": 40659,
+      "sha256": "0020ab3991a3421ccd1b10b9a081285f606dd8d4be19105f462cbb1278d6bd25",
+      "dimensions": [
+        458,
+        408
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/figures/fig_probe_conditions_agentview.png",
+      "bytes": 2211417,
+      "sha256": "f84a759c99d3b1648cf690665a63ab8c0d3ecd69ca75f65f55cfc255b8193059",
+      "dimensions": [
+        1881,
+        1440
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/figures/fig_probe_conditions_wrist.png",
+      "bytes": 1877573,
+      "sha256": "f61f65bc88536b02dfab80ee091940e36ac9d61eab12a2faa9bfb3eb6615c2d6",
+      "dimensions": [
+        1881,
+        1440
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/figures/fig_replication.pdf",
+      "bytes": 14408,
+      "sha256": "a4656f1527289e899910ee40979691e70c868706c22021bfddbe69030776fd15",
+      "inspection": "PDF parsed (227 text characters); figure/manuscript reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/figures/fig_replication.png",
+      "bytes": 31298,
+      "sha256": "b5b6b4c7ab1ec68918d8b0f0ea2d9c3b2ca5cad2ceb0600a8642dd6d31aa2197",
+      "dimensions": [
+        760,
+        360
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/iclr2027_conference.bst",
+      "bytes": 26973,
+      "sha256": "2d67552db7ed38ccfccb5957b52f95656e25c249724761d3cf5f7922ad1844c5",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/iclr2027_conference.sty",
+      "bytes": 9025,
+      "sha256": "797deef41724e93761426ac0cbcca46279a91cc650dd1f0ce76a4f08d2098ea6",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/main.aux",
+      "bytes": 15334,
+      "sha256": "a0d7976284fc7a745cf0776806981709336d3e60c4d1eaf47872e4ef44243853",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/main.bbl",
+      "bytes": 10620,
+      "sha256": "f65f5a1897db420186c8f8f3d7278d5d63cbf591552d1207cbfbad50fe77ee27",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/main.blg",
+      "bytes": 933,
+      "sha256": "caf9aed98f4dae4ba4fc6053f70cda09eeeffa479159c3c70123c535a5a22acd",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/main.log",
+      "bytes": 26740,
+      "sha256": "747967d0eaa35d2ff420de294c1c0ae3b5b02177eca11b34c27896d79dc9419b",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/main.out",
+      "bytes": 2717,
+      "sha256": "07748b98796135e8f4d1596ffcd82f8da41a0a66d29a1a93b9feff736391fe56",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/main.pdf",
+      "bytes": 2281861,
+      "sha256": "791ffddbc1a1951593f38bee999ca330acf57650ebb5a807d2e20f590bad4a22",
+      "inspection": "PDF parsed (33917 text characters); figure/manuscript reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/main.tex",
+      "bytes": 27145,
+      "sha256": "393a3c60d3472c15f3f6b1fa11bda0d5c8240603fe483dc46f877219db390eb3",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/math_commands.tex",
+      "bytes": 12284,
+      "sha256": "90473c4d0542070db244cea73ef962d6cddc5b2a746757e6a40ddf5fdfb90ba9",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/natbib.sty",
+      "bytes": 45154,
+      "sha256": "88bc70c0e48461934cab5b2accef06b74a8b3ac45ad03ccd3f2a6b7e0d6d530d",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/references.bib",
+      "bytes": 12664,
+      "sha256": "7ee66f7cb4efb4ae944bf2e9374d3e868798b77936606ed72d84b0b9fb77a51d",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/table_closed_loop.tex",
+      "bytes": 1251,
+      "sha256": "e84ab58741e92081bd8f0c402a8dcd0a35fe12a8a6bc4171ad78a6b02a2619d3",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/table_kcurve.tex",
+      "bytes": 542,
+      "sha256": "7782ba547b1ccfd98d776990a65d596826b2e0216e9c636c30f676c3338b6ff2",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/table_main.tex",
+      "bytes": 1746,
+      "sha256": "3b0b613512044ccb5dde2e39b2974dc96e136ea60100442366192190568a95cd",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/table_replication.tex",
+      "bytes": 639,
+      "sha256": "732c96f359f439bd47bd314faac5a07b9d1f77609c295d5519a9f14500d8dde8",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/table_validity.tex",
+      "bytes": 872,
+      "sha256": "1b354644a91979d56a8cee735637953cc6ad3f3cafeb20260b2b777f3b64d524",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/paper_v3/table_versions.tex",
+      "bytes": 1050,
+      "sha256": "9fd1006217a096343635d74916adb66ad6339a70ed454e381cd2cd6b43169047",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/report/results_v3.json",
+      "bytes": 120874,
+      "sha256": "5292db2a1be73e60f1a3648c7de03d57bebfaef50c28f5f668396ce9b917a798",
+      "inspection": "Parsed entire JSON; 5 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/.DS_Store",
+      "bytes": 8196,
+      "sha256": "3ca474473f5a3284da4db9b4a979447d750c082c1fe36557e5ee320ea89f11c0",
+      "inspection": "Binary metadata inventoried; no scientific observations"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/attrib/rank_cover.npz",
+      "bytes": 1300355,
+      "sha256": "f93ec058ca57a8c1a80554201f9dc6f93829d4d88a364e444b7f262eba40023b",
+      "arrays": {
+        "layers": {
+          "shape": [
+            18
+          ],
+          "dtype": "int64",
+          "finite": true
+        },
+        "inject": {
+          "shape": [
+            18,
+            4096
+          ],
+          "dtype": "float32",
+          "finite": true
+        },
+        "remove": {
+          "shape": [
+            18,
+            4096
+          ],
+          "dtype": "float32",
+          "finite": true
+        },
+        "sym": {
+          "shape": [
+            18,
+            4096
+          ],
+          "dtype": "float32",
+          "finite": true
+        },
+        "sym_fold0": {
+          "shape": [
+            18,
+            4096
+          ],
+          "dtype": "float32",
+          "finite": true
+        },
+        "sym_fold1": {
+          "shape": [
+            18,
+            4096
+          ],
+          "dtype": "float32",
+          "finite": true
+        }
+      },
+      "inspection": "All arrays loaded without pickle and numeric finiteness checked"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/attrib/rank_paint.npz",
+      "bytes": 1294674,
+      "sha256": "4dad163977a0455fa4462e61e87d8cb691baf2d08477ec92fa9f1500fa6cfb25",
+      "arrays": {
+        "layers": {
+          "shape": [
+            18
+          ],
+          "dtype": "int64",
+          "finite": true
+        },
+        "inject": {
+          "shape": [
+            18,
+            4096
+          ],
+          "dtype": "float32",
+          "finite": true
+        },
+        "remove": {
+          "shape": [
+            18,
+            4096
+          ],
+          "dtype": "float32",
+          "finite": true
+        },
+        "sym": {
+          "shape": [
+            18,
+            4096
+          ],
+          "dtype": "float32",
+          "finite": true
+        },
+        "sym_fold0": {
+          "shape": [
+            18,
+            4096
+          ],
+          "dtype": "float32",
+          "finite": true
+        },
+        "sym_fold1": {
+          "shape": [
+            18,
+            4096
+          ],
+          "dtype": "float32",
+          "finite": true
+        }
+      },
+      "inspection": "All arrays loaded without pickle and numeric finiteness checked"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/attrib/rank_screen.npz",
+      "bytes": 1297272,
+      "sha256": "e41c988e5b82130320f395c40897ef52f8c2462077b50c6ff5b71c1fc1bac92b",
+      "arrays": {
+        "layers": {
+          "shape": [
+            18
+          ],
+          "dtype": "int64",
+          "finite": true
+        },
+        "inject": {
+          "shape": [
+            18,
+            4096
+          ],
+          "dtype": "float32",
+          "finite": true
+        },
+        "remove": {
+          "shape": [
+            18,
+            4096
+          ],
+          "dtype": "float32",
+          "finite": true
+        },
+        "sym": {
+          "shape": [
+            18,
+            4096
+          ],
+          "dtype": "float32",
+          "finite": true
+        },
+        "sym_fold0": {
+          "shape": [
+            18,
+            4096
+          ],
+          "dtype": "float32",
+          "finite": true
+        },
+        "sym_fold1": {
+          "shape": [
+            18,
+            4096
+          ],
+          "dtype": "float32",
+          "finite": true
+        }
+      },
+      "inspection": "All arrays loaded without pickle and numeric finiteness checked"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/config.json",
+      "bytes": 2804,
+      "sha256": "99391bcd94be146814a0b04b9dba99e5841091e610e6b209979e17f88f83eea1",
+      "inspection": "Parsed entire JSON; 92 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/fig_attrib_layers.png",
+      "bytes": 59048,
+      "sha256": "c9a7f0783f9f765767be298d9e0a20848abb89cb45d09f8e2425ec2a41655214",
+      "dimensions": [
+        960,
+        360
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/fig_check4_ceiling.png",
+      "bytes": 83427,
+      "sha256": "44e60767bfd6ea8b0325649e27150905498dba701a97258cb4b96a4bb151b312",
+      "dimensions": [
+        1320,
+        384
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/fig_check5_transcoders.png",
+      "bytes": 31171,
+      "sha256": "1fca2d3a1c2ed80df2f39c64dcb5b278e8f11a86d61c07f4fb26adaee315d6f1",
+      "dimensions": [
+        1200,
+        384
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/fig_goal1_contact_sheet.png",
+      "bytes": 1122477,
+      "sha256": "28c7ff456eceaaa80fb013ab191b195444d6edc87e08b8010c58f5264beadf28",
+      "dimensions": [
+        1881,
+        720
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/fig_goal1_counts.png",
+      "bytes": 24122,
+      "sha256": "f5d754ad56cb80fbfa3367f53d416ef41f22ea7abaa50f37d41b55ff0c97ed98",
+      "dimensions": [
+        1080,
+        360
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/fig_goal1_features.png",
+      "bytes": 70389,
+      "sha256": "371752e82b99caa19f212423b4707a1970e21c4f4cb5c0132aa24ffc396b8797",
+      "dimensions": [
+        1020,
+        1044
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/fig_goal2_kcurve.png",
+      "bytes": 140593,
+      "sha256": "966083d5d97471c78b06835a00d0c0e7b6e28ffe676fdf40fb646f23456581be",
+      "dimensions": [
+        2028,
+        494
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/fig_goal2_linearity.png",
+      "bytes": 35734,
+      "sha256": "fad27b59ebd53c4eb171b2604924637c2c36e95ff470f1bb345acdeb1123198f",
+      "dimensions": [
+        585,
+        520
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/fig_goal2_main.png",
+      "bytes": 65038,
+      "sha256": "91402db53ffb8846d734baf67d491b5e856244585b7f8928aba828bbd3ed9f87",
+      "dimensions": [
+        2028,
+        468
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/fig_goal3_success.png",
+      "bytes": 32447,
+      "sha256": "cae318ecf3238d76456d9e292cbc067f4ec956297223406fbbc3cb3c0074bf11",
+      "dimensions": [
+        1547,
+        442
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/fig_probe_conditions_agentview.png",
+      "bytes": 2211417,
+      "sha256": "f84a759c99d3b1648cf690665a63ab8c0d3ecd69ca75f65f55cfc255b8193059",
+      "dimensions": [
+        1881,
+        1440
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/fig_probe_conditions_wrist.png",
+      "bytes": 1877573,
+      "sha256": "f61f65bc88536b02dfab80ee091940e36ac9d61eab12a2faa9bfb3eb6615c2d6",
+      "dimensions": [
+        1881,
+        1440
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/frames_candidates.json",
+      "bytes": 201238,
+      "sha256": "8561a4ea2a678ea1504fd389667392fa30d8381ce892d271f22d10d9b2a220e0",
+      "inspection": "Parsed entire JSON; 659 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/goal1_features_cover.csv",
+      "bytes": 2366661,
+      "sha256": "603c81d4aff0a60f5d8ef4ea860e88ec7471ea683832489f9b78b22f1a3e0433",
+      "inspection": "16905 rows; 11 columns; complete table parsed"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/goal1_features_paint.csv",
+      "bytes": 1754443,
+      "sha256": "0844b6768778c5a6462563dc7725ac444f8aed4914ef43249c80931cc3ad7a99",
+      "inspection": "12522 rows; 11 columns; complete table parsed"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/goal1_features_screen.csv",
+      "bytes": 2204343,
+      "sha256": "71ea7e9335fe15dc227a373df32e99f62550bee95bd67a4eba4d0e417c4e4d04",
+      "inspection": "17645 rows; 11 columns; complete table parsed"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/goal1_rank.pt",
+      "bytes": 5242293,
+      "sha256": "d289cce61e824b642eae44c702a4198572439b3ed4adeb449f1ae573c9a2f10b",
+      "members": 29,
+      "inspection": "Archive members/CRC verified; tensor contents inspected in original audit, no unrestricted pickle execution"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/goal1_selected.json",
+      "bytes": 477240,
+      "sha256": "5b56a7d39ee75332c57641bae415954701d3cc0473d8e2a029ad568009a65879",
+      "inspection": "Parsed entire JSON; 8 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/goal2_frames.json",
+      "bytes": 58050,
+      "sha256": "157d23d03da715cee359904af62dec8acdfd9e11c076cae09dfec534d4d19136",
+      "inspection": "Parsed entire JSON; 1 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/goal2_rows.csv",
+      "bytes": 1113849,
+      "sha256": "8bc3fe78f434d6cd1dbb3d99f9da88829c622cd2582550b6d36627900d2267d4",
+      "inspection": "9309 rows; 14 columns; complete table parsed"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/goal2_sets.json",
+      "bytes": 27645,
+      "sha256": "a5c6c871012fcc1eee6e8ba25b0177ae6e5214cb76b355bb4f6f4cfa04bbbf0a",
+      "inspection": "Parsed entire JSON; 3 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/goal2_stats.json",
+      "bytes": 74940,
+      "sha256": "a1586fb71f864ed26b26e64498eb28e7d772d6128230274a96aafdb89ba2f70d",
+      "inspection": "Parsed entire JSON; 3 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/goal3.json",
+      "bytes": 182047,
+      "sha256": "cc5cb9c84c97f6078a95f5408a78f976c163fc31935ff81cbcb910d51b1b6041",
+      "inspection": "Parsed entire JSON; 15 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/goal3_partial.json",
+      "bytes": 161728,
+      "sha256": "38672a16a6a50d84e3d61fe6aa769ce15b37b6baef505353eb3b2247e03bf926",
+      "inspection": "Parsed entire JSON; 46 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/run_v3.log",
+      "bytes": 52239,
+      "sha256": "faacf1547f044b2987c42b86d63e511e1ece93eb56e5d8f45f2743f44b448696",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/status/attrib.json",
+      "bytes": 4226,
+      "sha256": "7e23d7e3dbd413a317d9597068b67d03789f85c867ba12bf1e0967782bd7beec",
+      "inspection": "Parsed entire JSON; 10 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/status/capture.json",
+      "bytes": 999,
+      "sha256": "fff00c792b4984fc558c772054f4061094904128e37f70aa9da72d48d99ef9b3",
+      "inspection": "Parsed entire JSON; 13 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/status/frames.json",
+      "bytes": 385563,
+      "sha256": "643a370b71497ecce36bb57d24182e7ab044f58890d7cab88019fb5d314d55d5",
+      "inspection": "Parsed entire JSON; 25 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/status/goal1.json",
+      "bytes": 2053,
+      "sha256": "c1da5f8c7a1ad1ad8d467dc4b650298ce76e680cbc63041d8a741ce84de6587d",
+      "inspection": "Parsed entire JSON; 12 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/status/goal2.json",
+      "bytes": 6864,
+      "sha256": "9688c32bdd17d9b7719f249d06bea8c345c622e7094bd35308188564727cf0da",
+      "inspection": "Parsed entire JSON; 11 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/status/goal3.json",
+      "bytes": 3638,
+      "sha256": "91d8241bbda4a3afb95858df2d5d81c40753148126d9f7d9865ce05e8eebe482",
+      "inspection": "Parsed entire JSON; 13 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/status/timings.json",
+      "bytes": 339,
+      "sha256": "75edea98bfecd7361369696b7e10b1a499946ce2005cdeaa38bf22ec695e9326",
+      "inspection": "Parsed entire JSON; 3 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/status/train.json",
+      "bytes": 1771,
+      "sha256": "fc273ce7a0cff021e5dbf88b692f71010537f43295415baa43df028c112d1d90",
+      "inspection": "Parsed entire JSON; 16 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/status/validate.json",
+      "bytes": 13505,
+      "sha256": "f00e093a463a167ae9b7c85ea759dac50f2a17e6554f1237c556d2516957fb33",
+      "inspection": "Parsed entire JSON; 22 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/train.json",
+      "bytes": 160213,
+      "sha256": "cd58c9b7299513181789a51dd1e8c211d47d5a1d33f30377d35f66c99256d5b1",
+      "inspection": "Parsed entire JSON; 3 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/validate.json",
+      "bytes": 128483,
+      "sha256": "9765597bfc48076d45b1fcc60fe3f7599e9418bcb7b7f58565b84e7156cba5da",
+      "inspection": "Parsed entire JSON; 4 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/videos/task0_clean_ep0.mp4",
+      "bytes": 186684,
+      "sha256": "e7ceb805ad642736c9ff3ce2ceed4cfb99b423aee0f734dba22f21e12a4feb33",
+      "inspection": "Every video frame decoded; representative frames visually audited; task 0 episode 0 only"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/videos/task0_covered_ep0.mp4",
+      "bytes": 612341,
+      "sha256": "9b4cfbba880ddf589a608b3c5791d8f903447e0a1b550a6cc1a5642750783985",
+      "inspection": "Every video frame decoded; representative frames visually audited; task 0 episode 0 only"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/videos/task0_inject_attr_ep0.mp4",
+      "bytes": 195687,
+      "sha256": "ffc7666b40815deb773c2769f64eda61fd3961d07c6ef6d5974553c0ec9f80fe",
+      "inspection": "Every video frame decoded; representative frames visually audited; task 0 episode 0 only"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/videos/task0_painted_ep0.mp4",
+      "bytes": 202947,
+      "sha256": "a815d52a70a7ff848b8c462d41a7c5d440c5edd92156e5d08c582f275c218844",
+      "inspection": "Every video frame decoded; representative frames visually audited; task 0 episode 0 only"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/videos/task0_restore_attr_ep0.mp4",
+      "bytes": 633809,
+      "sha256": "e6cda1b82aa18023d26b24e9490fcbca9cb0ccfd684d85f92e2f445f94e4cc54",
+      "inspection": "Every video frame decoded; representative frames visually audited; task 0 episode 0 only"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/videos/task0_restore_mlp_ep0.mp4",
+      "bytes": 180567,
+      "sha256": "4d92416241e94d76e079b91d92a706c1890e555a0ea368d29b772bd266a8ad08",
+      "inspection": "Every video frame decoded; representative frames visually audited; task 0 episode 0 only"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/videos/task0_restore_random_ep0.mp4",
+      "bytes": 621806,
+      "sha256": "62c9743826b36ba8dab9faaa7f81f3fd9d6f5c1e0ba1666010d9b66374405b44",
+      "inspection": "Every video frame decoded; representative frames visually audited; task 0 episode 0 only"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/videos/task0_restore_sel_ep0.mp4",
+      "bytes": 644928,
+      "sha256": "0f44f9b48b798295495414dbcb984bdbe1525572efbcc94ed4127d16fb889fec",
+      "inspection": "Every video frame decoded; representative frames visually audited; task 0 episode 0 only"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/main/videos/task0_screened_ep0.mp4",
+      "bytes": 169259,
+      "sha256": "d3ada25228bd539b47e410a2b43d26f4b3935d06b2661a42cff6f3ae914830f4",
+      "inspection": "Every video frame decoded; representative frames visually audited; task 0 episode 0 only"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/attrib/rank_cover.npz",
+      "bytes": 1283741,
+      "sha256": "34ff933a9b7c40c9a3673a3bec868361d9249fa9d6ccd15b0ec38db617bb2cc2",
+      "arrays": {
+        "layers": {
+          "shape": [
+            18
+          ],
+          "dtype": "int64",
+          "finite": true
+        },
+        "inject": {
+          "shape": [
+            18,
+            4096
+          ],
+          "dtype": "float32",
+          "finite": true
+        },
+        "remove": {
+          "shape": [
+            18,
+            4096
+          ],
+          "dtype": "float32",
+          "finite": true
+        },
+        "sym": {
+          "shape": [
+            18,
+            4096
+          ],
+          "dtype": "float32",
+          "finite": true
+        },
+        "sym_fold0": {
+          "shape": [
+            18,
+            4096
+          ],
+          "dtype": "float32",
+          "finite": true
+        },
+        "sym_fold1": {
+          "shape": [
+            18,
+            4096
+          ],
+          "dtype": "float32",
+          "finite": true
+        }
+      },
+      "inspection": "All arrays loaded without pickle and numeric finiteness checked"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/attrib/rank_paint.npz",
+      "bytes": 1275367,
+      "sha256": "1650af5e72d854b5833f333d8c871a2ef173993a6bad722279cf396b11e6000d",
+      "arrays": {
+        "layers": {
+          "shape": [
+            18
+          ],
+          "dtype": "int64",
+          "finite": true
+        },
+        "inject": {
+          "shape": [
+            18,
+            4096
+          ],
+          "dtype": "float32",
+          "finite": true
+        },
+        "remove": {
+          "shape": [
+            18,
+            4096
+          ],
+          "dtype": "float32",
+          "finite": true
+        },
+        "sym": {
+          "shape": [
+            18,
+            4096
+          ],
+          "dtype": "float32",
+          "finite": true
+        },
+        "sym_fold0": {
+          "shape": [
+            18,
+            4096
+          ],
+          "dtype": "float32",
+          "finite": true
+        },
+        "sym_fold1": {
+          "shape": [
+            18,
+            4096
+          ],
+          "dtype": "float32",
+          "finite": true
+        }
+      },
+      "inspection": "All arrays loaded without pickle and numeric finiteness checked"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/config.json",
+      "bytes": 2746,
+      "sha256": "33985e25d0d6c1a201cd530191d957dff971d9ada1f341ad3d81d80c67697d7b",
+      "inspection": "Parsed entire JSON; 92 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/fig_attrib_layers.png",
+      "bytes": 52945,
+      "sha256": "543b093a6fdb5c8301642dfa5964ca107ad26d9bba07006650c3ce8bf96d3bc6",
+      "dimensions": [
+        960,
+        360
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/fig_check4_ceiling.png",
+      "bytes": 72286,
+      "sha256": "86eadca01258ecff5dfafc63d3f9848e7a1be791895e83a1d983338eaeb2c797",
+      "dimensions": [
+        1320,
+        384
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/fig_check5_transcoders.png",
+      "bytes": 31633,
+      "sha256": "0633f5702c3a0782fcd0cb1d1277e46910974e67fefe53bf062635c5a7c5c490",
+      "dimensions": [
+        1200,
+        384
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/fig_goal1_contact_sheet.png",
+      "bytes": 1149460,
+      "sha256": "4a34360d527d987271f6e482f2731f14ef6be8a31e91c26d953a53e3586bb07d",
+      "dimensions": [
+        1368,
+        720
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/fig_goal1_counts.png",
+      "bytes": 24438,
+      "sha256": "6dbe9a2af21e64979489cce0fdf2691bfedf8ee91bafbe841c2ad2343cc9f840",
+      "dimensions": [
+        1080,
+        360
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/fig_goal1_features.png",
+      "bytes": 71578,
+      "sha256": "2b2182df2c073d95c1b0631a42386e8e7e1404304a80217c86ab16154a5aedfd",
+      "dimensions": [
+        1020,
+        1044
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/fig_goal2_kcurve.png",
+      "bytes": 106330,
+      "sha256": "16887323a1d411c9833069ce5161a40de0387e0c9b3be362c732df430f80bb69",
+      "dimensions": [
+        1352,
+        494
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/fig_goal2_linearity.png",
+      "bytes": 51034,
+      "sha256": "9b2ec9e2d0de0093b675b50bb50f42827e7a194299b09fe9e8f773618f858ebc",
+      "dimensions": [
+        585,
+        520
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/fig_goal2_main.png",
+      "bytes": 52091,
+      "sha256": "913c8084a67c1eeec5368602cceed35e1f92588abde687d3d2876e2301b20ac7",
+      "dimensions": [
+        1352,
+        468
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/fig_probe_conditions_agentview.png",
+      "bytes": 3361804,
+      "sha256": "ea0041915f3deb9e33cff69dfafe71150307851545fd4bf17a5cf8b8fcf8e7a7",
+      "dimensions": [
+        1539,
+        1800
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/fig_probe_conditions_wrist.png",
+      "bytes": 2728056,
+      "sha256": "0d8b9aa479d6f39756d67142bd97b04966abcaa339baa6d5af6bba24e37d3194",
+      "dimensions": [
+        1539,
+        1800
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/frames_candidates.json",
+      "bytes": 34480,
+      "sha256": "63fc63f7e54cc9f44d3f0ff230e643b8d445d0fdf4701f26b3b16cb39ab425dc",
+      "inspection": "Parsed entire JSON; 122 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/goal1_features_cover.csv",
+      "bytes": 2386560,
+      "sha256": "872b2ce287c842eb603a6d6ae01a83c80e3d0f6797e428dc8dbfee01a860010f",
+      "inspection": "17575 rows; 11 columns; complete table parsed"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/goal1_features_paint.csv",
+      "bytes": 1755455,
+      "sha256": "0be80971506c06e6029bc85c213ad03532ebe84032718095bc14094237937643",
+      "inspection": "12924 rows; 11 columns; complete table parsed"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/goal1_rank.pt",
+      "bytes": 3618485,
+      "sha256": "8c7074f80ddc8aa1a33d818184b1ce5c7aeb046587db9ab4c0eddfc8297304d6",
+      "members": 22,
+      "inspection": "Archive members/CRC verified; tensor contents inspected in original audit, no unrestricted pickle execution"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/goal1_selected.json",
+      "bytes": 198098,
+      "sha256": "0b55dee9264ac422dcf5677e9b9aca2da994279204118ba160d0c4938c9b0818",
+      "inspection": "Parsed entire JSON; 8 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/goal2_frames.json",
+      "bytes": 22888,
+      "sha256": "c1cdba8c031dad02041db65de3991b6fd391dc069931b52c8a88898c7a572d33",
+      "inspection": "Parsed entire JSON; 1 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/goal2_rows.csv",
+      "bytes": 600198,
+      "sha256": "7bcd669d728666af6ab59ef63393c03f7626908234c701ea6788f26d8ca47e01",
+      "inspection": "5061 rows; 14 columns; complete table parsed"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/goal2_sets.json",
+      "bytes": 12917,
+      "sha256": "4f4fd604889fdb05313e732e44c1a70d23460cc1b8496133daefdc3d12c031bb",
+      "inspection": "Parsed entire JSON; 2 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/goal2_stats.json",
+      "bytes": 56486,
+      "sha256": "3f73f0ef5ee9ea688b487d30756d87da7889827f996d0b52d9c126accd8a8a58",
+      "inspection": "Parsed entire JSON; 3 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/run_v3.log",
+      "bytes": 31863,
+      "sha256": "ad424814050f54313228185ff158a71e845e7ba766f85914bfefa20e54d553a1",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/status/attrib.json",
+      "bytes": 2920,
+      "sha256": "deab834d9bb019c15916dc9724500f706fb3a4404b36bd1e470c9027155069f5",
+      "inspection": "Parsed entire JSON; 10 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/status/capture.json",
+      "bytes": 942,
+      "sha256": "6757f55e3e815c339a65741749705fe958f3f0c80dea6fd9f69bb9904c847925",
+      "inspection": "Parsed entire JSON; 13 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/status/frames.json",
+      "bytes": 302736,
+      "sha256": "2a279ad5a186a9ce53e6aa7c6689fb605a35b8bbe45069b97e003d95656ea53f",
+      "inspection": "Parsed entire JSON; 25 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/status/goal1.json",
+      "bytes": 1489,
+      "sha256": "6980db85b550fae207a737a3cc0eae807226aa9155cc915d77d1bb8e09e98fef",
+      "inspection": "Parsed entire JSON; 12 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/status/goal2.json",
+      "bytes": 5122,
+      "sha256": "e9078e584d92edb52481d0671db1c6f2e56a15f2802aa090a0c76de802c6bd6a",
+      "inspection": "Parsed entire JSON; 11 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/status/timings.json",
+      "bytes": 304,
+      "sha256": "dc9a3a8cec2031dbde0d07f677a6578ebbae2076577a47f3dd3aebf6796e4161",
+      "inspection": "Parsed entire JSON; 3 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/status/train.json",
+      "bytes": 1731,
+      "sha256": "113097680f71fa4c8a5a203c98d670f2cb0ff3837189ed2a3abf98bd534914f9",
+      "inspection": "Parsed entire JSON; 16 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/status/validate.json",
+      "bytes": 9562,
+      "sha256": "a364c34c4bb049b8cb64f6d33c1f10bef5dd282b72e8e1a0fef931b289aba3fd",
+      "inspection": "Parsed entire JSON; 22 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/train.json",
+      "bytes": 148984,
+      "sha256": "f0397f9ac8baee8f41f24b5f4d58526d551860d30ddea24e10f2cb292a340d85",
+      "inspection": "Parsed entire JSON; 3 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_object/validate.json",
+      "bytes": 103959,
+      "sha256": "2a0b0b3fb92f36ff99c5e11a85e2094c85922b03f2c5ff6f51984e3e90d9d81d",
+      "inspection": "Parsed entire JSON; 4 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_pi0/config.json",
+      "bytes": 2824,
+      "sha256": "78242d04be1827e949e44aaedb8b5cb572ca2dfe34942ea70da4a2a53c8f9a25",
+      "inspection": "Parsed entire JSON; 93 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_pi0/fig_probe_conditions_agentview.png",
+      "bytes": 2340936,
+      "sha256": "05de06c9713b60039be99dcb43cbfca37035c9f03f0553716a457ba6260a7de4",
+      "dimensions": [
+        1539,
+        1800
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_pi0/fig_probe_conditions_wrist.png",
+      "bytes": 1924022,
+      "sha256": "0e926bfca6f74e83b0e7015b1d91021cf5cdc08710a6a0106d26e196b55ad30b",
+      "dimensions": [
+        1539,
+        1800
+      ],
+      "inspection": "Image decoded; scientific figure reviewed in full audit"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_pi0/frames_candidates.json",
+      "bytes": 79885,
+      "sha256": "214c0a4ff33e298db481d478809044cba4f4c5f137a52db06410a9bd1ddf4fe3",
+      "inspection": "Parsed entire JSON; 270 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_pi0/run_v3.log",
+      "bytes": 25117,
+      "sha256": "ec7b51b205ad454f3e66371a8224377c743e2f5ceb638c446c2e2ae475a73e87",
+      "inspection": "Source/configuration/log/typesetting text read"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_pi0/status/frames.json",
+      "bytes": 295063,
+      "sha256": "2d245b9589ca38ea5f00cfe7c5781b93277a9cd9bfa7622598805abef6b093e4",
+      "inspection": "Parsed entire JSON; 25 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results/rep_pi0/status/timings.json",
+      "bytes": 106,
+      "sha256": "3b6efffe6de1cf131022ea25dd9cda6a2fe35dab5adc3f49efd0cd068fc037c2",
+      "inspection": "Parsed entire JSON; 3 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553/results_v3.json",
+      "bytes": 120874,
+      "sha256": "5292db2a1be73e60f1a3648c7de03d57bebfaef50c28f5f668396ce9b917a798",
+      "inspection": "Parsed entire JSON; 5 top-level entries"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/bundles/tc_circuit_v3_20260924_0553_results.zip",
+      "bytes": 55537293,
+      "sha256": "fd37da35a73506a5b69bac82f57db5330ae5ebfe14afb82fc0d10023c717ad39",
+      "members": 159,
+      "inspection": "Archive members/CRC verified; members compared to extracted files below"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/tc_circuit_v3_main/.DS_Store",
+      "bytes": 6148,
+      "sha256": "4f1ad13ce7b227b345769d19b498a5be1a6f885b0d9843e94a4dcebc343e859e",
+      "inspection": "Binary metadata inventoried; no scientific observations"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/tc_circuit_v3_main/attrib/attr_paint.npz",
+      "bytes": 43074441,
+      "sha256": "fa33c160844ab4074021a53e7527947069b1abaac1438abbd77b2774d02cb248",
+      "arrays": {
+        "frame_ids": {
+          "shape": [
+            116
+          ],
+          "dtype": "int64",
+          "finite": true
+        },
+        "split": {
+          "shape": [
+            116
+          ],
+          "dtype": "<U9",
+          "finite": null
+        },
+        "task_ids": {
+          "shape": [
+            116
+          ],
+          "dtype": "int64",
+          "finite": true
+        },
+        "inject": {
+          "shape": [
+            116,
+            18,
+            4096
+          ],
+          "dtype": "float32",
+          "finite": true
+        },
+        "remove": {
+          "shape": [
+            116,
+            18,
+            4096
+          ],
+          "dtype": "float32",
+          "finite": true
+        },
+        "gap": {
+          "shape": [
+            116
+          ],
+          "dtype": "float64",
+          "finite": true
+        },
+        "layers": {
+          "shape": [
+            18
+          ],
+          "dtype": "int64",
+          "finite": true
+        }
+      },
+      "inspection": "All arrays loaded without pickle and numeric finiteness checked"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/tc_circuit_v3_main/transcoders/layer_04.pt",
+      "bytes": 67156635,
+      "sha256": "faf5a84db3ed2d09795e1e97e99d8b6ae31ffe04ff28be8186278f9634660433",
+      "members": 14,
+      "inspection": "Archive members/CRC verified; tensor contents inspected in original audit, no unrestricted pickle execution"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/tc_circuit_v3_main/transcoders/layer_06.pt",
+      "bytes": 67156635,
+      "sha256": "d1227eb04c9c89b8f73a74ddd92d75e579449aa3a69686a321b83fa5e8656bd4",
+      "members": 14,
+      "inspection": "Archive members/CRC verified; tensor contents inspected in original audit, no unrestricted pickle execution"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/tc_circuit_v3_main/transcoders/layer_07.pt",
+      "bytes": 67156635,
+      "sha256": "5ca9932971ff3c9fb269a982b38945123f1abe5d4cb4a35864ac843d5e0a7c22",
+      "members": 14,
+      "inspection": "Archive members/CRC verified; tensor contents inspected in original audit, no unrestricted pickle execution"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/tc_circuit_v3_main/transcoders/layer_10.pt",
+      "bytes": 67155675,
+      "sha256": "0c7a27d4b81028804a96054a4bc6d6b71045f9bfdd86d3098d70280b47729479",
+      "members": 14,
+      "inspection": "Archive members/CRC verified; tensor contents inspected in original audit, no unrestricted pickle execution"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/tc_circuit_v3_main/transcoders/layer_11.pt",
+      "bytes": 67155675,
+      "sha256": "e9375cc90802e9ba11b984b43ac5d9e12bbbe8cfb13c380cddad091f80315211",
+      "members": 14,
+      "inspection": "Archive members/CRC verified; tensor contents inspected in original audit, no unrestricted pickle execution"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/tc_circuit_v3_main/transcoders/layer_13.pt",
+      "bytes": 67155675,
+      "sha256": "a69ffe7023c687dca152ff56b440d2e5fc9fc2319db0aeb34757f631e9ff6d74",
+      "members": 14,
+      "inspection": "Archive members/CRC verified; tensor contents inspected in original audit, no unrestricted pickle execution"
+    },
+    {
+      "path": "smaj_v3_workspace/outputs/permanence/tc_circuit_v3_main/transcoders/layer_16.pt",
+      "bytes": 67155675,
+      "sha256": "179f695526079178e73bd933b64d0d0da14882ee86edc4c66ec78ebf1a48fb70",
+      "members": 14,
+      "inspection": "Archive members/CRC verified; tensor contents inspected in original audit, no unrestricted pickle execution"
+    }
+  ],
+  "archive_duplicate_members": 159,
+  "manifest_found": 165,
+  "manifest_missing": [
+    "tc_circuit_v3_20260924_0553/results/main/attrib/attr_cover.npz",
+    "tc_circuit_v3_20260924_0553/results/main/attrib/attr_screen.npz",
+    "tc_circuit_v3_20260924_0553/results/main/frames.pkl",
+    "tc_circuit_v3_20260924_0553/results/main/transcoders/layer_00.pt",
+    "tc_circuit_v3_20260924_0553/results/main/transcoders/layer_01.pt",
+    "tc_circuit_v3_20260924_0553/results/main/transcoders/layer_02.pt",
+    "tc_circuit_v3_20260924_0553/results/main/transcoders/layer_03.pt",
+    "tc_circuit_v3_20260924_0553/results/main/transcoders/layer_05.pt",
+    "tc_circuit_v3_20260924_0553/results/main/transcoders/layer_08.pt",
+    "tc_circuit_v3_20260924_0553/results/main/transcoders/layer_09.pt",
+    "tc_circuit_v3_20260924_0553/results/main/transcoders/layer_12.pt",
+    "tc_circuit_v3_20260924_0553/results/main/transcoders/layer_14.pt",
+    "tc_circuit_v3_20260924_0553/results/main/transcoders/layer_15.pt",
+    "tc_circuit_v3_20260924_0553/results/main/transcoders/layer_17.pt",
+    "tc_circuit_v3_20260924_0553/results/rep_object/attrib/attr_cover.npz",
+    "tc_circuit_v3_20260924_0553/results/rep_object/attrib/attr_paint.npz",
+    "tc_circuit_v3_20260924_0553/results/rep_object/frames.pkl",
+    "tc_circuit_v3_20260924_0553/results/rep_object/transcoders/layer_00.pt",
+    "tc_circuit_v3_20260924_0553/results/rep_object/transcoders/layer_01.pt",
+    "tc_circuit_v3_20260924_0553/results/rep_object/transcoders/layer_02.pt",
+    "tc_circuit_v3_20260924_0553/results/rep_object/transcoders/layer_03.pt",
+    "tc_circuit_v3_20260924_0553/results/rep_object/transcoders/layer_04.pt",
+    "tc_circuit_v3_20260924_0553/results/rep_object/transcoders/layer_05.pt",
+    "tc_circuit_v3_20260924_0553/results/rep_object/transcoders/layer_06.pt",
+    "tc_circuit_v3_20260924_0553/results/rep_object/transcoders/layer_07.pt",
+    "tc_circuit_v3_20260924_0553/results/rep_object/transcoders/layer_08.pt",
+    "tc_circuit_v3_20260924_0553/results/rep_object/transcoders/layer_09.pt",
+    "tc_circuit_v3_20260924_0553/results/rep_object/transcoders/layer_10.pt",
+    "tc_circuit_v3_20260924_0553/results/rep_object/transcoders/layer_11.pt",
+    "tc_circuit_v3_20260924_0553/results/rep_object/transcoders/layer_12.pt",
+    "tc_circuit_v3_20260924_0553/results/rep_object/transcoders/layer_13.pt",
+    "tc_circuit_v3_20260924_0553/results/rep_object/transcoders/layer_14.pt",
+    "tc_circuit_v3_20260924_0553/results/rep_object/transcoders/layer_15.pt",
+    "tc_circuit_v3_20260924_0553/results/rep_object/transcoders/layer_16.pt",
+    "tc_circuit_v3_20260924_0553/results/rep_object/transcoders/layer_17.pt",
+    "tc_circuit_v3_20260924_0553/results/rep_pi0/frames.pkl"
+  ]
+}
